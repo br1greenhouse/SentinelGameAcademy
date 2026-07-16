@@ -50,9 +50,9 @@ Tutti i riferimenti sono centralizzati in `data/games.js` (oggetto `SENTINEL`) e
 
 ## Internazionalizzazione (i18n)
 
-Stesse 12 lingue di Sentinel: `it en es fr de pt ru zh ja ar ko hi` (arabo in RTL).
+Lingue attive: **`it en es fr`** (le principali). Le altre lingue di Sentinel (`de pt ru zh ja ar ko hi`) sono disattivate finché non sono gestite anche a livello di contenuto; le loro traduzioni d'interfaccia restano nello storico git e si riattivano aggiungendo il codice a `LANGS`/`LANG_NAMES` in `data/i18n.js`.
 
-**Come si sceglie la lingua** (in ordine): `?lang=xx` nell'URL → scelta salvata (`localStorage`) → lingua del browser → `en`. La barra lingue è nel menu ☰. Cambiando lingua la pagina si ricarica con `?lang=xx`; i link interni portano con sé la lingua.
+**Come si sceglie la lingua** (in ordine): `?lang=xx` nell'URL → scelta salvata (`localStorage`) → default `en`. All'arrivo sul sito **si parte sempre in inglese** (nessun rilevamento dalla lingua del browser), finché l'utente non sceglie un'altra lingua dalla barra nel menu ☰. Cambiando lingua la pagina si ricarica con `?lang=xx`; i link interni portano con sé la lingua.
 
 **Due livelli di traduzione:**
 
@@ -69,7 +69,7 @@ var PAGE_I18N = {
 ```
 Poi includi il file nella pagina (una riga prima di `script.js`) e, nei metadati del gioco (`data/games.js`), aggiungi il titolo/descrizione della lingua al capitolo (`en: { title, desc }`).
 
-Stato attuale: **interfaccia completa in 12 lingue**; **contenuti IT** ovunque; **EN** per il capitolo 01 (esempio della pipeline). Gli altri capitoli e lingue si aggiungono in modo incrementale.
+Stato attuale: **interfaccia in 4 lingue** (it/en/es/fr); **contenuti editoriali IT** ovunque (prosa dei capitoli, home e pagina Sentinel sono italiano inline); **EN** solo per il capitolo 01 (esempio della pipeline). Quindi cambiando lingua oggi si traducono interfaccia, menu, footer, blocco sponsor e ricerca, ma **la prosa delle guide resta in italiano** finché non si aggiungono i file `content/…` (e le stringhe inline della home). È il prossimo grande lavoro sull'i18n.
 
 ## Aggiungere un GIOCO
 

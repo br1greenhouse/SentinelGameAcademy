@@ -20,12 +20,13 @@
   /* ---------- Scelta della lingua ---------- */
   function validLang(l) { return l && LANGS.indexOf(l) !== -1 ? l : null; }
   function detectLang() {
+    // 1) ?lang=xx nell'URL  2) scelta salvata  3) default (inglese).
+    // Nessun rilevamento dalla lingua del browser: all'arrivo si parte
+    // sempre in inglese, finché l'utente non sceglie un'altra lingua.
     var p = validLang((new URLSearchParams(location.search).get("lang") || "").toLowerCase());
     if (p) { try { localStorage.setItem("sga-lang", p); } catch (e) {} return p; }
     var s = null; try { s = validLang((localStorage.getItem("sga-lang") || "").toLowerCase()); } catch (e) {}
     if (s) return s;
-    var b = validLang((navigator.language || "").substring(0, 2).toLowerCase());
-    if (b) return b;
     return DEFAULT_LANG;
   }
   var LANG = detectLang();
