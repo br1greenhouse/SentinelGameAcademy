@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="it" data-root=".">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sentinel Notification Radar per i gamer: trasforma le notifiche dei tuoi giochi (attacco, rally, scudo, guerra di alleanza) in allarmi reali, anche a telefono in silenzioso. Come funziona e come impostarlo.">
+  <title>Perché Sentinel — L'allarme reale per i tuoi giochi · Sentinel Game Academy</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app-header"></div>
+  <div id="sidebar"></div>
+
+  <main class="content">
+    <article>
+      <p class="hero-kicker">// presentato da Sentinel Notification Radar</p>
+      <h1>Perché Sentinel</h1>
+      <div class="hazard"></div>
+
+      <p class="lead">Nei giochi strategici il momento decisivo arriva quasi sempre quando <strong>non stai guardando lo schermo</strong>: di notte, al lavoro, mentre il telefono è in silenzioso. Sentinel esiste per non farti perdere proprio quei momenti.</p>
+
+      <h2>Cos'è Sentinel</h2>
+      <p><strong>Sentinel Notification Radar</strong> è un'app Android che <strong>controlla le notifiche</strong> degli altri app del telefono. Quando una notifica contiene le parole che hai scelto, Sentinel fa scattare un <strong>allarme reale</strong> — suoneria, bypass del silenzioso, audio personalizzato o persino un dispositivo smart — anche a schermo spento e telefono muto.</p>
+      <p>Non è un bot, non gioca al posto tuo e non tocca l'account di gioco: si limita a <strong>guardarti le spalle</strong> ascoltando le notifiche che il gioco già ti manda.</p>
+
+      <h2>Perché serve ai gamer</h2>
+      <ul>
+        <li><strong>Città sotto attacco di notte:</strong> ti svegli in tempo per attivare lo scudo o richiamare le truppe.</li>
+        <li><strong>Rally e guerre di alleanza:</strong> non arrivi più a fatto compiuto, ti unisci quando parte.</li>
+        <li><strong>Scudo in scadenza:</strong> imposti un promemoria che non puoi ignorare.</li>
+        <li><strong>Eventi a tempo:</strong> l'allarme suona quando l'evento apre, non un'ora dopo.</li>
+      </ul>
+
+      <div class="box box-sentinel">
+        <span class="box-title">// In pratica</span>
+        Una <strong>scheda di monitoraggio</strong> è una regola: scegli l'app-gioco, le parole da cercare nel <em>titolo</em> e/o nel <em>corpo</em> della notifica, e cosa deve succedere quando scatta. Gratis puoi creare fino a <strong>3 schede</strong>.
+      </div>
+
+      <h2>Esempio: una scheda per Age of Origins</h2>
+      <div class="table-wrap"><table>
+        <tr><th>Campo</th><th>Valore</th></tr>
+        <tr><td>App</td><td>Age of Z Origins</td></tr>
+        <tr><td>Parole nel titolo</td><td><code>attack</code> · <code>war</code> · <code>rally</code> (operatore OR)</td></tr>
+        <tr><td>Parole nel corpo</td><td><code>your city</code> · <code>under attack</code> (operatore AND)</td></tr>
+        <tr><td>Azione</td><td>Suoneria + bypass del silenzioso</td></tr>
+      </table></div>
+      <p>Risultato: quando la tua città viene attaccata, il telefono suona come una sveglia — anche alle 3 di notte, anche in silenzioso.</p>
+
+      <h2>Privacy</h2>
+      <p>Sentinel elabora <strong>tutto in locale</strong> sul dispositivo. Nessun contenuto delle notifiche, nessuna parola chiave e nessun dato personale viene inviato a server esterni. Dettagli nella <a id="privacy-link" href="#" target="_blank" rel="noopener">Privacy Policy</a>.</p>
+
+      <!-- Blocco sponsor Sentinel (generato da script.js) -->
+      <div id="sentinel-cta"></div>
+
+      <h2>La community: Sentinel Wall</h2>
+      <p>Vuoi vedere come altri utenti configurano Sentinel — per giochi, lavoro e casa smart? La bacheca ufficiale <a id="wall-link" href="#" target="_blank" rel="noopener">Sentinel Wall</a> raccoglie setup reali da cui prendere spunto, video e FAQ dettagliate.</p>
+
+      <div class="box box-prio">
+        <span class="box-title">Consiglio</span>
+        Su alcuni telefoni (Xiaomi, Huawei, Oppo, Vivo…) il sistema chiude le app in background per risparmiare batteria, e gli allarmi potrebbero non scattare. Imposta Sentinel come "non ottimizzato" / "avvio automatico". Le FAQ di Sentinel Wall spiegano i passaggi marca per marca.
+      </div>
+    </article>
+  </main>
+
+  <div id="app-footer"></div>
+
+  <script src="data/games.js"></script>
+  <script src="data/i18n.js"></script>
+  <script src="script.js"></script>
+  <script>
+    // Rende dinamici i link Sentinel dai dati (unica fonte: data/games.js)
+    (function () {
+      var p = document.getElementById("privacy-link");
+      var w = document.getElementById("wall-link");
+      if (p) p.href = SENTINEL.privacy;
+      if (w) w.href = SENTINEL.wall;
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+# Impostazioni locali di Claude Code (non condivise)
+.claude/settings.local.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/

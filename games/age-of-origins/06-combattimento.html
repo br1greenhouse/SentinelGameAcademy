@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="it" data-game="age-of-origins" data-root="../..">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Combattimento – Guida NRC per Age of Origins · Sentinel Game Academy</title>
+  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <div id="app-header"></div>
+  <div id="sidebar"></div>
+  <main class="content">
+    <nav class="breadcrumb" id="breadcrumb"></nav>
+    <article>
+      <h1>Combattimento</h1>
+      <div class="hazard"></div>
+      <p class="lead">Le battaglie si vincono prima di premere "attacca": statistiche, formazione e scelta del bersaglio contano più del BP grezzo.</p>
+
+      <h2>Come funziona una battaglia</h2>
+      <ol>
+        <li>Le due flotte si schierano su righe (front, mid, long range).</li>
+        <li>I round si alternano: ogni riga colpisce secondo la sua portata; il front row incassa per primo.</li>
+        <li>Statistiche, skill degli ufficiali, buff del comandante, ricerche e titani/warplane modificano danno e resistenza.</li>
+        <li>Vince chi azzera (o mette in fuga) la flotta avversaria; il report finale mostra tutto.</li>
+      </ol>
+
+      <h2>Fleet size</h2>
+      <p>La <strong>fleet size</strong> è quante truppe porti in una singola marcia. Cresce con Main Hall, ricerche, skill del comandante, ufficiali e buff temporanei. In PvP la marcia piena è quasi sempre obbligatoria: una marcia mezza vuota è una marcia persa.</p>
+
+      <h2>Attacco e difesa: statistiche principali</h2>
+      <ul>
+        <li><strong>Attack vs Defense</strong>: determinano il danno per round.</li>
+        <li><strong>Lethality vs HP</strong>: determinano quante truppe finiscono morte anziché ferite.</li>
+        <li>I bonus percentuali si sommano da molte fonti: la differenza tra due giocatori pari BP è quasi sempre nei buff.</li>
+      </ul>
+
+      <h2>Rally</h2>
+      <p>Il <strong>rally</strong> è un attacco di gruppo: un giocatore apre il rally, gli altri aggiungono truppe, e la marcia parte insieme con i buff del capo rally.</p>
+      <ul>
+        <li>Il capo rally deve essere il giocatore con <strong>ufficiali e buff migliori</strong>, non il più veloce a cliccare.</li>
+        <li>Riempi i rally con le tue truppe migliori del tipo richiesto dal capo (di solito long range).</li>
+        <li>Rispetta i tempi: un rally partito mezzo vuoto spreca le truppe di tutti.</li>
+      </ul>
+
+      <h2>Tile attack</h2>
+      <p>Attaccare una squadra che raccoglie su un tile è il PvP più economico: niente mura, niente trappole, niente rinforzi. Durante le KE i tile sono la prima fonte di punti — e il primo posto dove NON farsi trovare.</p>
+
+      <h2>Perdite reali e perdite ospedale</h2>
+      <div class="box box-prio">
+        <span class="box-title">Priorità</span>
+        In quasi tutti gli scontri una parte delle tue truppe va in <strong>ospedale</strong> (recuperabili curandole) e una parte è <strong>persa per sempre</strong>. Ospedale pieno = le truppe in eccesso muoiono davvero. Prima di ogni guerra: ospedale vuoto e capienza al massimo.
+      </div>
+      <ul>
+        <li>In difesa città, di norma, la quota di feriti è più alta: difendere "in casa" costa meno che attaccare.</li>
+        <li>Attaccare qualcuno molto più forte produce quasi solo morti: verifica sempre il bersaglio col radar/scout.</li>
+      </ul>
+
+      <h2>Come leggere un battle report</h2>
+      <ol>
+        <li><strong>Perdite per riga</strong>: se il tuo front row è evaporato al primo round, era troppo sottile.</li>
+        <li><strong>Buff a confronto</strong>: guarda le percentuali di attacco/difesa tue e sue: lì capisci perché hai perso.</li>
+        <li><strong>Ufficiali e skill attivate</strong>: un capo rally con skill sbagliate si vede dal report.</li>
+        <li><strong>Rapporto morti/feriti</strong>: se muore troppo, il nemico ha lethality alta: servono più HP o un altro bersaglio.</li>
+      </ol>
+
+      <div class="box box-err">
+        <span class="box-title">Errore da evitare</span>
+        Attaccare per orgoglio dopo una sconfitta, senza cambiare nulla. Stesso attacco = stesso risultato, ma con l'ospedale già mezzo pieno.
+      </div>
+
+      <div class="box box-nrc">
+        <span class="box-title">Consiglio NRC</span>
+        Condividi i battle report importanti in chat alleanza: un report letto insieme insegna più di dieci guide. E prima di attaccare un giocatore, chiedi sempre: potrebbe essere protetto da accordi (NAP) del server.
+      </div>
+    </article>
+    <nav class="chapter-nav" id="chapter-nav"></nav>
+  </main>
+  <div id="app-footer"></div>
+  <script src="../../data/games.js"></script>
+  <script src="../../data/i18n.js"></script>
+  <script src="../../script.js"></script>
+</body>
+</html>

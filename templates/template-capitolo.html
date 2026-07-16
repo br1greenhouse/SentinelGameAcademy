@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--
+  MODELLO DI CAPITOLO — Sentinel Game Academy
+  1. Copia questo file in  games/<id-del-gioco>/  con nome tipo  20-argomento.html
+  2. Imposta  data-game  con l'id del gioco (lo stesso usato in data/games.js).
+  3. Compila titolo e contenuti.
+  4. Aggiungi la riga corrispondente all'array  chapters  del gioco in data/games.js.
+  I percorsi qui sotto (../../) valgono per file dentro  games/<id>/ .
+-->
+<html lang="it" data-game="ID-GIOCO" data-root="../..">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 1. Cambia il titolo -->
+  <title>TITOLO CAPITOLO — Nome Gioco · Sentinel Game Academy</title>
+  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <div id="app-header"></div>
+  <div id="sidebar"></div>
+  <main class="content">
+    <nav class="breadcrumb" id="breadcrumb"></nav>
+    <article>
+      <!-- 2. Titolo della pagina -->
+      <h1>Titolo capitolo</h1>
+      <div class="hazard"></div>
+      <p class="lead">Una frase che riassume il capitolo e perché è importante.</p>
+
+      <!-- 3. Struttura consigliata: spiegazione base, cosa fare in pratica,
+              errori comuni, consigli rapidi. L'indice "In questa pagina" si
+              genera da solo se ci sono almeno 3 titoli <h2>. -->
+
+      <h2>Spiegazione base</h2>
+      <p>Testo...</p>
+
+      <h2>Cosa fare in pratica</h2>
+      <ol>
+        <li>Passo uno...</li>
+        <li>Passo due...</li>
+      </ol>
+
+      <h2>Errori comuni</h2>
+      <div class="box box-err">
+        <span class="box-title">Errore da evitare</span>
+        Descrivi l'errore e la conseguenza.
+      </div>
+
+      <!-- Box disponibili (copia quello che serve):
+
+      <div class="box box-nrc"><span class="box-title">Consiglio</span> Testo...</div>
+      <div class="box box-err"><span class="box-title">Errore da evitare</span> Testo...</div>
+      <div class="box box-prio"><span class="box-title">Priorità</span> Testo...</div>
+      <div class="box box-f2p"><span class="box-title">Per giocatori F2P</span> Testo...</div>
+      <div class="box box-adv"><span class="box-title">Per giocatori avanzati</span> Testo...</div>
+
+      Box Sentinel: collega il capitolo all'app (crea engagement).
+      <div class="box box-sentinel"><span class="box-title">// Perché Sentinel qui</span>
+        Spiega quale notifica di questo gioco conviene far vigilare a Sentinel.
+      </div>
+
+      Tabella responsive:
+      <div class="table-wrap"><table>
+        <tr><th>Colonna</th><th>Colonna</th></tr>
+        <tr><td>Dato</td><td>Dato</td></tr>
+      </table></div>
+      -->
+
+      <h2>Consigli rapidi</h2>
+      <ul>
+        <li>Consiglio uno.</li>
+        <li>Consiglio due.</li>
+      </ul>
+    </article>
+    <nav class="chapter-nav" id="chapter-nav"></nav>
+  </main>
+  <div id="app-footer"></div>
+  <script src="../../data/games.js"></script>
+  <script src="../../data/i18n.js"></script>
+  <script src="../../script.js"></script>
+</body>
+</html>

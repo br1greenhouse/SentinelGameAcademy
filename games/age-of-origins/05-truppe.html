@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="it" data-game="age-of-origins" data-root="../..">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Truppe – Guida NRC per Age of Origins · Sentinel Game Academy</title>
+  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <div id="app-header"></div>
+  <div id="sidebar"></div>
+  <main class="content">
+    <nav class="breadcrumb" id="breadcrumb"></nav>
+    <article>
+      <h1>Truppe</h1>
+      <div class="hazard"></div>
+      <p class="lead">Le truppe sono il tuo esercito e la parte più costosa del tuo BP. Capire chi fa cosa in battaglia decide vittorie e perdite.</p>
+
+      <h2>Tipologie e righe di combattimento</h2>
+      <p>In battaglia l'esercito è schierato su righe. Semplificando:</p>
+      <div class="table-wrap"><table>
+        <tr><th>Riga</th><th>Tipologia</th><th>Ruolo</th></tr>
+        <tr><td><strong>Front row (melee)</strong></td><td>Fanteria da mischia / unità corazzate</td><td>Assorbe i danni e protegge le righe dietro</td></tr>
+        <tr><td><strong>Mid-range</strong></td><td>Tiratori a media distanza / veicoli</td><td>Danno costante, equilibrio tra resistenza e attacco</td></tr>
+        <tr><td><strong>Long-range</strong></td><td>Artiglieria / lanciarazzi</td><td>Danno massimo, fragilissime se raggiunte</td></tr>
+      </table></div>
+      <p>Regola pratica: <strong>il front row muore per far sparare il long range</strong>. Un esercito senza prima linea perde le unità più costose subito.</p>
+
+      <h2>Tier delle truppe</h2>
+      <ul>
+        <li>Le truppe hanno livelli (T1, T2, ... fino ai tier massimi) sbloccati da edifici e ricerche.</li>
+        <li>Un tier superiore ha statistiche migliori su tutto: <strong>poche truppe alte battono molte truppe basse</strong>, a parità di consumo.</li>
+        <li>Le truppe basse restano utili come raccoglitrici e come "carne" sacrificabile in prima fila.</li>
+      </ul>
+
+      <h2>Come leggere gli attributi</h2>
+      <div class="table-wrap"><table>
+        <tr><th>Attributo</th><th>Significato</th></tr>
+        <tr><td>Attack</td><td>Danno inflitto</td></tr>
+        <tr><td>Defense</td><td>Riduce il danno subito</td></tr>
+        <tr><td>HP</td><td>Punti vita: quanti colpi regge</td></tr>
+        <tr><td>Lethality</td><td>Aumenta le perdite definitive inflitte al nemico</td></tr>
+        <tr><td>Speed</td><td>Velocità di marcia sulla mappa</td></tr>
+        <tr><td>Load</td><td>Quante risorse trasporta (raccolta e saccheggio)</td></tr>
+      </table></div>
+
+      <h2>Addestrare, promuovere o sacrificare</h2>
+      <ul>
+        <li><strong>Addestra</strong> sempre il tier più alto disponibile quando prepari guerre o eventi KE.</li>
+        <li><strong>Promuovi</strong> (upgrade delle truppe esistenti) quando sblocchi un tier nuovo: costa meno che addestrare da zero e spesso dà punti evento.</li>
+        <li><strong>Sacrifica/congeda</strong> truppe basse solo se il food è fuori controllo o se un evento premia la sostituzione.</li>
+      </ul>
+
+      <h2>Composizioni base</h2>
+      <div class="box box-prio">
+        <span class="box-title">Priorità</span>
+        Composizione generica da cui partire: <strong>una quota ridotta di front row, una di mid e la massa in long range</strong>, poi adattata al bersaglio. Le percentuali esatte dipendono da mostri o PvP: vedi <a href="07-formazioni.html">Formazioni</a>.
+      </div>
+
+      <div class="box box-err">
+        <span class="box-title">Errore da evitare</span>
+        Addestrare "un po' di tutto in parti uguali". Gli eserciti equilibrati al 33% sono deboli ovunque. Specializzati (di solito long range) e usa le altre righe come protezione.
+      </div>
+
+      <div class="box box-nrc">
+        <span class="box-title">Consiglio NRC</span>
+        Prima di una guerra, comunica agli R4/R5 quante truppe del tuo tier massimo hai: i rally si costruiscono sui numeri reali, non su quelli sperati.
+      </div>
+    </article>
+    <nav class="chapter-nav" id="chapter-nav"></nav>
+  </main>
+  <div id="app-footer"></div>
+  <script src="../../data/games.js"></script>
+  <script src="../../data/i18n.js"></script>
+  <script src="../../script.js"></script>
+</body>
+</html>
