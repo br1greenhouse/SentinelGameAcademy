@@ -98,5 +98,53 @@ var PAGE_I18N = {
         <span class="box-title">Consejo</span>
         En algunos teléfonos (Xiaomi, Huawei, Oppo, Vivo…) el sistema cierra las apps en segundo plano para ahorrar batería, y las alarmas podrían no saltar. Configura Sentinel como "no optimizada" / "inicio automático". Las FAQ de Sentinel Wall explican los pasos marca por marca.
       </div>
+`,
+  fr: `
+      <p class="hero-kicker">// présenté par Sentinel Notification Radar</p>
+      <h1>Pourquoi Sentinel</h1>
+      <div class="hazard"></div>
+
+      <p class="lead">Dans les jeux stratégiques, le moment décisif arrive presque toujours quand tu <strong>ne regardes pas l'écran</strong> : la nuit, au travail, téléphone en silencieux. Sentinel existe pour que tu ne rates pas justement ces moments-là.</p>
+
+      <h2>Qu'est-ce que Sentinel</h2>
+      <p><strong>Sentinel Notification Radar</strong> est une appli Android qui <strong>surveille les notifications</strong> des autres applis du téléphone. Quand une notification contient les mots que tu as choisis, Sentinel déclenche une <strong>vraie alarme</strong> — sonnerie, contournement du mode silencieux, audio personnalisé ou même un appareil connecté — même écran éteint et téléphone muet.</p>
+      <p>Ce n'est pas un bot, ça ne joue pas à ta place et ça ne touche pas à ton compte de jeu : ça se contente de <strong>veiller sur toi</strong> en écoutant les notifications que le jeu t'envoie déjà.</p>
+
+      <h2>Pourquoi les joueurs en ont besoin</h2>
+      <ul>
+        <li><strong>Ville attaquée la nuit :</strong> tu te réveilles à temps pour activer le bouclier ou rappeler les troupes.</li>
+        <li><strong>Rallies et guerres d'alliance :</strong> tu n'arrives plus quand tout est fini, tu rejoins dès le départ.</li>
+        <li><strong>Bouclier bientôt expiré :</strong> tu poses un rappel que tu ne peux pas ignorer.</li>
+        <li><strong>Événements chronométrés :</strong> l'alarme sonne à l'ouverture de l'événement, pas une heure après.</li>
+      </ul>
+
+      <div class="box box-sentinel">
+        <span class="box-title">// En pratique</span>
+        Une <strong>fiche de surveillance</strong> est une règle : tu choisis l'appli du jeu, les mots à chercher dans le <em>titre</em> et/ou le <em>corps</em> de la notification, et ce qui doit se passer quand ça se déclenche. Gratuitement tu peux créer jusqu'à <strong>3 fiches</strong>.
+      </div>
+
+      <h2>Exemple : une fiche pour Age of Origins</h2>
+      <div class="table-wrap"><table>
+        <tr><th>Champ</th><th>Valeur</th></tr>
+        <tr><td>Appli</td><td>Age of Z Origins</td></tr>
+        <tr><td>Mots dans le titre</td><td><code>attack</code> · <code>war</code> · <code>rally</code> (opérateur OU)</td></tr>
+        <tr><td>Mots dans le corps</td><td><code>your city</code> · <code>under attack</code> (opérateur ET)</td></tr>
+        <tr><td>Action</td><td>Sonnerie + contournement du mode silencieux</td></tr>
+      </table></div>
+      <p>Résultat : quand ta ville est attaquée, le téléphone sonne comme un réveil — même à 3 heures du matin, même en silencieux.</p>
+
+      <h2>Confidentialité</h2>
+      <p>Sentinel traite <strong>tout en local</strong> sur l'appareil. Aucun contenu de notification, aucun mot-clé et aucune donnée personnelle n'est envoyé à des serveurs externes. Détails dans la <a id="privacy-link" href="#" target="_blank" rel="noopener">Politique de confidentialité</a>.</p>
+
+      <!-- Blocco sponsor Sentinel (generato da script.js) -->
+      <div id="sentinel-cta"></div>
+
+      <h2>La communauté : Sentinel Wall</h2>
+      <p>Tu veux voir comment d'autres utilisateurs configurent Sentinel — pour les jeux, le travail et la maison connectée ? Le tableau officiel <a id="wall-link" href="#" target="_blank" rel="noopener">Sentinel Wall</a> rassemble de vraies configurations pour t'inspirer, des vidéos et des FAQ détaillées.</p>
+
+      <div class="box box-prio">
+        <span class="box-title">Conseil</span>
+        Sur certains téléphones (Xiaomi, Huawei, Oppo, Vivo…) le système ferme les applis en arrière-plan pour économiser la batterie, et les alarmes pourraient ne pas se déclencher. Configure Sentinel comme "non optimisée" / "démarrage automatique". Les FAQ de Sentinel Wall expliquent les étapes marque par marque.
+      </div>
 `
 };

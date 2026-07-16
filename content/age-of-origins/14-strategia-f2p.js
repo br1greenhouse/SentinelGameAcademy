@@ -127,5 +127,69 @@ var PAGE_I18N = {
         <span class="box-title">Consejo NRC</span>
         Un F2P disciplinado tras unos meses vale más que un spender desganado. Tu capital es el tiempo: protégelo como proteges a tus tropas.
       </div>
+`,
+  fr: `
+      <h1>Stratégie F2P</h1>
+      <div class="hazard"></div>
+      <p class="lead">Peut-on bien jouer sans dépenser ? Oui, mais ça demande de la discipline : le F2P gagne par le temps, la constance et en ne gaspillant rien.</p>
+
+      <h2>Comment grandir sans dépenser</h2>
+      <ul>
+        <li><strong>Constance &gt; intensité</strong> : 20 minutes tous les jours battent 3 heures une fois par semaine.</li>
+        <li>Trois files toujours actives, endurance toujours dépensée, dons et aides chaque jour.</li>
+        <li>Chaque action importante doit se faire <strong>le jour d'événement qui la récompense</strong>.</li>
+        <li>Reste dans une alliance active : aides, magasin et protection valent autant qu'un petit dépensier.</li>
+      </ul>
+
+      <h2>Priorités absolues</h2>
+      <div class="box box-prio">
+        <span class="box-title">Priorité</span>
+        <ol>
+          <li>Recherches de <strong>Development</strong> (vitesse) et déblocage de tier de troupes.</li>
+          <li>Main Hall et Academy avant tout.</li>
+          <li>Un set d'officiers concentré (voir <a href="08-ufficiali.html">Officiers</a>).</li>
+          <li>VIP quotidien et médailles de commandant.</li>
+          <li>Récompenses cumulatives de chaque événement.</li>
+        </ol>
+      </div>
+
+      <h2>Ce qu'il ne faut pas gaspiller</h2>
+      <ul>
+        <li><strong>Or/diamants</strong> : seulement pour un constructeur supplémentaire, le VIP et quelques choses à haut rendement. Jamais pour accélérer au hasard.</li>
+        <li><strong>Speed-up</strong> : seulement les bons jours d'événement.</li>
+        <li><strong>Reset de talents, téléporteurs, bubbles</strong> : c'est ton assurance, garde-en toujours en réserve.</li>
+        <li><strong>Matériaux et fragments</strong> : ne jamais les ouvrir/dépenser hors des événements qui les récompensent.</li>
+      </ul>
+
+      <h2>Quand utiliser les speed-up</h2>
+      <p>Règle simple : un speed-up s'utilise quand il produit <strong>deux effets à la fois</strong> (progrès + points d'événement) ou en urgence de guerre (soigner l'hôpital, compléter des troupes avant un combat). Dans tous les autres cas : inventaire.</p>
+
+      <h2>Comment contribuer à l'alliance en F2P</h2>
+      <ul>
+        <li>Présence : rallies PvE, défenses coordonnées, Zombie Uprise, Bounty.</li>
+        <li>Troupes dans les rallies : même un F2P avec de bonnes troupes long range remplit les rallies des gros joueurs.</li>
+        <li>Informations : signaler ennemis, scouts, mouvements suspects vaut autant que les troupes.</li>
+      </ul>
+
+      <h2>Comment éviter de devenir une cible</h2>
+      <div class="box box-err">
+        <span class="box-title">Erreur à éviter</span>
+        <ul>
+          <li>Dormir hors bubble avec l'hôpital plein de troupes et le Depot qui déborde.</li>
+          <li>Récolter hors de ton territoire pendant les KE et les guerres.</li>
+          <li>Provoquer les dépensiers dans le chat monde : parler coûte des troupes.</li>
+        </ul>
+      </div>
+      <ul>
+        <li>Bubble toujours active dans les périodes chaudes ; si elle expire la nuit, programme-la.</li>
+        <li>Garde peu de ressources "à découvert" : dépense d'abord, protège le reste.</li>
+        <li>Si quelqu'un de bien trop gros te cible : bubble, préviens les R4 et ne réponds pas aux provocations.</li>
+      </ul>
+      <p class="sentinel-hint">Un bouclier qui expire en pleine nuit est la façon classique de se réveiller anéanti. Si tu ne peux pas en programmer un assez long, <strong>Sentinel</strong> peut te prévenir à temps : une fiche sur la notification de <em>bouclier bientôt expiré</em> — des mots comme <code>shield</code> ou <code>protection</code> — et tu le renouvelles avant que quelqu'un en profite. <a href="../../sentinel.html">Comment le configurer</a></p>
+
+      <div class="box box-nrc">
+        <span class="box-title">Conseil NRC</span>
+        Un F2P discipliné après quelques mois vaut plus qu'un dépensier peu motivé. Ton capital, c'est le temps : protège-le comme tu protèges tes troupes.
+      </div>
 `
 };

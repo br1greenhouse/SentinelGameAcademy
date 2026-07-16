@@ -143,5 +143,77 @@ var PAGE_I18N = {
         <span class="box-title">Consejo NRC</span>
         Actualiza esta página con cada cambio de reglas (y regístralo en el <a href="19-changelog.html">Changelog</a>): una regla no escrita es una regla que no existe.
       </div>
+`,
+  fr: `
+      <h1>Stratégie d'alliance NRC</h1>
+      <div class="hazard"></div>
+      <p class="lead">Cette section rassemble les lignes directrices opérationnelles de la NRC. C'est la page à personnaliser et à mettre à jour le plus souvent : les règles ci-dessous sont un modèle de départ.</p>
+
+      <h2>Objectifs de l'alliance</h2>
+      <ul>
+        <li>Croissance constante de tous les membres, pas seulement des tops.</li>
+        <li>Présence solide dans les événements d'alliance (Frenzy, Void, Duel).</li>
+        <li>Territoire sûr avec forteresse et drapeaux bien placés.</li>
+        <li>Environnement respectueux : on joue pour s'amuser.</li>
+      </ul>
+
+      <h2>Règles opérationnelles</h2>
+      <ol>
+        <li><strong>Aucune attaque sur des joueurs</strong> sans autorisation R4/R5 (les NAP sont toujours respectés).</li>
+        <li><strong>SOS</strong> : qui peut, renforce. Qui est attaqué écrit dans le chat avec les coordonnées.</li>
+        <li><strong>Événements majeurs</strong> : la participation est attendue ; qui ne peut pas être là prévient avant.</li>
+        <li><strong>Bubble obligatoire</strong> les nuits de guerre pour qui n'est pas en défense organisée.</li>
+        <li><strong>Activité minimale</strong> : dons et connexions réguliers ; les longues absences se communiquent.</li>
+      </ol>
+
+      <h2>Rôles recommandés</h2>
+      <div class="table-wrap"><table>
+        <tr><th>Rôle</th><th>Responsabilité en NRC</th></tr>
+        <tr><td>R5</td><td>Diplomatie avec les autres alliances, décisions de guerre</td></tr>
+        <tr><td>R4 Guerre</td><td>Plans de bataille, chefs de rally, cibles</td></tr>
+        <tr><td>R4 Interne</td><td>Recrutement, activité des membres, aide aux nouveaux</td></tr>
+        <tr><td>R3 Tuteur</td><td>Référence pour les nouveaux arrivants, répond aux questions de base</td></tr>
+      </table></div>
+
+      <h2>Communication</h2>
+      <ul>
+        <li>Annonces officielles : tableau d'alliance + canal externe (Discord/WhatsApp/Telegram, au choix de l'alliance).</li>
+        <li>Pendant les guerres : seulement des communications opérationnelles dans le chat ; les discussions se font après.</li>
+        <li>Langue : français simple ; pour les termes, utilise le <a href="17-glossario.html">Glossaire</a>.</li>
+      </ul>
+
+      <h2>Gestion des événements</h2>
+      <ul>
+        <li>Avant l'événement : annonce avec objectifs, horaires et tâches.</li>
+        <li>Pendant : chefs de rally désignés, les autres remplissent les rallies avec les troupes demandées.</li>
+        <li>Après : bref bilan : ce qui a marché, ce qu'il faut changer.</li>
+      </ul>
+
+      <h2>Gestion des guerres</h2>
+      <ol>
+        <li>On combat sur décision R5/R4, jamais sur initiative personnelle.</li>
+        <li>Première phase : scout des cibles, vérification des bubbles et des hôpitaux.</li>
+        <li>Rallies dirigés par les joueurs avec les meilleurs buffs ; les autres renforcent et défendent.</li>
+        <li>Les petits membres : bubble ou troupes cachées, et soutien logistique (ressources, scout).</li>
+      </ol>
+
+      <h2>Protection des membres</h2>
+      <ul>
+        <li>Qui subit des attaques répétées le signale : la réponse est collective, pas personnelle.</li>
+        <li>Les villes vulnérables se déplacent à l'intérieur du territoire, près de la forteresse.</li>
+        <li>Fonds d'alliance (ressources/renforts) pour qui subit de lourdes pertes en remplissant son devoir.</li>
+      </ul>
+
+      <h2>Recrutement</h2>
+      <ul>
+        <li>On cherche des joueurs <strong>actifs et respectueux</strong>, la puissance se construit.</li>
+        <li>Les nouveaux entrent en R1, avec un tuteur R3 assigné et un lien vers ce guide.</li>
+        <li>Promotions selon l'activité, la fiabilité et le comportement.</li>
+      </ul>
+
+      <div class="box box-nrc">
+        <span class="box-title">Conseil NRC</span>
+        Mets à jour cette page à chaque changement de règle (et enregistre-le dans le <a href="19-changelog.html">Changelog</a>) : une règle non écrite est une règle qui n'existe pas.
+      </div>
 `
 };

@@ -119,5 +119,65 @@ var PAGE_I18N = {
         <span class="box-title">Consejo NRC</span>
         Guarda las formaciones preconfiguradas del juego: una para monstruos (1-1-98), una para rally PvP, una para defensa. En guerra no hay tiempo de hacer cuentas a mano.
       </div>
+`,
+  fr: `
+      <h1>Formations</h1>
+      <div class="hazard"></div>
+      <p class="lead">La formation est le rapport entre front, mid et long range dans une marche. Avec les mêmes troupes, la bonne formation divise les pertes par deux.</p>
+
+      <h2>Formation 1-1-98 (monstres et farming)</h2>
+      <p>La plus célèbre : <strong>1% front row, 1% mid, 98% long range</strong>.</p>
+      <ul>
+        <li>Utilisée contre les <strong>monstres/zombies</strong> et les cibles qui n'atteignent presque jamais ton arrière-garde.</li>
+        <li>Le minimum de front/mid sert seulement à "occuper le rang" pendant que la long range fait tous les dégâts.</li>
+        <li>Pertes minimes, dégâts maximaux : parfaite pour les rallies de monstres et les événements PvE.</li>
+      </ul>
+      <div class="box box-err">
+        <span class="box-title">Erreur à éviter</span>
+        Utiliser la 1-1-98 en PvP contre de vrais joueurs : dès que l'ennemi perce les deux rangs symboliques, ta long range est massacrée. La 1-1-98 est une formation de monstres, pas de guerre.
+      </div>
+
+      <h2>Formations pour les monstres</h2>
+      <ul>
+        <li>Monstres normaux et rallies PvE : <strong>1-1-98</strong> ou similaire (ex. 2-3-95).</li>
+        <li>Boss à fort dégât sur le front : augmente légèrement la front row pour ne pas perdre de temps en reconstruction.</li>
+      </ul>
+
+      <h2>Formations pour le PvP</h2>
+      <ul>
+        <li>Attaque de ville/rally PvP : il faut une <strong>vraie première ligne</strong>. Points de départ typiques : 10-20% de front, 10-30% de mid, le reste en long range, puis adapter selon les rapports.</li>
+        <li>Contre des ennemis chargés en long range : plus de front et de lethality pour atteindre le fond.</li>
+        <li>Contre des ennemis très mêlée : plus de distance et de dégâts, moins de corps-à-corps.</li>
+        <li>Il n'existe pas LA formation parfaite : il existe la bonne <strong>contre cette cible-là</strong>. Scout d'abord, formation ensuite.</li>
+      </ul>
+
+      <h2>Formations pour la défense de ville</h2>
+      <ul>
+        <li>En défense, toutes les troupes présentes combattent : garde en ville une <strong>part solide de front row</strong> pour protéger les unités précieuses.</li>
+        <li>Si tu ne peux pas défendre : <strong>bubble</strong>, ou envoie les troupes dehors (sur une tuile lointaine ou en renfort d'un allié) pour ne pas les faire trouver.</li>
+        <li>Coordonne les renforts : une Embassy pleine de long range alliée derrière un bon front local est la meilleure défense.</li>
+      </ul>
+
+      <h2>Formations long range et mid range</h2>
+      <ul>
+        <li><strong>Long range lourde</strong> : dégâts maximaux, exige que le front tienne ; c'est le standard des rallies d'attaque.</li>
+        <li><strong>Mid range lourde</strong> : plus flexible et résistante, utile quand l'ennemi casse facilement les premières lignes ou dans les combats prolongés.</li>
+        <li>Spécialise recherches et officiers sur le rang que tu utilises le plus : les bonus ciblés battent les bonus dispersés.</li>
+      </ul>
+
+      <h2>Erreurs communes dans les formations</h2>
+      <div class="box box-err">
+        <span class="box-title">Erreur à éviter</span>
+        <ul>
+          <li>Copier la formation d'un autre joueur sans avoir ses recherches et ses officiers.</li>
+          <li>Remplir la marche avec des troupes de tier bas "pour faire du nombre" : ça baisse la moyenne et augmente les pertes.</li>
+          <li>Ne jamais mettre à jour la formation : après chaque guerre, relis les rapports et ajuste.</li>
+        </ul>
+      </div>
+
+      <div class="box box-nrc">
+        <span class="box-title">Conseil NRC</span>
+        Sauvegarde les formations préconfigurées du jeu : une pour les monstres (1-1-98), une pour les rallies PvP, une pour la défense. En guerre, il n'y a pas le temps de faire les calculs à la main.
+      </div>
 `
 };

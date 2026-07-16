@@ -105,5 +105,58 @@ var PAGE_I18N = {
         <span class="box-title">Para jugadores F2P</span>
         El comandante es el crecimiento más "gratis" del juego: estamina, misiones, VIP diario y medallas no cuestan nada, solo constancia.
       </div>
+`,
+  fr: `
+      <h1>Commandant</h1>
+      <div class="hazard"></div>
+      <p class="lead">Le commandant, c'est toi : talents, compétences, équipement et VIP s'appliquent à toute ta ville et toutes tes marches.</p>
+
+      <h2>Talents</h2>
+      <ul>
+        <li>Chaque niveau du commandant donne des <strong>points de talent</strong> à répartir sur des branches type guerre / économie.</li>
+        <li>En phase de croissance : mets les talents sur <strong>construction, recherche et production</strong>.</li>
+        <li>En guerre : beaucoup de joueurs utilisent le <strong>reset de talents</strong> (objet dédié) pour passer à la branche de bataille. Garde toujours un reset de secours.</li>
+      </ul>
+
+      <h2>Compétences du commandant</h2>
+      <ul>
+        <li>Compétences actives (ex. buffs temporaires, soins, récolte instantanée) et passives : lis ce qu'elles font et lie-les à ta routine.</li>
+        <li>Utilise les compétences actives <strong>avant</strong> les actions qu'elles renforcent : buff d'entraînement avant d'entraîner, buff d'attaque avant le rally.</li>
+      </ul>
+
+      <h2>Équipement</h2>
+      <ul>
+        <li>Se forge avec des <strong>matériaux</strong> issus des monstres, événements et récolte.</li>
+        <li>Priorité aux pièces avec bonus pour ta <strong>troupe principale</strong> et pour ton style de jeu (croissance ou guerre).</li>
+        <li>Ne forge pas de pièces médiocres "pour rien" : les bons matériaux sont longs à refaire.</li>
+      </ul>
+
+      <h2>Médailles et VIP</h2>
+      <ul>
+        <li>Les <strong>médailles</strong> du commandant donnent des bonus permanents : complète-les avec constance grâce aux événements.</li>
+        <li>Le <strong>VIP</strong> monte avec les points quotidiens (et avec l'or) : il débloque des files, des bonus et du confort. Se connecter chaque jour pour les points VIP gratuits est l'une des habitudes les plus rentables du jeu.</li>
+      </ul>
+
+      <h2>Priorités de croissance</h2>
+      <div class="box box-prio">
+        <span class="box-title">Priorité</span>
+        <ol>
+          <li>Monter de niveau le commandant (dépenser l'endurance sur les monstres chaque jour).</li>
+          <li>Talents sur la croissance jusqu'à faire du PvP sérieux.</li>
+          <li>VIP gratuit chaque jour, toujours.</li>
+          <li>Équipement ciblé sur la troupe principale.</li>
+          <li>Médailles au fur et à mesure que les événements les offrent.</li>
+        </ol>
+      </div>
+
+      <div class="box box-err">
+        <span class="box-title">Erreur à éviter</span>
+        Gaspiller l'endurance : elle est gratuite et se régénère avec le temps. Zéro endurance dépensée = expérience et matériaux perdus pour toujours.
+      </div>
+
+      <div class="box box-f2p">
+        <span class="box-title">Pour les joueurs F2P</span>
+        Le commandant est la croissance la plus "gratuite" du jeu : endurance, missions, VIP quotidien et médailles ne coûtent rien, juste de la constance.
+      </div>
 `
 };

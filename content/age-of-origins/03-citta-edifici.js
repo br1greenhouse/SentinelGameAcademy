@@ -109,5 +109,60 @@ var PAGE_I18N = {
         <span class="box-title">Consejo NRC</span>
         No corras a maximizar el Main Hall dejando atrás tropas e investigación: una ciudad alta con tropas débiles atrae ataques y no puede aguantarlos. Crece de forma coherente.
       </div>
+`,
+  fr: `
+      <h1>Ville et bâtiments</h1>
+      <div class="hazard"></div>
+      <p class="lead">La ville est ton moteur. Chaque bâtiment a un rôle : savoir lesquels améliorer en premier évite des mois de croissance gâchée.</p>
+
+      <h2>Bâtiments clés</h2>
+      <div class="table-wrap"><table>
+        <tr><th>Bâtiment</th><th>À quoi il sert</th></tr>
+        <tr><td><strong>Main Hall</strong></td><td>Cœur de la ville : débloque les niveaux de tous les autres bâtiments et du nouveau contenu</td></tr>
+        <tr><td><strong>Academy</strong></td><td>Recherches technologiques (voir <a href="04-ricerche.html">Recherches</a>)</td></tr>
+        <tr><td><strong>Camp / Factory / Garage / Workshop</strong></td><td>Entraînent les différents types de troupes et augmentent leur tier</td></tr>
+        <tr><td><strong>Hospital</strong></td><td>Recueille les blessés au combat : plus de capacité = moins de troupes réellement mortes</td></tr>
+        <tr><td><strong>Depot</strong></td><td>Protège les ressources du pillage</td></tr>
+        <tr><td><strong>Embassy</strong></td><td>Reçoit renforts et aides des alliés ; capacité de renfort en défense</td></tr>
+        <tr><td><strong>Alliance Hall</strong></td><td>Fonctions d'alliance, capacité de rally</td></tr>
+        <tr><td><strong>Radar / Tour</strong></td><td>Prévient des attaques entrantes et montre les détails de l'ennemi</td></tr>
+      </table></div>
+
+      <h2>Quels bâtiments prioriser</h2>
+      <div class="box box-prio">
+        <span class="box-title">Priorité</span>
+        <ol>
+          <li><strong>Main Hall</strong> : toujours, dès que les conditions le permettent.</li>
+          <li><strong>Academy</strong> : les recherches sont la croissance la plus durable du jeu.</li>
+          <li><strong>Bâtiments d'entraînement</strong> : ils débloquent les tiers de troupes supérieurs.</li>
+          <li><strong>Hospital</strong> : capacité suffisante pour couvrir tes pertes habituelles.</li>
+          <li>Le reste (Depot, Embassy, production) au minimum requis pour les améliorations.</li>
+        </ol>
+      </div>
+
+      <h2>Ordre d'amélioration recommandé</h2>
+      <ol>
+        <li>Vérifie les <strong>conditions du prochain Main Hall</strong> : ces bâtiments doivent être montés en premier.</li>
+        <li>Monte l'<strong>Academy</strong> juste après chaque saut de Main Hall.</li>
+        <li>Monte les bâtiments d'entraînement jusqu'à débloquer le <strong>tier de troupes</strong> de ton niveau.</li>
+        <li>Hospital et Embassy quand tu commences à faire du PvP et des événements de guerre.</li>
+        <li>Les bâtiments purement esthétiques ou secondaires en dernier.</li>
+      </ol>
+      <p class="sentinel-hint">Le <strong>Radar</strong> te prévient quand des troupes ennemies approchent — mais seulement si tu as le téléphone en main. Avec <strong>Sentinel</strong>, cette notification d'<em>attaque entrante</em> devient une alarme qui te réveille à temps pour activer le bouclier ou rappeler tes troupes : configure juste une fiche avec des mots comme <code>incoming</code> ou <code>your city</code>. <a href="../../sentinel.html">Guide rapide</a></p>
+
+      <div class="box box-err">
+        <span class="box-title">Erreur à éviter</span>
+        Monter tout uniformément "parce que ça fait joli d'avoir des chiffres égaux". La croissance efficace est déséquilibrée : Main Hall, Academy et entraînement passent avant tout le reste.
+      </div>
+
+      <div class="box box-f2p">
+        <span class="box-title">Pour les joueurs F2P</span>
+        Avant de lancer une longue amélioration, attends le jour d'événement qui récompense la construction : même temps, plus de points. Et utilise toujours tes buffs de construction (talents, bonus d'alliance) avant d'appuyer sur le bouton.
+      </div>
+
+      <div class="box box-nrc">
+        <span class="box-title">Conseil NRC</span>
+        Ne te précipite pas vers un Main Hall maximal en laissant les troupes et la recherche à la traîne : une ville haute avec des troupes faibles attire les attaques et ne peut pas les tenir. Grandis de manière cohérente.
+      </div>
 `
 };

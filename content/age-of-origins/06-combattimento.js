@@ -125,5 +125,68 @@ var PAGE_I18N = {
         <span class="box-title">Consejo NRC</span>
         Comparte los battle reports importantes en el chat de alianza: un informe leído juntos enseña más que diez guías. Y antes de atacar a un jugador, pregunta siempre: ¿podría estar protegido por un NAP del servidor?
       </div>
+`,
+  fr: `
+      <h1>Combat</h1>
+      <div class="hazard"></div>
+      <p class="lead">Les batailles se gagnent avant d'appuyer sur "attaquer" : statistiques, formation et choix de la cible comptent plus que le BP brut.</p>
+
+      <h2>Comment fonctionne une bataille</h2>
+      <ol>
+        <li>Les deux flottes se déploient en rangs (front, mid, long range).</li>
+        <li>Les rounds s'alternent : chaque rang frappe selon sa portée ; la front row encaisse en premier.</li>
+        <li>Statistiques, compétences des officiers, buffs du commandant, recherches et titans/warplane modifient dégâts et résistance.</li>
+        <li>Gagne qui anéantit (ou met en fuite) la flotte adverse ; le rapport final montre tout.</li>
+      </ol>
+
+      <h2>Fleet size</h2>
+      <p>La <strong>fleet size</strong> c'est combien de troupes tu emmènes dans une seule marche. Elle augmente avec le Main Hall, les recherches, les compétences du commandant, les officiers et les buffs temporaires. En PvP, la marche pleine est presque toujours obligatoire : une marche à moitié vide est une marche perdue.</p>
+
+      <h2>Attaque et défense : statistiques principales</h2>
+      <ul>
+        <li><strong>Attack vs Defense</strong> : déterminent les dégâts par round.</li>
+        <li><strong>Lethality vs HP</strong> : déterminent combien de troupes finissent mortes plutôt que blessées.</li>
+        <li>Les bonus en pourcentage s'additionnent de nombreuses sources : la différence entre deux joueurs à BP égal se trouve presque toujours dans les buffs.</li>
+      </ul>
+
+      <h2>Rally</h2>
+      <p>Le <strong>rally</strong> est une attaque de groupe : un joueur ouvre le rally, les autres ajoutent des troupes, et la marche part ensemble avec les buffs du chef de rally.</p>
+      <ul>
+        <li>Le chef de rally doit être le joueur avec les <strong>meilleurs officiers et buffs</strong>, pas le plus rapide à cliquer.</li>
+        <li>Remplis les rallies avec tes meilleures troupes du type demandé par le chef (généralement long range).</li>
+        <li>Respecte les délais : un rally parti à moitié vide gaspille les troupes de tout le monde.</li>
+      </ul>
+
+      <h2>Tile attack</h2>
+      <p>Attaquer une escouade qui récolte sur une tuile est le PvP le moins cher : pas de murs, pas de pièges, pas de renforts. Pendant les KE, les tuiles sont la première source de points — et le premier endroit où ne PAS se faire trouver.</p>
+
+      <h2>Pertes réelles et pertes d'hôpital</h2>
+      <div class="box box-prio">
+        <span class="box-title">Priorité</span>
+        Dans presque tous les combats, une part de tes troupes va à l'<strong>hôpital</strong> (récupérables en les soignant) et une part est <strong>perdue pour toujours</strong>. Hôpital plein = les troupes en excès meurent réellement. Avant chaque guerre : hôpital vide et capacité maximale.
+      </div>
+      <ul>
+        <li>En défense de ville, en général, la part de blessés est plus élevée : défendre "chez soi" coûte moins cher qu'attaquer.</li>
+        <li>Attaquer quelqu'un de beaucoup plus fort ne produit presque que des morts : vérifie toujours la cible avec le radar/scout.</li>
+      </ul>
+      <p class="sentinel-hint">Quand quelqu'un te <strong>scout</strong> (t'espionne), c'est souvent le prélude à une attaque : il jauge tes troupes. Si tu n'es pas devant l'écran tu ne le remarques pas. <strong>Sentinel</strong> peut déclencher une alarme sur la notification de reconnaissance — des mots comme <code>scout</code> ou <code>spy</code> — te donnant le temps de mettre le bouclier ou de mettre tes troupes à l'abri. <a href="../../sentinel.html">Comment le configurer</a></p>
+
+      <h2>Comment lire un battle report</h2>
+      <ol>
+        <li><strong>Pertes par rang</strong> : si ta front row s'est évaporée au premier round, elle était trop fine.</li>
+        <li><strong>Buffs comparés</strong> : regarde tes pourcentages d'attaque/défense et ceux de l'adversaire : c'est là que tu comprends pourquoi tu as perdu.</li>
+        <li><strong>Officiers et compétences activées</strong> : un chef de rally avec les mauvaises compétences se voit dans le rapport.</li>
+        <li><strong>Ratio morts/blessés</strong> : si trop meurent, l'ennemi a une lethality élevée : il te faut plus de HP ou une autre cible.</li>
+      </ol>
+
+      <div class="box box-err">
+        <span class="box-title">Erreur à éviter</span>
+        Attaquer par fierté après une défaite, sans rien changer. Même attaque = même résultat, mais avec l'hôpital déjà à moitié plein.
+      </div>
+
+      <div class="box box-nrc">
+        <span class="box-title">Conseil NRC</span>
+        Partage les battle reports importants dans le chat d'alliance : un rapport lu ensemble apprend plus que dix guides. Et avant d'attaquer un joueur, demande toujours : pourrait-il être protégé par un NAP de serveur ?
+      </div>
 `
 };

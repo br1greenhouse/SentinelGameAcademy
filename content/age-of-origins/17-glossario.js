@@ -71,5 +71,41 @@ var PAGE_I18N = {
         <span class="box-title">Consejo NRC</span>
         En el chat internacional se usan casi solo los términos en inglés: apréndelos aunque juegues en otro idioma — los necesitas para entender a enemigos y aliados extranjeros.
       </div>
+`,
+  fr: `
+      <h1>Glossaire</h1>
+      <div class="hazard"></div>
+      <p class="lead">Les termes qu'on entend dans le chat, expliqués en une ligne. S'il en manque un, demande dans l'alliance puis ajoute-le ici.</p>
+
+      <div class="table-wrap"><table>
+        <tr><th>Terme</th><th>Signification</th></tr>
+        <tr><td><strong>Bubble</strong></td><td>Bouclier de protection : tant qu'il est actif ta ville ne peut être ni attaquée ni espionnée</td></tr>
+        <tr><td><strong>Shield</strong></td><td>Synonyme de bubble</td></tr>
+        <tr><td><strong>KE</strong></td><td>Kill Event : événement qui récompense les kills de troupes ennemies</td></tr>
+        <tr><td><strong>Void</strong></td><td>Carte/événements cross-serveur (Void War, Strongest Void Commander)</td></tr>
+        <tr><td><strong>Frenzy</strong></td><td>Battle Frenzy : événement à points alliance contre alliance</td></tr>
+        <tr><td><strong>BP</strong></td><td>Battle Power : la puissance totale de ton compte</td></tr>
+        <tr><td><strong>LRA</strong></td><td>Long Range Attack : attaque/troupes à longue portée (artillerie)</td></tr>
+        <tr><td><strong>MRA</strong></td><td>Mid Range Attack : attaque/troupes à moyenne portée</td></tr>
+        <tr><td><strong>Fleet</strong></td><td>La flotte/marche : les troupes envoyées dans une seule action</td></tr>
+        <tr><td><strong>Tile</strong></td><td>Case de ressources sur la carte où les escouades récoltent</td></tr>
+        <tr><td><strong>Farm</strong></td><td>Compte secondaire utilisé pour produire des ressources pour le principal</td></tr>
+        <tr><td><strong>Rally</strong></td><td>Attaque de groupe : plusieurs joueurs unissent leurs troupes en une seule marche</td></tr>
+        <tr><td><strong>SOS</strong></td><td>Demande de renforts d'un membre attaqué</td></tr>
+        <tr><td><strong>Reset</strong></td><td>Objet qui réinitialise les talents (du commandant ou du titan) pour les redistribuer</td></tr>
+        <tr><td><strong>Whale</strong></td><td>Joueur qui dépense beaucoup d'argent réel</td></tr>
+        <tr><td><strong>F2P</strong></td><td>Free to Play : joueur qui ne dépense pas d'argent réel</td></tr>
+        <tr><td><strong>P2W</strong></td><td>Pay to Win : celui/ce qui gagne grâce à la dépense</td></tr>
+        <tr><td><strong>NAP</strong></td><td>Non-Aggression Pact : accord de non-agression entre alliances</td></tr>
+        <tr><td><strong>Scout</strong></td><td>Espionner une ville ou une marche pour voir ses troupes et ses défenses</td></tr>
+        <tr><td><strong>Buff / Debuff</strong></td><td>Bonus temporaire à tes statistiques / malus infligé à l'ennemi</td></tr>
+        <tr><td><strong>Gathering</strong></td><td>Récolte de ressources sur les tuiles</td></tr>
+        <tr><td><strong>Zeroed</strong></td><td>Joueur qui a perdu toutes ses troupes ("mis à zéro")</td></tr>
+      </table></div>
+
+      <div class="box box-nrc">
+        <span class="box-title">Conseil NRC</span>
+        Dans le chat international on utilise presque uniquement les termes anglais : apprends-les même si tu joues en français — tu en as besoin pour comprendre ennemis et alliés étrangers.
+      </div>
 `
 };

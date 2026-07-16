@@ -127,5 +127,69 @@ var PAGE_I18N = {
         <span class="box-title">Consejo NRC</span>
         Pregunta en la alianza qué oficiales usan los líderes de rally: conviene alinearse con las mismas tropas potenciadas, así tus unidades en los rallies rinden al máximo.
       </div>
+`,
+  fr: `
+      <h1>Officiers</h1>
+      <div class="hazard"></div>
+      <p class="lead">Les officiers sont les héros qui dirigent tes marches et renforcent ta ville. Quelques bons choix ici valent des mois de croissance.</p>
+
+      <h2>Les catégories</h2>
+      <div class="table-wrap"><table>
+        <tr><th>Catégorie</th><th>Focus</th><th>Usage typique</th></tr>
+        <tr><td><strong>Director</strong></td><td>Développement : construction, recherche, production</td><td>Assignés à la ville pour grandir plus vite</td></tr>
+        <tr><td><strong>Strategy</strong></td><td>Récolte, logistique, soutien</td><td>Marches de récolte et rôles de soutien</td></tr>
+        <tr><td><strong>Warfare</strong></td><td>Combat : attaque, défense, buffs de troupes</td><td>Marches de guerre, rallies, défense de ville</td></tr>
+      </table></div>
+
+      <h2>Comment les obtenir</h2>
+      <ul>
+        <li><strong>Recrutement</strong> (normal et avancé) avec les tickets gratuits quotidiens.</li>
+        <li><strong>Fragments/médailles</strong> des événements, du magasin d'alliance, des monstres et des packs.</li>
+        <li>Les meilleurs officiers demandent de la constance : choisis 2-3 objectifs et accumule leurs fragments, ne te disperse pas.</li>
+      </ul>
+
+      <h2>Étoiles, niveaux et compétences</h2>
+      <ul>
+        <li><strong>Niveau</strong> : monte avec l'expérience, augmente les statistiques de base.</li>
+        <li><strong>Étoiles</strong> : montent avec les fragments de l'officier, renforcent et débloquent les compétences.</li>
+        <li><strong>Compétences</strong> : c'est la vraie raison pour laquelle un officier est fort. Lis toujours ce que fait la compétence, pas seulement la rareté.</li>
+      </ul>
+      <div class="box box-prio">
+        <span class="box-title">Priorité</span>
+        Mieux vaut <strong>peu d'officiers avec des étoiles et des compétences élevées</strong> que beaucoup d'officiers à moitié faits. Les fragments sont rares : concentre-les.
+      </div>
+
+      <h2>Configurations recommandées</h2>
+      <div class="box box-f2p">
+        <span class="box-title">Pour les joueurs F2P</span>
+        Vise les officiers obtenables gratuitement régulièrement (événements récurrents, magasin d'alliance, connexion). Un officier "moyen" que tu peux amener aux étoiles pleines bat un légendaire bloqué à 1 étoile. Priorité : 1 paire Warfare pour ta troupe principale, 1 Director pour la croissance.
+      </div>
+      <div class="box box-adv">
+        <span class="box-title">Pour les joueurs avancés / dépensiers</span>
+        Construis une équipe Warfare complète dédiée à ton rang principal (ex. tous buffs long range) pour les rallies, plus une équipe défensive pour la ville. Garde les Directors montés quand tu ne combats pas et pense à les échanger avant les guerres.
+      </div>
+
+      <h2>Officiers à prioriser</h2>
+      <ul>
+        <li>Ceux qui donnent des <strong>buffs en pourcentage à ta troupe principale</strong> (attack/lethality avant tout).</li>
+        <li>Le meilleur <strong>chef de rally</strong> disponible : ses compétences s'appliquent à tout le rally.</li>
+        <li>Un bon set <strong>développement</strong> (construction/recherche) pour les longues périodes de paix.</li>
+      </ul>
+
+      <h2>Erreurs à éviter</h2>
+      <div class="box box-err">
+        <span class="box-title">Erreur à éviter</span>
+        <ul>
+          <li>Répartir fragments et expérience sur dix officiers différents.</li>
+          <li>Juger un officier par sa rareté ou son apparence plutôt que par ses compétences.</li>
+          <li>Aller en guerre avec les Directors de construction encore équipés.</li>
+          <li>Ignorer les officiers gratuits des événements : certains restent excellents pendant des mois.</li>
+        </ul>
+      </div>
+
+      <div class="box box-nrc">
+        <span class="box-title">Conseil NRC</span>
+        Demande dans l'alliance quels officiers utilisent les chefs de rally : il vaut mieux s'aligner sur les mêmes troupes buffées, pour que tes unités rendent au maximum dans les rallies.
+      </div>
 `
 };

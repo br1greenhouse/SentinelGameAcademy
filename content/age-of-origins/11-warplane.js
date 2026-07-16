@@ -95,5 +95,53 @@ var PAGE_I18N = {
         <span class="box-title">Consejo NRC</span>
         Antes de las guerras compara tu warplane con el de tus compañeros de rally: si el líder de rally lleva debuffs al enemigo, a los participantes les conviene apostar por el daño.
       </div>
+`,
+  fr: `
+      <h1>Warplane</h1>
+      <div class="hazard"></div>
+      <p class="lead">Le warplane est l'avion de guerre qui soutient tes marches : il frappe d'en haut, ajoute des compétences et multiplie l'efficacité de l'armée.</p>
+
+      <h2>Ce que fait le warplane</h2>
+      <ul>
+        <li>Accompagne la marche et <strong>inflige des dégâts supplémentaires</strong> avec ses propres attaques.</li>
+        <li>Apporte des <strong>compétences</strong> qui renforcent les troupes ou affaiblissent l'ennemi.</li>
+        <li>En défense, il contribue à la protection de la ville.</li>
+      </ul>
+
+      <h2>Renforcement et composants</h2>
+      <ul>
+        <li>Le warplane monte de <strong>niveau</strong> avec des matériaux dédiés (événements, monstres, magasin).</li>
+        <li>Les <strong>composants</strong> (moteur, armes, blindage, etc.) se montent et se renforcent séparément : chacun pousse des statistiques différentes.</li>
+        <li>Composants de rareté supérieure &gt; niveaux supplémentaires sur des composants rares.</li>
+      </ul>
+
+      <h2>Compétences</h2>
+      <ul>
+        <li>Choisis les compétences selon le rôle : dégâts directs pour PvE/rally, debuffs pour PvP, soutien pour la défense.</li>
+        <li>Comme toujours : <strong>aligne les compétences sur ta troupe principale</strong>.</li>
+      </ul>
+
+      <h2>Priorité</h2>
+      <div class="box box-prio">
+        <span class="box-title">Priorité</span>
+        <ol>
+          <li>Garde le warplane toujours assigné à la marche principale.</li>
+          <li>Renforce d'abord les composants qui augmentent attaque/lethality.</li>
+          <li>Compétences cohérentes avec ton usage (rally d'attaque pour la plupart des joueurs).</li>
+        </ol>
+      </div>
+
+      <h2>Synergie avec les troupes et les officiers</h2>
+      <p>Warplane, titan, officiers et recherches doivent pousser <strong>dans la même direction</strong>. Exemple : si tu joues long range, alors compétences de warplane pour long range, titan avec buffs long range, officiers Warfare long range, recherches Battle ciblées. La cohérence du build vaut plus que n'importe quelle pièce isolée.</p>
+
+      <div class="box box-err">
+        <span class="box-title">Erreur à éviter</span>
+        Traiter le warplane comme un accessoire esthétique et l'oublier pendant des mois. C'est une source de puissance à coût relativement bas : les événements récurrents suffisent à le maintenir à jour.
+      </div>
+
+      <div class="box box-nrc">
+        <span class="box-title">Conseil NRC</span>
+        Avant les guerres, compare ton warplane avec celui de tes coéquipiers de rally : si le chef de rally porte des debuffs à l'ennemi, les participants ont intérêt à miser sur les dégâts.
+      </div>
 `
 };

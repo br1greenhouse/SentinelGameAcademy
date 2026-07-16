@@ -124,5 +124,66 @@ var PAGE_I18N = {
         <li>Reclama las ayudas de alianza: reducen los tiempos gratis.</li>
         <li>Mira siempre cuánto cuesta la <em>próxima</em> gran mejora y acumula con antelación.</li>
       </ul>
+`,
+  fr: `
+      <h1>Ressources</h1>
+      <div class="hazard"></div>
+      <p class="lead">Les ressources sont le carburant de tout : bâtiments, recherches, troupes. Qui gère bien les ressources grandit deux fois plus vite dans le même temps.</p>
+
+      <h2>Les ressources principales</h2>
+      <div class="table-wrap"><table>
+        <tr><th>Ressource</th><th>Sert surtout pour</th><th>Notes</th></tr>
+        <tr><td><strong>Food</strong> (nourriture)</td><td>Troupes, recherches</td><td>Les troupes consomment de la food avec le temps : un solde négatif est normal en fin de partie</td></tr>
+        <tr><td><strong>Oil</strong> (pétrole)</td><td>Bâtiments, recherches</td><td>Très demandé pour les améliorations du Main Hall</td></tr>
+        <tr><td><strong>Steel</strong> (acier)</td><td>Bâtiments élevés, troupes avancées</td><td>Se débloque plus tard, devient le goulot d'étranglement</td></tr>
+        <tr><td><strong>Minerals</strong> (minerais)</td><td>Recherches et améliorations de haut niveau</td><td>La ressource la plus rare : ne la gaspille jamais</td></tr>
+      </table></div>
+      <p>Certaines mécaniques avancées (titans, composants) utilisent des <strong>matériaux dédiés</strong> obtenus des événements et des monstres : ils valent plus que les ressources de base, garde-les pour les améliorations planifiées.</p>
+
+      <h2>Récolte sur les tuiles</h2>
+      <ul>
+        <li>Envoie des escouades sur les <strong>tuiles de ressources</strong> de la carte : plus le niveau de la tuile est élevé, plus tu récoltes vite.</li>
+        <li>Utilise des troupes à <strong>charge élevée</strong> (souvent les véhicules) et remplis la marche au maximum.</li>
+        <li>Récolte <strong>à l'intérieur du territoire de l'alliance</strong> : bonus de vitesse et moins de risque d'attaques.</li>
+        <li>Avant de dormir : tuiles pleines et lointaines. Pendant la journée : tuiles rapides et proches.</li>
+      </ul>
+      <div class="box box-err">
+        <span class="box-title">Erreur à éviter</span>
+        Ne récolte pas hors de ta bubble pendant les KE (Kill Events) ou les guerres : une escouade sur une tuile est la cible préférée de qui cherche des points faciles. Voir <a href="06-combattimento.html">Combat</a>.
+      </div>
+
+      <h2>Protection des ressources</h2>
+      <ul>
+        <li>Le <strong>Depot</strong> (entrepôt) protège une part de tes ressources du pillage : garde-le à un niveau adéquat.</li>
+        <li><strong>Dépense avant d'être attaqué</strong> : les ressources investies dans des améliorations ne peuvent pas être volées.</li>
+        <li>N'ouvre pas les <strong>packs de ressources</strong> de l'inventaire avant d'en avoir besoin : dans l'inventaire ils sont sûrs à 100%.</li>
+        <li>Si tu es une cible, garde ta <strong>bubble</strong> active ou reste sous le seuil de ressources qui attire les pillards.</li>
+      </ul>
+      <p class="sentinel-hint">Une escouade qui récolte hors de ton territoire est une cible : si on te frappe la tuile pendant ton absence, tu perds la cargaison et les troupes sans t'en rendre compte. <strong>Sentinel</strong> peut surveiller la notification d'attaque sur ta marche — des mots comme <code>attack</code> ou <code>march</code> — et la transformer en une vraie alarme, même téléphone en silencieux. <a href="../../sentinel.html">Comment le configurer</a></p>
+
+      <h2>Utilisation intelligente des speed-up</h2>
+      <div class="box box-prio">
+        <span class="box-title">Priorité</span>
+        Les speed-up s'utilisent presque uniquement pendant les événements qui récompensent ce que tu accélères : construction les jours "construction", recherche les jours "recherche", entraînement avant les KE. Ainsi chaque minute de speed-up vaut double : progrès + points d'événement.
+      </div>
+      <ul>
+        <li>Speed-up <strong>génériques</strong> : les plus précieux, garde-les pour les urgences et les grands événements.</li>
+        <li>Speed-up d'<strong>entraînement</strong> : accumule-les pour les phases de préparation de guerre.</li>
+        <li>Speed-up de <strong>soin</strong> : utilise-les librement, un hôpital plein bloque tout.</li>
+      </ul>
+
+      <h2>Comptes farm</h2>
+      <p>Un <strong>farm</strong> est un second compte utilisé uniquement pour produire des ressources à transférer au principal (via le commerce d'alliance ou une "récolte" arrangée). C'est une pratique courante chez les joueurs avancés.</p>
+      <div class="box box-adv">
+        <span class="box-title">Pour les joueurs avancés</span>
+        Si tu gères des farms : garde-les dans la même alliance ou une alliance-académie, maximise Depot et production food/oil, et n'y laisse jamais de troupes de valeur. Gérer trop de farms devient un second travail.
+      </div>
+
+      <h2>Conseils rapides</h2>
+      <ul>
+        <li>Les trois files (construction, recherche, entraînement) ne s'arrêtent jamais : c'est la règle d'or.</li>
+        <li>Récupère les aides d'alliance : elles réduisent les délais gratuitement.</li>
+        <li>Regarde toujours combien coûte la <em>prochaine</em> grande amélioration et accumule à l'avance.</li>
+      </ul>
 `
 };

@@ -113,5 +113,62 @@ var PAGE_I18N = {
         <span class="box-title">Error que evitar</span>
         Ser un "fantasma": cero donaciones, cero ayudas, cero eventos. Las alianzas serias miden la actividad, y las plazas son limitadas.
       </div>
+`,
+  fr: `
+      <h1>Alliance</h1>
+      <div class="hazard"></div>
+      <p class="lead">Age of Origins est un jeu d'alliances : seul on survit, ensemble on gagne. Voici comment fonctionne la vie d'alliance.</p>
+
+      <h2>Pourquoi rejoindre une alliance</h2>
+      <ul>
+        <li><strong>Aides</strong> : les coéquipiers réduisent les délais de construction, de recherche et de soin.</li>
+        <li><strong>Protection</strong> : attaquer un membre d'une alliance forte a des conséquences.</li>
+        <li><strong>Technologies et magasin</strong> d'alliance : bonus et objets autrement hors de portée.</li>
+        <li><strong>Événements de groupe</strong> et rallies : la plupart du contenu haut niveau est en équipe.</li>
+      </ul>
+
+      <h2>Dons et aides</h2>
+      <ul>
+        <li>Fais un don chaque jour aux <strong>technologies d'alliance</strong> : ça te donne des points (magasin) et des bonus à tous.</li>
+        <li>Clique sur la <strong>main d'aide</strong> chaque fois que tu ouvres le jeu : ça coûte deux secondes, ça vaut des heures économisées pour l'équipe.</li>
+      </ul>
+
+      <h2>Territoire, forteresse et drapeaux</h2>
+      <ul>
+        <li>Le <strong>territoire</strong> est la zone contrôlée par l'alliance : à l'intérieur on récolte plus vite et plus en sécurité.</li>
+        <li>La <strong>forteresse</strong> est le cœur du territoire : la construire et la défendre est un objectif collectif.</li>
+        <li>Les <strong>drapeaux</strong> (flags) étendent le territoire : ils se placent selon le plan des R4/R5, pas au hasard.</li>
+      </ul>
+
+      <h2>Rôles R1–R5</h2>
+      <div class="table-wrap"><table>
+        <tr><th>Rôle</th><th>Qui c'est</th><th>Ce qu'il fait</th></tr>
+        <tr><td>R5</td><td>Leader</td><td>Décisions finales, diplomatie, guerres</td></tr>
+        <tr><td>R4</td><td>Officiers d'alliance</td><td>Gestion des membres, événements, rallies, territoire</td></tr>
+        <tr><td>R3</td><td>Membres vétérans</td><td>Référence pour les nouveaux, chefs de rally secondaires</td></tr>
+        <tr><td>R2</td><td>Membres actifs</td><td>Participation régulière aux événements et dons</td></tr>
+        <tr><td>R1</td><td>Nouveaux arrivants</td><td>À l'essai : activité et comportement</td></tr>
+      </table></div>
+
+      <h2>Règles internes et bon comportement</h2>
+      <ul>
+        <li><strong>Lis les règles</strong> de l'alliance (tableau/message épinglé) dès que tu rejoins.</li>
+        <li>N'attaque personne sans l'accord des R4/R5 : les pactes entre alliances (NAP) existent et les rompre déclenche des guerres.</li>
+        <li>Réponds aux <strong>SOS</strong> : aujourd'hui tu renforces, demain on te renforce.</li>
+        <li>Préviens si tu t'absentes longtemps : personne n'est exclu pour la vraie vie, mais disparaître sans un mot, si.</li>
+        <li>Chat : pas d'insultes, pas de drame. Les problèmes se règlent en privé avec les R4.</li>
+      </ul>
+      <p class="sentinel-hint">Les <strong>SOS</strong> et les rallies d'alliance arrivent quand tu t'y attends le moins — et ne comptent que si tu réponds à temps. <strong>Sentinel</strong> peut surveiller les notifications du jeu et du chat d'alliance — des mots comme <code>rally</code>, <code>SOS</code> ou <code>reinforce</code> — et te réveiller quand l'équipe a besoin de toi. <a href="../../sentinel.html">Comment le configurer</a></p>
+
+      <h2>Communication</h2>
+      <div class="box box-nrc">
+        <span class="box-title">Conseil NRC</span>
+        Le chat du jeu se perd : les communications importantes (guerres, horaires de rally, règles) passent par le canal externe de l'alliance (ex. Discord). Active les notifications au moins pour les annonces.
+      </div>
+
+      <div class="box box-err">
+        <span class="box-title">Erreur à éviter</span>
+        Être un "fantôme" : zéro don, zéro aide, zéro événement. Les alliances sérieuses mesurent l'activité, et les places sont limitées.
+      </div>
 `
 };

@@ -111,5 +111,61 @@ var PAGE_I18N = {
         <li>Las investigaciones de desbloqueo de tier siempre tienen precedencia: una tropa de tier superior vale más que diez pequeños bonos.</li>
       </ul>
       <p class="sentinel-hint">Una cola de la Academy detenida es crecimiento regalado a tus rivales: si lanzas una investigación larga antes de dormir, <strong>Sentinel</strong> puede avisarte en cuanto termine — una ficha con palabras como <code>research</code> y retomas enseguida, en vez de dejar el laboratorio parado horas. <a href="../../sentinel.html">Cómo configurarlo</a></p>
+`,
+  fr: `
+      <h1>Recherches</h1>
+      <div class="hazard"></div>
+      <p class="lead">Les recherches de l'Academy sont des bonus permanents : aucune attaque ne peut te les enlever. C'est le meilleur investissement du jeu.</p>
+
+      <h2>Les branches principales</h2>
+      <div class="table-wrap"><table>
+        <tr><th>Branche</th><th>Ce qu'elle renforce</th><th>Quand ça compte</th></tr>
+        <tr><td><strong>Development</strong></td><td>Vitesse de construction/recherche, files, capacité de marche</td><td>Toujours : ça accélère tout le reste</td></tr>
+        <tr><td><strong>Economy</strong></td><td>Production, récolte, charge</td><td>Début de partie et pour les comptes farm</td></tr>
+        <tr><td><strong>Battle</strong></td><td>Attaque, HP, défense des troupes, déblocage de tier</td><td>Centrale à partir du milieu de partie</td></tr>
+        <tr><td><strong>Defense</strong></td><td>Défense de ville, pièges, garnison</td><td>Pour qui reste souvent hors bubble</td></tr>
+      </table></div>
+
+      <h2>Priorités pour les F2P</h2>
+      <div class="box box-f2p">
+        <span class="box-title">Pour les joueurs F2P</span>
+        <ol>
+          <li><strong>Development</strong> : vitesse de recherche et de construction avant tout (intérêts composés).</li>
+          <li><strong>Economy</strong> juste assez pour ne jamais manquer de ressources.</li>
+          <li><strong>Battle</strong> : viser directement le déblocage des tiers de troupes et les statistiques de ton type de troupe préféré.</li>
+          <li>Defense seulement le nécessaire : en F2P mieux vaut ne pas se faire trouver (bubble) que résister.</li>
+        </ol>
+      </div>
+
+      <h2>Priorités pour une croissance rapide</h2>
+      <ul>
+        <li>Toutes les recherches qui réduisent les <strong>délais</strong> (recherche, construction, entraînement).</li>
+        <li>Les recherches requises comme <strong>prérequis</strong> des tiers de troupes.</li>
+        <li>Marches supplémentaires et capacité de marche : plus de récolte et plus de points d'événement.</li>
+      </ul>
+
+      <h2>Priorités pour le PvP</h2>
+      <div class="box box-adv">
+        <span class="box-title">Pour les joueurs avancés</span>
+        Concentre-toi sur <strong>Battle</strong> : attaque et lethality d'abord, puis HP/défense. Spécialise-toi sur les statistiques de la troupe que tu utilises vraiment (ex. long range) au lieu de répartir sur tout. Les recherches de soin et de capacité d'hôpital réduisent le coût des guerres.
+      </div>
+
+      <h2>Erreurs communes</h2>
+      <div class="box box-err">
+        <span class="box-title">Erreur à éviter</span>
+        <ul>
+          <li>Compléter à 100% chaque branche pour l'ordre esthétique : beaucoup de recherches marginales coûtent une fortune et rapportent peu.</li>
+          <li>Ignorer Development : ça double la vitesse de tout le reste.</li>
+          <li>Lancer des recherches longues en dehors des jours d'événement "recherche".</li>
+        </ul>
+      </div>
+
+      <h2>Conseils rapides</h2>
+      <ul>
+        <li>La file de recherche ne doit jamais s'arrêter : si tu es sur le point de dormir, lance la longue.</li>
+        <li>Avant une recherche coûteuse, active tous les buffs de vitesse disponibles.</li>
+        <li>Les recherches de déblocage de tier ont toujours la priorité : une troupe de tier supérieur vaut plus que dix petits bonus.</li>
+      </ul>
+      <p class="sentinel-hint">Une file d'Academy à l'arrêt, c'est de la croissance offerte à tes rivaux : si tu lances une recherche longue avant de dormir, <strong>Sentinel</strong> peut t'alerter dès qu'elle se termine — une fiche avec des mots comme <code>research</code> et tu relances aussitôt, au lieu de laisser le labo à l'arrêt pendant des heures. <a href="../../sentinel.html">Comment le configurer</a></p>
 `
 };
