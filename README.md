@@ -106,21 +106,23 @@ Stato attuale: **interfaccia completa in 12 lingue**; **contenuti IT** ovunque; 
 
 ## Pubblicare su GitHub Pages
 
-1. Crea un repository su GitHub (es. `sentinel-game-academy`).
+1. Crea un repository su GitHub chiamato **esattamente** `SentinelGameAcademy`
+   (il nome, comprese le maiuscole, determina l'URL del sito).
 2. Carica tutti i file di questa cartella nella **root** del repository:
    ```bash
-   git init
-   git add .
-   git commit -m "Sentinel Game Academy: prima versione multi-gioco"
    git branch -M main
-   git remote add origin https://github.com/TUO-UTENTE/sentinel-game-academy.git
+   git remote add origin https://github.com/br1greenhouse/SentinelGameAcademy.git
    git push -u origin main
    ```
 3. Su GitHub: **Settings → Pages → Build and deployment**
    - Source: `Deploy from a branch`
    - Branch: `main`, cartella `/ (root)`
 4. Dopo 1–2 minuti il sito sarà online su:
-   `https://TUO-UTENTE.github.io/sentinel-game-academy/`
+   `https://br1greenhouse.github.io/SentinelGameAcademy/`
+
+Il sito usa solo percorsi relativi (via `data-root` sull'`<html>`), quindi funziona
+a qualsiasi sottopercorso senza modifiche. Il file `.nojekyll` nella root dice a
+GitHub Pages di servire i file così come sono, senza processarli con Jekyll.
 
 Il sito usa solo percorsi relativi, quindi funziona anche aprendo `index.html` in locale. Per un'anteprima identica a GitHub Pages:
 
