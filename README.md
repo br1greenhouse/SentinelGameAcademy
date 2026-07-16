@@ -69,7 +69,15 @@ var PAGE_I18N = {
 ```
 Poi includi il file nella pagina (una riga prima di `script.js`) e, nei metadati del gioco (`data/games.js`), aggiungi il titolo/descrizione della lingua al capitolo (`en: { title, desc }`).
 
-Stato attuale: **interfaccia in 4 lingue** (it/en/es/fr); **contenuti editoriali IT** ovunque (prosa dei capitoli, home e pagina Sentinel sono italiano inline); **EN** solo per il capitolo 01 (esempio della pipeline). Quindi cambiando lingua oggi si traducono interfaccia, menu, footer, blocco sponsor e ricerca, ma **la prosa delle guide resta in italiano** finché non si aggiungono i file `content/…` (e le stringhe inline della home). È il prossimo grande lavoro sull'i18n.
+Stato attuale: **interfaccia in 4 lingue** (it/en/es/fr); **contenuti editoriali IT** (sorgente inline) + **EN completo** su tutto il sito — home, pagina Sentinel, hub del gioco e tutti i 19 capitoli hanno il file `content/…js` con la chiave `en`. Le lingue `es`/`fr` sono già attive nell'interfaccia; per i contenuti si aggiungono progressivamente aggiungendo la chiave `es:`/`fr:` nei file `content/…js` (l'engine ripiega su EN→IT dove manca).
+
+**Pagine tradotte via `content/`** (una riga di `<script src="content/…js">` prima di `script.js`):
+- `content/home.js` → home (`index.html`)
+- `content/sentinel.js` → pagina *Perché Sentinel* (`sentinel.html`)
+- `content/age-of-origins/index.js` → hub del gioco
+- `content/age-of-origins/NN-*.js` → i 19 capitoli
+
+Le pagine con blocchi dinamici (home, hub, Sentinel) mantengono nel loro HTML tradotto i `<div>` segnaposto (`sentinel-cta`, `games-grid`, `game-chapters`, `privacy-link`, `wall-link`), che `script.js` riempie dopo la sostituzione.
 
 ## Aggiungere un GIOCO
 
