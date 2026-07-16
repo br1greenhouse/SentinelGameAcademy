@@ -383,6 +383,26 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
 .box-sentinel { border-left-color: var(--sentinel); background: color-mix(in srgb, var(--sentinel) 6%, var(--surface)); }
 .box-sentinel .box-title { color: var(--sentinel); font-family: var(--font-mono); letter-spacing: .04em; }
 
+/* Nota Sentinel inline: richiamo soft agganciato a un evento del gioco che
+   genera una notifica. Deliberatamente discreta — non è un box, non è uno spot. */
+.sentinel-hint {
+  margin: .5rem 0 1.25rem;
+  padding: .1rem 0 .1rem .8rem;
+  border-left: 2px solid color-mix(in srgb, var(--sentinel) 45%, transparent);
+  font-size: .85rem;
+  line-height: 1.55;
+  color: var(--muted);
+}
+.sentinel-hint::before {
+  content: "◎";
+  margin-right: .45rem;
+  color: var(--sentinel);
+  font-weight: 700;
+}
+.sentinel-hint strong { color: var(--ink); font-weight: 600; }
+.sentinel-hint code { color: var(--sentinel); background: transparent; padding: 0; }
+.sentinel-hint a { color: var(--sentinel); text-decoration: underline; text-underline-offset: 2px; }
+
 /* ---------- Tabelle responsive ---------- */
 .table-wrap { overflow-x: auto; margin: 1rem 0; border-radius: var(--radius); border: 1px solid var(--line); }
 table { border-collapse: collapse; width: 100%; min-width: 480px; font-size: .92rem; background: var(--surface); }
