@@ -99,7 +99,7 @@
     headerHost.innerHTML =
       '<header class="site-header">' +
       '  <button class="icon-btn" id="menu-btn" aria-label="Menu">&#9776;</button>' +
-      '  <a class="brand" href="' + rootUrl("index.html") + '">Sentinel <span class="slash">//</span> <span class="tag">Game Academy</span></a>' +
+      '  <a class="brand" href="' + rootUrl("index.html") + '">Sentinel<br class="brand-break"> <span class="slash">//</span> <span class="tag">Game Academy</span></a>' +
       '  <a class="spon-chip" href="' + SENTINEL.play + '" target="_blank" rel="noopener" title="' + esc(SENTINEL.name) + '">&#9654; Sentinel</a>' +
       '  <button class="icon-btn" id="search-btn" aria-label="Search">&#128269;</button>' +
       '  <button class="icon-btn" id="theme-btn" aria-label="Theme">' + (isLight ? "☀" : "☾") + '</button>' +

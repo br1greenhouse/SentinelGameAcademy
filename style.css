@@ -136,6 +136,19 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2em 0; }
 .brand:hover { text-decoration: none; }
 .brand .slash { color: var(--sentinel); }
 .brand .tag { color: var(--accent); }
+.brand-break { display: none; }
+
+@media (max-width: 480px) {
+  :root { --header-h: 70px; }
+  .brand {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: unset;
+    font-size: .92rem;
+    line-height: 1.2;
+  }
+  .brand-break { display: block; }
+}
 
 /* Chip "sponsor" sempre visibile → Google Play */
 .spon-chip {
