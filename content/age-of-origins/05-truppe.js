@@ -56,5 +56,62 @@ var PAGE_I18N = {
         <span class="box-title">NRC tip</span>
         Before a war, tell your R4/R5 how many troops of your top tier you have: rallies are built on real numbers, not hoped-for ones.
       </div>
+`,
+  es: `
+      <h1>Tropas</h1>
+      <div class="hazard"></div>
+      <p class="lead">Las tropas son tu ejército y la parte más cara de tu BP. Entender quién hace qué en batalla decide victorias y derrotas.</p>
+
+      <h2>Tipologías y filas de combate</h2>
+      <p>En batalla el ejército se despliega en filas. Simplificando:</p>
+      <div class="table-wrap"><table>
+        <tr><th>Fila</th><th>Tipología</th><th>Rol</th></tr>
+        <tr><td><strong>Front row (melee)</strong></td><td>Infantería cuerpo a cuerpo / unidades acorazadas</td><td>Absorbe el daño y protege las filas de detrás</td></tr>
+        <tr><td><strong>Mid-range</strong></td><td>Tiradores a media distancia / vehículos</td><td>Daño constante, equilibrio entre resistencia y ataque</td></tr>
+        <tr><td><strong>Long-range</strong></td><td>Artillería / lanzacohetes</td><td>Daño máximo, muy frágiles si son alcanzadas</td></tr>
+      </table></div>
+      <p>Regla práctica: <strong>la front row muere para que dispare la long range</strong>. Un ejército sin primera línea pierde primero sus unidades más caras.</p>
+
+      <h2>Tiers de las tropas</h2>
+      <ul>
+        <li>Las tropas tienen niveles (T1, T2... hasta los tiers máximos) desbloqueados por edificios e investigaciones.</li>
+        <li>Un tier superior tiene mejores estadísticas en todo: <strong>pocas tropas altas vencen a muchas tropas bajas</strong>, con el mismo consumo.</li>
+        <li>Las tropas bajas siguen siendo útiles como recolectoras y como "carne" sacrificable en primera fila.</li>
+      </ul>
+
+      <h2>Cómo leer los atributos</h2>
+      <div class="table-wrap"><table>
+        <tr><th>Atributo</th><th>Significado</th></tr>
+        <tr><td>Attack</td><td>Daño infligido</td></tr>
+        <tr><td>Defense</td><td>Reduce el daño recibido</td></tr>
+        <tr><td>HP</td><td>Puntos de vida: cuántos golpes aguanta</td></tr>
+        <tr><td>Lethality</td><td>Aumenta las pérdidas definitivas infligidas al enemigo</td></tr>
+        <tr><td>Speed</td><td>Velocidad de marcha en el mapa</td></tr>
+        <tr><td>Load</td><td>Cuántos recursos transporta (recolección y saqueo)</td></tr>
+      </table></div>
+
+      <h2>Entrenar, promover o sacrificar</h2>
+      <ul>
+        <li><strong>Entrena</strong> siempre el tier más alto disponible cuando prepares guerras o eventos KE.</li>
+        <li><strong>Promueve</strong> (mejora de tropas existentes) cuando desbloquees un tier nuevo: cuesta menos que entrenar desde cero y a menudo da puntos de evento.</li>
+        <li><strong>Sacrifica/licencia</strong> tropas bajas solo si el food está fuera de control o si un evento premia la sustitución.</li>
+      </ul>
+      <p class="sentinel-hint">Entrenar un gran lote de tropas lleva horas: hasta que vuelvas, el cuartel se queda parado. <strong>Sentinel</strong> capta la notificación de <em>entrenamiento completado</em> y te lo recuerda con una alarma real, así no dejas el Camp parado medio día — configura palabras como <code>training</code>. <a href="../../sentinel.html">Configúralo así</a></p>
+
+      <h2>Composiciones básicas</h2>
+      <div class="box box-prio">
+        <span class="box-title">Prioridad</span>
+        Composición genérica de la que partir: <strong>una cuota reducida de front row, una de mid y la masa en long range</strong>, luego adaptada al objetivo. Los porcentajes exactos dependen de monstruos o PvP: ver <a href="07-formazioni.html">Formaciones</a>.
+      </div>
+
+      <div class="box box-err">
+        <span class="box-title">Error que evitar</span>
+        Entrenar "un poco de todo en partes iguales". Los ejércitos equilibrados al 33% son débiles en todas partes. Especialízate (normalmente long range) y usa las otras filas como protección.
+      </div>
+
+      <div class="box box-nrc">
+        <span class="box-title">Consejo NRC</span>
+        Antes de una guerra, dile a tus R4/R5 cuántas tropas de tu tier máximo tienes: los rallies se construyen sobre números reales, no sobre los deseados.
+      </div>
 `
 };

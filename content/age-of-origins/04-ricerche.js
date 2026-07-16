@@ -55,5 +55,61 @@ var PAGE_I18N = {
         <li>Tier-unlock research always comes first: a higher-tier troop is worth more than ten small bonuses.</li>
       </ul>
       <p class="sentinel-hint">An idle Academy queue is growth handed to your rivals: if you launch a long research before sleeping, <strong>Sentinel</strong> can alert you the moment it finishes — a card with words like <code>research</code> and you restart right away, instead of leaving the lab idle for hours. <a href="../../sentinel.html">How to set it up</a></p>
+`,
+  es: `
+      <h1>Investigaciones</h1>
+      <div class="hazard"></div>
+      <p class="lead">Las investigaciones de la Academy son bonos permanentes: ningún ataque te los quita. Es la mejor inversión del juego.</p>
+
+      <h2>Las ramas principales</h2>
+      <div class="table-wrap"><table>
+        <tr><th>Rama</th><th>Qué potencia</th><th>Cuándo importa</th></tr>
+        <tr><td><strong>Development</strong></td><td>Velocidad de construcción/investigación, colas, capacidad de marchas</td><td>Siempre: acelera todo lo demás</td></tr>
+        <tr><td><strong>Economy</strong></td><td>Producción, recolección, carga</td><td>Primera fase y para quien hace de farm</td></tr>
+        <tr><td><strong>Battle</strong></td><td>Ataque, HP, defensa de tropas, desbloqueo de tier</td><td>Desde la mitad de partida en adelante es central</td></tr>
+        <tr><td><strong>Defense</strong></td><td>Defensa de ciudad, trampas, guarnición</td><td>Para quien se queda a menudo fuera de bubble</td></tr>
+      </table></div>
+
+      <h2>Prioridades para F2P</h2>
+      <div class="box box-f2p">
+        <span class="box-title">Para jugadores F2P</span>
+        <ol>
+          <li><strong>Development</strong>: velocidad de investigación y construcción ante todo (interés compuesto).</li>
+          <li><strong>Economy</strong> lo justo para no quedarte nunca corto de recursos.</li>
+          <li><strong>Battle</strong>: apuntando directo al desbloqueo de tiers de tropas y a las estadísticas de tu tipo de tropa favorita.</li>
+          <li>Defense solo lo necesario: siendo F2P es mejor no dejarse encontrar (bubble) que resistir.</li>
+        </ol>
+      </div>
+
+      <h2>Prioridades para crecimiento rápido</h2>
+      <ul>
+        <li>Todas las investigaciones que reducen <strong>tiempos</strong> (investigación, construcción, entrenamiento).</li>
+        <li>Las investigaciones requeridas como <strong>prerrequisito</strong> de los tiers de tropas.</li>
+        <li>Marchas adicionales y capacidad de marcha: más recolección y más puntos de evento.</li>
+      </ul>
+
+      <h2>Prioridades para PvP</h2>
+      <div class="box box-adv">
+        <span class="box-title">Para jugadores avanzados</span>
+        Concéntrate en <strong>Battle</strong>: ataque y lethality primero, luego HP/defensa. Especialízate en las estadísticas de la tropa que realmente usas (p. ej. long range) en vez de repartir en todo. Las investigaciones de curación y capacidad de hospital reducen el costo de las guerras.
+      </div>
+
+      <h2>Errores comunes</h2>
+      <div class="box box-err">
+        <span class="box-title">Error que evitar</span>
+        <ul>
+          <li>Completar al 100% cada rama por orden estético: muchas investigaciones marginales cuestan muchísimo y rinden poco.</li>
+          <li>Ignorar Development: duplica la velocidad de todo lo demás.</li>
+          <li>Lanzar investigaciones largas fuera de los días de evento "investigación".</li>
+        </ul>
+      </div>
+
+      <h2>Consejos rápidos</h2>
+      <ul>
+        <li>La cola de investigación no debe pararse nunca: si estás por dormir, lanza la larga.</li>
+        <li>Antes de una investigación costosa, activa todos los buffs de velocidad disponibles.</li>
+        <li>Las investigaciones de desbloqueo de tier siempre tienen precedencia: una tropa de tier superior vale más que diez pequeños bonos.</li>
+      </ul>
+      <p class="sentinel-hint">Una cola de la Academy detenida es crecimiento regalado a tus rivales: si lanzas una investigación larga antes de dormir, <strong>Sentinel</strong> puede avisarte en cuanto termine — una ficha con palabras como <code>research</code> y retomas enseguida, en vez de dejar el laboratorio parado horas. <a href="../../sentinel.html">Cómo configurarlo</a></p>
 `
 };

@@ -34,5 +34,36 @@ var PAGE_I18N = {
         <li><strong>▶ Sentinel</strong> at the top: takes you straight to the app on Google Play.</li>
         <li><strong>Theme ☾/☀</strong>: switch between dark and light.</li>
       </ul>
+`,
+  es: `
+      <p class="hero-kicker">// juegos reales · guías reales · alarmas reales</p>
+      <h1 class="hero-h1">Sentinel <span class="accent">Game Academy</span></h1>
+      <div class="hazard"></div>
+
+      <p class="lead">El manual de campo de los juegos móviles estratégicos — esos en los que te atacan mientras duermes, el escudo caduca de noche y la guerra de alianza empieza al amanecer. Guías claras, y la app que te despierta cuando de verdad importa.</p>
+
+      <h2>Qué es la Academy</h2>
+      <p>La <strong>Sentinel Game Academy</strong> reúne guías completas para los juegos donde la <strong>vigilancia</strong> marca la diferencia: estrategia, war games, survival. Son juegos lentos y a largo plazo, donde se gana con constancia — pero donde un solo ataque perdido mientras dormías puede quemar semanas de progreso.</p>
+      <p>Por eso la Academy está <strong>presentada por Sentinel Notification Radar</strong>: lee la guía aquí, deja a Sentinel vigilando tu teléfono.</p>
+
+      <!-- Blocco sponsor Sentinel (generato da script.js) -->
+      <div id="sentinel-cta"></div>
+
+      <h2 id="giochi">Los juegos</h2>
+      <p>Elige tu juego. Cada ficha explica también <em>por qué</em> Sentinel es útil justo ahí.</p>
+      <div class="games-grid" id="games-grid"></div>
+
+      <div class="box box-sentinel">
+        <span class="box-title">// Nota</span>
+        ¿No encuentras tu juego? Las guías llegan una a una. Mientras tanto el principio vale para todos: si un juego te manda una notificación cuando te atacan, <a href="sentinel.html">Sentinel</a> la convierte en una alarma real que no puedes ignorar.
+      </div>
+
+      <h2>Cómo usar el sitio</h2>
+      <ul>
+        <li><strong>Menú ☰</strong> arriba a la izquierda: todos los juegos y capítulos.</li>
+        <li><strong>Buscar 🔍</strong>: busca un juego o un tema (p. ej. <code>rally</code>, <code>escudo</code>, <code>formaciones</code>) en todas las guías.</li>
+        <li><strong>▶ Sentinel</strong> arriba: te lleva directo a la app en Google Play.</li>
+        <li><strong>Tema ☾/☀</strong>: cambia entre oscuro y claro.</li>
+      </ul>
 `
 };

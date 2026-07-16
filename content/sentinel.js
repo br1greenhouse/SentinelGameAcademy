@@ -50,5 +50,53 @@ var PAGE_I18N = {
         <span class="box-title">Tip</span>
         On some phones (Xiaomi, Huawei, Oppo, Vivo…) the system kills background apps to save battery, and alarms might not fire. Set Sentinel as "not optimized" / "auto-start". The Sentinel Wall FAQs explain the steps brand by brand.
       </div>
+`,
+  es: `
+      <p class="hero-kicker">// presentado por Sentinel Notification Radar</p>
+      <h1>Por qué Sentinel</h1>
+      <div class="hazard"></div>
+
+      <p class="lead">En los juegos estratégicos el momento decisivo llega casi siempre cuando <strong>no estás mirando la pantalla</strong>: de noche, en el trabajo, con el teléfono en silencio. Sentinel existe para que no pierdas justo esos momentos.</p>
+
+      <h2>Qué es Sentinel</h2>
+      <p><strong>Sentinel Notification Radar</strong> es una app Android que <strong>vigila las notificaciones</strong> de las demás apps del teléfono. Cuando una notificación contiene las palabras que elegiste, Sentinel dispara una <strong>alarma real</strong> — tono de llamada, salto del modo silencioso, audio personalizado o incluso un dispositivo smart — incluso con la pantalla apagada y el teléfono mudo.</p>
+      <p>No es un bot, no juega por ti ni toca tu cuenta de juego: se limita a <strong>cuidarte las espaldas</strong> escuchando las notificaciones que el juego ya te envía.</p>
+
+      <h2>Por qué lo necesitan los gamers</h2>
+      <ul>
+        <li><strong>Ciudad atacada de noche:</strong> te despiertas a tiempo para activar el escudo o llamar a las tropas.</li>
+        <li><strong>Rallies y guerras de alianza:</strong> ya no llegas cuando todo terminó, te unes cuando empieza.</li>
+        <li><strong>Escudo por caducar:</strong> pones un recordatorio que no puedes ignorar.</li>
+        <li><strong>Eventos por tiempo:</strong> la alarma suena cuando abre el evento, no una hora después.</li>
+      </ul>
+
+      <div class="box box-sentinel">
+        <span class="box-title">// En la práctica</span>
+        Una <strong>ficha de monitoreo</strong> es una regla: eliges la app del juego, las palabras a buscar en el <em>título</em> y/o en el <em>cuerpo</em> de la notificación, y qué debe pasar cuando salta. Gratis puedes crear hasta <strong>3 fichas</strong>.
+      </div>
+
+      <h2>Ejemplo: una ficha para Age of Origins</h2>
+      <div class="table-wrap"><table>
+        <tr><th>Campo</th><th>Valor</th></tr>
+        <tr><td>App</td><td>Age of Z Origins</td></tr>
+        <tr><td>Palabras en el título</td><td><code>attack</code> · <code>war</code> · <code>rally</code> (operador OR)</td></tr>
+        <tr><td>Palabras en el cuerpo</td><td><code>your city</code> · <code>under attack</code> (operador AND)</td></tr>
+        <tr><td>Acción</td><td>Tono de llamada + salto del modo silencioso</td></tr>
+      </table></div>
+      <p>Resultado: cuando tu ciudad es atacada, el teléfono suena como un despertador — incluso a las 3 de la madrugada, incluso en silencio.</p>
+
+      <h2>Privacidad</h2>
+      <p>Sentinel procesa <strong>todo en local</strong> en el dispositivo. Ningún contenido de las notificaciones, ninguna palabra clave ni ningún dato personal se envía a servidores externos. Detalles en la <a id="privacy-link" href="#" target="_blank" rel="noopener">Política de Privacidad</a>.</p>
+
+      <!-- Blocco sponsor Sentinel (generato da script.js) -->
+      <div id="sentinel-cta"></div>
+
+      <h2>La comunidad: Sentinel Wall</h2>
+      <p>¿Quieres ver cómo configuran Sentinel otros usuarios — para juegos, trabajo y casa inteligente? La bacheca oficial <a id="wall-link" href="#" target="_blank" rel="noopener">Sentinel Wall</a> reúne configuraciones reales de las que inspirarte, vídeos y FAQ detalladas.</p>
+
+      <div class="box box-prio">
+        <span class="box-title">Consejo</span>
+        En algunos teléfonos (Xiaomi, Huawei, Oppo, Vivo…) el sistema cierra las apps en segundo plano para ahorrar batería, y las alarmas podrían no saltar. Configura Sentinel como "no optimizada" / "inicio automático". Las FAQ de Sentinel Wall explican los pasos marca por marca.
+      </div>
 `
 };

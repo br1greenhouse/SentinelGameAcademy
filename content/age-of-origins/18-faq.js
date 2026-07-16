@@ -44,5 +44,50 @@ var PAGE_I18N = {
       Warn the R4s: announced absences aren't a problem, vanishing is.</p>
       <p><strong>How do I rank up?</strong><br>
       Activity, reliability, behavior. You don't need to be the strongest: you need to show up.</p>
+`,
+  es: `
+      <h1>FAQ</h1>
+      <div class="hazard"></div>
+      <p class="lead">Las preguntas que todos hacen al menos una vez, con respuestas breves y enlaces a los capítulos para profundizar.</p>
+
+      <h2>Para principiantes</h2>
+      <p><strong>Me atacaron y perdí todo, ¿qué hago?</strong><br>
+      Respira: las tropas en el hospital se curan, los recursos se recuperan. Activa una bubble, cura a los heridos, y lee <a href="01-primi-passi.html">Primeros pasos</a> para no repetir el error.</p>
+      <p><strong>¿Conviene empezar de nuevo en un servidor nuevo?</strong><br>
+      Solo si estás realmente al principio. Si ya llevas semanas de progreso, mejor arreglar las prioridades donde estás.</p>
+      <p><strong>¿Qué hago con el oro/diamantes?</strong><br>
+      Siendo F2P: constructor extra, VIP y poco más. Ver <a href="14-strategia-f2p.html">Estrategia F2P</a>.</p>
+      <p><strong>El food está en negativo, ¿es un problema?</strong><br>
+      No, es normal con muchos soldados: las tropas no mueren de hambre. Mantén solo suficiente food para investigaciones y curas.</p>
+
+      <h2>Sobre eventos</h2>
+      <p><strong>¿Cuándo debo usar los speed-up?</strong><br>
+      Casi solo en los días de evento que premian lo que aceleras. Ver <a href="13-eventi.html">Eventos</a>.</p>
+      <p><strong>¿Vale la pena participar en un evento PvP si soy pequeño?</strong><br>
+      Sí, pero protegido: puntos de monstruos y recolección segura, bubble en las fases calientes, tropas en los rallies de alianza.</p>
+      <p><strong>¿Por qué no debo abrir enseguida cofres y paquetes?</strong><br>
+      Porque abiertos en el día de evento correcto también valen puntos y recompensas extra. En el inventario están seguros.</p>
+
+      <h2>Sobre tropas</h2>
+      <p><strong>¿Mejor muchas tropas bajas o pocas altas?</strong><br>
+      Pocas altas, casi siempre. Las bajas sirven de escudo y para recolectar. Ver <a href="05-truppe.html">Tropas</a>.</p>
+      <p><strong>¿Qué es la 1-1-98?</strong><br>
+      La formación de monstruos: 1% front, 1% mid, 98% long range. No la uses en PvP. Ver <a href="07-formazioni.html">Formaciones</a>.</p>
+      <p><strong>¿Por qué mis tropas mueren en vez de ir al hospital?</strong><br>
+      Hospital lleno o demasiado pequeño, o el enemigo tiene lethality alta. Ver <a href="06-combattimento.html">Combate</a>.</p>
+
+      <h2>Sobre oficiales</h2>
+      <p><strong>¿Qué oficial debo potenciar primero?</strong><br>
+      El que tenga las mejores habilidades para tu tropa principal y que puedas llevar a estrellas altas. Ver <a href="08-ufficiali.html">Oficiales</a>.</p>
+      <p><strong>Saqué un legendario, ¿lo dejo todo por él?</strong><br>
+      Solo si puedes alimentarlo de fragmentos. Un legendario parado en 1 estrella suele rendir menos que un épico a estrellas plenas.</p>
+
+      <h2>Sobre alianza</h2>
+      <p><strong>¿Puedo atacar a quien me atacó?</strong><br>
+      Primero pregunta a los R4: podría haber un NAP o una respuesta coordinada en preparación. Ver <a href="12-alleanza.html">Alianza</a>.</p>
+      <p><strong>¿Qué pasa si estoy inactivo unas semanas?</strong><br>
+      Avisa a los R4: las ausencias comunicadas no son un problema, desaparecer sí.</p>
+      <p><strong>¿Cómo subo de rango?</strong><br>
+      Actividad, fiabilidad, comportamiento. No hace falta ser el más fuerte: hace falta estar presente.</p>
 `
 };

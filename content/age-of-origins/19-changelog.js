@@ -21,5 +21,27 @@ var PAGE_I18N = {
         <span class="box-title">NRC tip</span>
         Update the changelog even for small changes: anyone consulting the guide needs to trust that it's current.
       </div>
+`,
+  es: `
+      <h1>Changelog</h1>
+      <div class="hazard"></div>
+      <p class="lead">Registro de las actualizaciones de la guía. Añade una fila arriba de la tabla por cada cambio.</p>
+
+      <div class="table-wrap"><table>
+        <tr><th>Fecha</th><th>Sección</th><th>Descripción del cambio</th></tr>
+        <tr><td>2026-07-07</td><td>Todas</td><td>Primera publicación de la guía: 19 capítulos, búsqueda interna, tema claro/oscuro</td></tr>
+      </table></div>
+
+      <h2>Cómo registrar un cambio</h2>
+      <ol>
+        <li>Abre <code>19-changelog.html</code>.</li>
+        <li>Añade una fila <code>&lt;tr&gt;</code> justo debajo de la fila de cabecera, con la fecha (AAAA-MM-DD), sección y una descripción breve.</li>
+        <li>Haz commit y push: GitHub Pages se actualiza solo en pocos minutos.</li>
+      </ol>
+
+      <div class="box box-nrc">
+        <span class="box-title">Consejo NRC</span>
+        Actualiza el changelog incluso para cambios pequeños: quien consulta la guía necesita confiar en que está al día.
+      </div>
 `
 };

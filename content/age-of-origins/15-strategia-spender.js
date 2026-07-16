@@ -53,5 +53,59 @@ var PAGE_I18N = {
         <span class="box-title">NRC tip</span>
         Before a major purchase, ask in the alliance: someone has probably already bought that pack and can tell you if it's worth it. In-game sellers are everywhere, honest advice isn't.
       </div>
+`,
+  es: `
+      <h1>Estrategia para spender</h1>
+      <div class="hazard"></div>
+      <p class="lead">Gastar no te hace fuerte automáticamente: gastar <strong>bien</strong> sí. Misma cantidad, resultados completamente distintos.</p>
+
+      <div class="box box-err">
+        <span class="box-title">Antes que nada</span>
+        Gasta solo lo que puedas permitirte sin pensarlo dos veces. Es un juego: ningún evento vale un problema real. Ponte un presupuesto mensual y respétalo.
+      </div>
+
+      <h2>Spender ligero</h2>
+      <ul>
+        <li>Presupuesto pequeño y regular: prioriza <strong>suscripciones/pases mensuales</strong> y los paquetes "únicos" de alto valor (las primeras compras suelen tener relaciones valor/precio muy superiores).</li>
+        <li>Objetivo: comodidad y constancia (colas, VIP, oro diario), no la clasificación.</li>
+      </ul>
+
+      <h2>Spender medio</h2>
+      <ul>
+        <li>Compra <strong>por tema</strong>: si tu cuello de botella son los materiales de titán, compra esos, no el paquete genérico del día.</li>
+        <li>Sincroniza las compras con los <strong>eventos</strong>: los mismos objetos comprados y usados en el día correcto también dan puntos y recompensas.</li>
+        <li>Construye una columna vertebral: oficiales clave a estrellas plenas &gt; diez cosas a medias.</li>
+      </ul>
+
+      <h2>Whale</h2>
+      <div class="box box-adv">
+        <span class="box-title">Para jugadores avanzados</span>
+        El whale compra el tiempo de los demás. A este nivel cuentan: la capacidad de ser <strong>líder de rally</strong> (oficiales, titán, warplane al máximo), disponibilidad en las guerras y liderazgo. Un whale que solo juega por su clasificación personal rinde mucho menos a su alianza que uno que coordina.
+      </div>
+
+      <h2>Paquetes generalmente más útiles</h2>
+      <div class="table-wrap"><table>
+        <tr><th>Categoría</th><th>Por qué conviene</th></tr>
+        <tr><td>Primeras compras / promos únicas</td><td>La mejor relación valor/precio del juego</td></tr>
+        <tr><td>Pases y eventos de progresión</td><td>Valor repartido y ligado a actividades que haces de todos modos</td></tr>
+        <tr><td>Paquetes dirigidos al cuello de botella</td><td>Resuelven el problema real (materiales, fragmentos específicos)</td></tr>
+        <tr><td>Paquetes de crecimiento (speed-up + recursos)</td><td>Buenos si se usan en los días de evento correctos</td></tr>
+      </table></div>
+
+      <h2>Errores típicos de quien gasta mal</h2>
+      <div class="box box-err">
+        <span class="box-title">Error que evitar</span>
+        <ul>
+          <li>Comprar por impulso el paquete del popup sin mirar el contenido.</li>
+          <li>Gastar para subir el BP y luego perderlo todo en guerras mal jugadas: el gasto no sustituye a las mecánicas.</li>
+          <li>Dispersar en todo: oficiales, titanes, warplane todos a medias.</li>
+          <li>Comprar recursos cuando el cuello de botella son los tiempos (o al revés).</li>
+        </ul>
+      </div>
+
+      <div class="box box-nrc">
+        <span class="box-title">Consejo NRC</span>
+        Antes de una compra importante, pregunta en la alianza: seguramente alguien ya compró ese paquete y puede decirte si vale la pena. Los vendedores en el juego sobran, los consejos honestos no.
+      </div>
 `
 };

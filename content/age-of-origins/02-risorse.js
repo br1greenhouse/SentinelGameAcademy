@@ -63,5 +63,66 @@ var PAGE_I18N = {
         <li>Claim alliance helps: they cut timers for free.</li>
         <li>Always look at what the <em>next</em> big upgrade costs and stockpile in advance.</li>
       </ul>
+`,
+  es: `
+      <h1>Recursos</h1>
+      <div class="hazard"></div>
+      <p class="lead">Los recursos son el combustible de todo: edificios, investigaciones, tropas. Quien gestiona bien los recursos crece el doble en el mismo tiempo.</p>
+
+      <h2>Los recursos principales</h2>
+      <div class="table-wrap"><table>
+        <tr><th>Recurso</th><th>Sirve sobre todo para</th><th>Notas</th></tr>
+        <tr><td><strong>Food</strong> (comida)</td><td>Tropas, investigaciones</td><td>Las tropas consumen food con el tiempo: un saldo negativo es normal a final de partida</td></tr>
+        <tr><td><strong>Oil</strong> (petróleo)</td><td>Edificios, investigaciones</td><td>Muy demandado para las mejoras del Main Hall</td></tr>
+        <tr><td><strong>Steel</strong> (acero)</td><td>Edificios altos, tropas avanzadas</td><td>Se desbloquea más adelante, se convierte en el cuello de botella</td></tr>
+        <tr><td><strong>Minerals</strong> (minerales)</td><td>Investigaciones y mejoras de alto nivel</td><td>El recurso más escaso: nunca lo desperdicies</td></tr>
+      </table></div>
+      <p>Algunas mecánicas avanzadas (titanes, componentes) usan <strong>materiales dedicados</strong> que se obtienen de eventos y monstruos: valen más que los recursos base, guárdalos para mejoras planificadas.</p>
+
+      <h2>Recolección en tiles</h2>
+      <ul>
+        <li>Manda escuadras a los <strong>tiles de recursos</strong> del mapa: cuanto más alto el nivel del tile, más rápido recolectas.</li>
+        <li>Usa tropas con <strong>carga alta</strong> (a menudo los vehículos) y llena la marcha al máximo.</li>
+        <li>Recolecta <strong>dentro del territorio de la alianza</strong>: bono de velocidad y menos riesgo de ataques.</li>
+        <li>Antes de dormir: tiles llenos y lejanos. Durante el día: tiles rápidos y cercanos.</li>
+      </ul>
+      <div class="box box-err">
+        <span class="box-title">Error que evitar</span>
+        No recolectes fuera de tu bubble durante los KE (Kill Events) o guerras: una escuadra en un tile es el blanco favorito de quien busca puntos fáciles. Ver <a href="06-combattimento.html">Combate</a>.
+      </div>
+
+      <h2>Protección de los recursos</h2>
+      <ul>
+        <li>El <strong>Depot</strong> (almacén) protege una cuota de tus recursos del saqueo: mantenlo a un nivel adecuado.</li>
+        <li><strong>Gasta antes de que te ataquen</strong>: los recursos invertidos en mejoras no se pueden robar.</li>
+        <li>No abras los <strong>paquetes de recursos</strong> del inventario hasta que los necesites: en el inventario están 100% seguros.</li>
+        <li>Si eres un blanco, mantén la <strong>bubble</strong> activa o quédate bajo el umbral de recursos que atrae a los saqueadores.</li>
+      </ul>
+      <p class="sentinel-hint">Una escuadra recolectando fuera de tu territorio es un blanco: si te golpean el tile mientras estás fuera, pierdes la carga y las tropas sin darte cuenta. <strong>Sentinel</strong> puede vigilar la notificación de ataque a tu marcha — palabras como <code>attack</code> o <code>march</code> — y convertirla en una alarma real, incluso con el teléfono en silencio. <a href="../../sentinel.html">Cómo configurarlo</a></p>
+
+      <h2>Uso inteligente de los speed-up</h2>
+      <div class="box box-prio">
+        <span class="box-title">Prioridad</span>
+        Los speed-up se usan casi solo durante los eventos que premian lo que aceleras: construcción en los días "construcción", investigación en los días "investigación", entrenamiento antes de los KE. Así cada minuto de speed-up vale doble: progreso + puntos de evento.
+      </div>
+      <ul>
+        <li>Speed-up <strong>genéricos</strong>: los más valiosos, guárdalos para emergencias y grandes eventos.</li>
+        <li>Speed-up de <strong>entrenamiento</strong>: acumúlalos para las fases de preparación de guerra.</li>
+        <li>Speed-up de <strong>curación</strong>: úsalos libremente, el hospital lleno bloquea todo.</li>
+      </ul>
+
+      <h2>Cuentas farm</h2>
+      <p>Un <strong>farm</strong> es una segunda cuenta usada solo para producir recursos que transferir a la principal (vía comercio de alianza o "recolección" acordada). Es práctica común entre jugadores avanzados.</p>
+      <div class="box box-adv">
+        <span class="box-title">Para jugadores avanzados</span>
+        Si gestionas farms: mantenlas en la misma alianza o en una alianza-academia, maximiza Depot y producción de food/oil, y nunca dejes tropas de valor en ellas. Recuerda que gestionar demasiados farms se convierte en un segundo trabajo.
+      </div>
+
+      <h2>Consejos rápidos</h2>
+      <ul>
+        <li>Las tres colas (construcción, investigación, entrenamiento) nunca se detienen: es la regla de oro.</li>
+        <li>Reclama las ayudas de alianza: reducen los tiempos gratis.</li>
+        <li>Mira siempre cuánto cuesta la <em>próxima</em> gran mejora y acumula con antelación.</li>
+      </ul>
 `
 };

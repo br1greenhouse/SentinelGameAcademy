@@ -25,5 +25,29 @@ var PAGE_I18N = {
 
       <!-- Blocco sponsor Sentinel (generato da script.js) -->
       <div id="sentinel-cta"></div>
+`,
+  es: `
+      <p class="pill">Manual de campo · Comunidad hispana</p>
+      <h1>Age of Origins</h1>
+      <div class="hazard"></div>
+
+      <p class="lead">Todo lo que necesitas para sobrevivir, crecer y combatir en <strong>Age of Origins</strong> (Age of Z Origins), en español sencillo. Desde tu primer Main Hall hasta los rallies de alianza.</p>
+
+      <div class="box box-err">
+        <span class="box-title">Aviso</span>
+        Esta es una <strong>guía no oficial creada por la comunidad</strong> (alianza NRC). No está afiliada a Camel Games. Las mecánicas y números del juego pueden cambiar con las actualizaciones: en caso de duda, el juego manda.
+      </div>
+
+      <div class="box box-sentinel">
+        <span class="box-title">// Por qué Sentinel aquí</span>
+        En Age of Origins se pierde de noche: la ciudad atacada a las 3 de la madrugada, el escudo que caduca mientras duermes, el rally que sale sin ti. <strong>Sentinel</strong> escucha las notificaciones del juego y dispara una alarma real — incluso en silencio — cuando aparecen palabras como <code>attack</code>, <code>rally</code> o <code>your city</code>. Mira <a href="../../sentinel.html">cómo configurarlo</a>.
+      </div>
+
+      <h2>Todos los capítulos</h2>
+      <p>19 capítulos, desde los primeros pasos hasta las estrategias de alianza. Sigue el orden si eres nuevo, o salta al capítulo que necesites.</p>
+      <div class="card-grid" id="game-chapters"></div>
+
+      <!-- Blocco sponsor Sentinel (generato da script.js) -->
+      <div id="sentinel-cta"></div>
 `
 };

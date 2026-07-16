@@ -52,5 +52,58 @@ var PAGE_I18N = {
         <span class="box-title">For F2P players</span>
         As F2P, titans grow slowly: that's fine. Join every event that gives titan materials and resist the urge to open everything at once: stockpile and upgrade in bulk during events that reward upgrading.
       </div>
+`,
+  es: `
+      <h1>Titanes</h1>
+      <div class="hazard"></div>
+      <p class="lead">Los titanes son unidades especiales gigantes que acompañan las marchas y dan bonos enormes en batalla. Son un proyecto a largo plazo.</p>
+
+      <h2>Qué son</h2>
+      <p>Un titán es una super-unidad que se añade a la flota: combate, usa habilidades propias y sobre todo <strong>potencia a las tropas</strong> que acompaña. En rallies y combates de alto nivel, la diferencia entre tener y no tener titanes desarrollados es enorme.</p>
+
+      <h2>Cómo se desbloquean</h2>
+      <ul>
+        <li>Se desbloquean avanzando en la <strong>progresión de la ciudad</strong> y en las estructuras dedicadas a titanes.</li>
+        <li>Los titanes adicionales y las rarezas superiores llegan de <strong>eventos, fragmentos y materiales dedicados</strong>.</li>
+      </ul>
+
+      <h2>Cómo se potencian</h2>
+      <ul>
+        <li><strong>Nivel</strong>: con materiales de potenciación dedicados.</li>
+        <li><strong>Estrellas/rareza</strong>: con los fragmentos del titán.</li>
+        <li><strong>Habilidades</strong>: potencia primero las habilidades que potencian a tu tropa principal.</li>
+        <li><strong>Talent tree</strong>: árbol de talentos del titán; sigue la rama coherente con su rol (ataque rally, defensa, PvE).</li>
+      </ul>
+
+      <h2>Materiales</h2>
+      <ul>
+        <li>Llegan de eventos dedicados, monstruos especiales, tienda de alianza y paquetes.</li>
+        <li>Son <strong>el cuello de botella</strong>: no los gastes en titanes secundarios.</li>
+      </ul>
+
+      <h2>Prioridades recomendadas</h2>
+      <div class="box box-prio">
+        <span class="box-title">Prioridad</span>
+        <ol>
+          <li>Elige <strong>un titán principal</strong> (el que acompaña las marchas de guerra) y concentra todo ahí.</li>
+          <li>Primero las habilidades que potencian tu fila principal, luego el resto.</li>
+          <li>Un segundo titán solo cuando el primero esté bien avanzado.</li>
+        </ol>
+      </div>
+
+      <h2>Errores que evitar</h2>
+      <div class="box box-err">
+        <span class="box-title">Error que evitar</span>
+        <ul>
+          <li>Repartir materiales entre todos los titanes para "coleccionarlos": acabarás con muchos titanes inútiles.</li>
+          <li>Potenciar habilidades que benefician a tropas que no usas.</li>
+          <li>Olvidar asignar el titán a la marcha: un titán en el banquillo no sirve de nada.</li>
+        </ul>
+      </div>
+
+      <div class="box box-f2p">
+        <span class="box-title">Para jugadores F2P</span>
+        Como F2P los titanes crecen lento: está bien así. Participa en cada evento que dé materiales de titán y resiste la tentación de abrirlo todo enseguida: acumula y potencia por bloques durante los eventos que premian potenciar.
+      </div>
 `
 };

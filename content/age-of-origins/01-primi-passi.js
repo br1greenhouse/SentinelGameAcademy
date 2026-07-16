@@ -71,5 +71,73 @@ var PAGE_I18N = {
         <span class="box-title">NRC tip</span>
         Introduce yourself in chat as soon as you join an alliance and ask who the point person for newcomers is. In NRC no question is dumb: asking costs less than losing a hospital full of troops.
       </div>
+`,
+  es: `
+      <h1>Primeros pasos</h1>
+      <div class="hazard"></div>
+
+      <h2>Qué es Age of Origins</h2>
+      <p><strong>Age of Origins</strong> (también conocido como Age of Z Origins) es un juego móvil de estrategia ambientado en un mundo invadido por zombis. Construyes una ciudad, entrenas tropas, subes de nivel a un comandante y te unes a una alianza para controlar territorio y ganar eventos.</p>
+      <p>Es un <strong>juego lento y a largo plazo</strong>: se gana con constancia, no corriendo.</p>
+
+      <h2>El objetivo del juego</h2>
+      <ul>
+        <li><strong>Corto plazo:</strong> haz crecer tu ciudad, desbloquea mejores tropas, sobrevive a los ataques.</li>
+        <li><strong>Medio plazo:</strong> contribuye a la alianza, participa en eventos, sube tu poder (BP).</li>
+        <li><strong>Largo plazo:</strong> guerras cross-server, control de las zonas centrales del mapa, dominio en los eventos cross-server.</li>
+      </ul>
+
+      <h2>Los cuatro pilares: ciudad, comandante, alianza, mundo</h2>
+      <div class="table-wrap"><table>
+        <tr><th>Pilar</th><th>Qué es</th><th>Por qué importa</th></tr>
+        <tr><td>Ciudad</td><td>Tu base con sus edificios</td><td>Decide qué puedes producir, investigar y entrenar</td></tr>
+        <tr><td>Comandante</td><td>Tu personaje (talentos, habilidades, equipo)</td><td>Bonos enormes a tropas, recolección y construcción</td></tr>
+        <tr><td>Alianza</td><td>Tu grupo de jugadores</td><td>Protección, ayudas, tecnologías, eventos de grupo</td></tr>
+        <tr><td>Mundo</td><td>El mapa compartido del servidor</td><td>Recursos, monstruos, tiles, ciudades de otros jugadores</td></tr>
+      </table></div>
+
+      <h2>Errores que evitar en los primeros días</h2>
+      <div class="box box-err">
+        <span class="box-title">Error que evitar</span>
+        <ul>
+          <li><strong>Quedarte sin escudo (bubble)</strong> con tropas y recursos en la ciudad: eres un blanco gratis.</li>
+          <li><strong>Malgastar speed-ups</strong> en construcciones cortas: úsalos solo en temporizadores largos o durante los eventos correctos.</li>
+          <li><strong>Abrir cofres de equipo y materiales al azar</strong>: muchos objetos valen puntos en eventos, guárdalos.</li>
+          <li><strong>Entrenar en masa tropas de tier bajo</strong> cuando estás a punto de desbloquear el siguiente tier.</li>
+          <li><strong>Atacar jugadores al azar</strong>: la represalia de alianza es real y duele.</li>
+          <li><strong>No unirte a una alianza enseguida</strong>: en solitario creces a la mitad de velocidad.</li>
+        </ul>
+      </div>
+
+      <h2>Rutina diaria básica</h2>
+      <p>Solo 15-30 minutos al día, bien hechos. En orden:</p>
+      <ol>
+        <li>Recoge recursos y lanza <strong>construcción + investigación + entrenamiento</strong>: las tres colas nunca deben quedar vacías.</li>
+        <li>Manda escuadras a <strong>recolectar en tiles de recursos</strong> (antes de dormir: recolecciones largas).</li>
+        <li>Haz tus <strong>donaciones de alianza</strong> y pulsa las <strong>ayudas</strong> de tus compañeros.</li>
+        <li>Mata tus <strong>zombis diarios</strong> por estamina/eventos y únete a los rallies de alianza.</li>
+        <li>Termina las <strong>misiones diarias</strong> y reclama las recompensas de login y evento.</li>
+        <li>Revisa el chat de alianza: rallies, SOS, avisos de guerra.</li>
+      </ol>
+
+      <div class="box box-prio">
+        <span class="box-title">Prioridad</span>
+        En los primeros 7 días: sigue las misiones de campaña, mantén las tres colas siempre activas, únete a una alianza activa y nunca dejes el escudo sin motivo.
+      </div>
+
+      <div class="box box-f2p">
+        <span class="box-title">Para jugadores F2P</span>
+        No quemes oro (diamantes) en speed-ups. El oro F2P es para: un constructor extra, VIP y algunos rellenos de estamina durante los eventos correctos. Ver el capítulo <a href="14-strategia-f2p.html">Estrategia F2P</a>.
+      </div>
+
+      <div class="box box-sentinel">
+        <span class="box-title">// Por qué Sentinel aquí</span>
+        Las pérdidas más dolorosas llegan de noche, mientras duermes. Configura <strong>Sentinel</strong> para que vigile las notificaciones de Age of Z Origins con palabras como <code>attack</code>, <code>rally</code> o <code>your city</code>: las convierte en una alarma real que salta el modo silencioso. Ver <a href="../../sentinel.html">cómo configurarlo</a>.
+      </div>
+
+      <div class="box box-nrc">
+        <span class="box-title">Consejo NRC</span>
+        Preséntate en el chat en cuanto entres a una alianza y pregunta quién es el referente para los nuevos. En NRC ninguna pregunta es tonta: preguntar cuesta menos que perder un hospital lleno de tropas.
+      </div>
 `
 };

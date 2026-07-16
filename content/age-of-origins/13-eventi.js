@@ -53,5 +53,59 @@ var PAGE_I18N = {
         <span class="box-title">NRC tip</span>
         Before every major event NRC posts the orders (who rallies, who defends, timings). If you can't be there, say so beforehand: planning is done around who's present.
       </div>
+`,
+  es: `
+      <h1>Eventos</h1>
+      <div class="hazard"></div>
+      <p class="lead">Los eventos son la principal fuente de recompensas y de riesgo del juego. Quien se prepara gana dos veces: hace puntos y no regala puntos a otros.</p>
+
+      <h2>Eventos principales</h2>
+      <div class="table-wrap"><table>
+        <tr><th>Evento</th><th>Tipo</th><th>En breve</th></tr>
+        <tr><td><strong>Strongest Commander</strong></td><td>Individual, por días</td><td>Cada día premia una actividad (construcción, investigación, entrenamiento, kill...). Planifica tus acciones para el día correcto</td></tr>
+        <tr><td><strong>Battle Frenzy</strong></td><td>Alianza contra alianza</td><td>Enfrentamiento por puntos entre alianzas: kills, recolección, poder. Coordinación total</td></tr>
+        <tr><td><strong>Void War / Strongest Void Commander</strong></td><td>Cross-server</td><td>Batallas en el "Void" contra otros servidores: solo tropas listas y órdenes precisas</td></tr>
+        <tr><td><strong>Duel of Dominance</strong></td><td>Servidor contra servidor</td><td>Duelo entre servidores durante varios días temáticos, culmina en fases de guerra abierta</td></tr>
+        <tr><td><strong>Elite Wars</strong></td><td>PvP por equipos</td><td>Batallas instanciadas por equipos: cuenta la calidad de las tropas, no solo el número</td></tr>
+        <tr><td><strong>Zombie Uprise</strong></td><td>PvE de alianza</td><td>Oleadas de zombis contra las ciudades: tropas en defensa y refuerzos coordinados</td></tr>
+        <tr><td><strong>Alliance Bounty</strong></td><td>PvE de alianza</td><td>Recompensas/misiones de grupo: participar en todas es puntos gratis</td></tr>
+        <tr><td><strong>Medici's Treasure</strong></td><td>Mini evento</td><td>Evento de recompensas tipo caza al tesoro: se juega con los recursos del evento, sin exagerar</td></tr>
+        <tr><td><strong>Doom's Iron Grip / Mother of Doom</strong></td><td>Boss PvE</td><td>Bosses y oleadas especiales: rallies coordinados con formaciones PvE</td></tr>
+      </table></div>
+      <p>También hay <strong>mini eventos recurrentes</strong> (recolección, kill de zombis, potenciación) que giran continuamente: revisa el calendario de eventos cada día.</p>
+
+      <h2>Cómo prepararse para los eventos</h2>
+      <ol>
+        <li><strong>Lee el reglamento</strong> del evento en el juego: qué da puntos y cuánto.</li>
+        <li><strong>Acumula antes</strong>: speed-up, recursos, cofres cerrados, reclutas listos para completar.</li>
+        <li><strong>Desbloquea los puntos en el día correcto</strong>: p. ej. termina construcciones en el día "construcción" de Strongest Commander.</li>
+        <li>Para eventos PvP: hospital vacío, bubbles planificadas, órdenes de alianza claras.</li>
+      </ol>
+      <p class="sentinel-hint">Muchos eventos solo premian a quien está presente cuando abre la fase correcta: perder el inicio significa perder los puntos fáciles. <strong>Sentinel</strong> puede avisarte cuando empieza un evento o una fase kill — configura el nombre del evento como palabra clave (p. ej. <code>Battle Frenzy</code>) — así actúas en el momento que vale doble. <a href="../../sentinel.html">Guía</a></p>
+
+      <h2>Qué guardar para los eventos</h2>
+      <div class="box box-prio">
+        <span class="box-title">Prioridad</span>
+        Mantén cerrados en el inventario hasta que hagan falta: <strong>speed-up</strong>, <strong>cofres de equipo y materiales</strong>, <strong>fragmentos/reclutas de oficiales</strong>, <strong>objetos de potenciación de titanes/warplane</strong>. Abrirlos en el día de evento correspondiente convierte los mismos objetos en puntos y recompensas extra.
+      </div>
+
+      <div class="box box-err">
+        <span class="box-title">Error que evitar</span>
+        <ul>
+          <li>Quedarte fuera de la bubble durante las fases kill de eventos PvP "solo para recolectar".</li>
+          <li>Quemar todos los speed-up el primer día de evento y quedarte sin nada en los días que más valen.</li>
+          <li>Ignorar los eventos de alianza: las recompensas colectivas también dependen de ti.</li>
+        </ul>
+      </div>
+
+      <div class="box box-f2p">
+        <span class="box-title">Para jugadores F2P</span>
+        Los eventos por tramos premian la constancia: a menudo basta con situarse en el tramo medio de cada evento para crecer más que quien se gasta todo una vez al mes. Apunta a las recompensas acumulativas, no al top 10.
+      </div>
+
+      <div class="box box-nrc">
+        <span class="box-title">Consejo NRC</span>
+        Antes de cada evento importante la NRC publica las órdenes (quién rallya, quién defiende, horarios). Si no puedes estar, dilo antes: se planifica según los presentes.
+      </div>
 `
 };

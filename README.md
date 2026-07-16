@@ -69,7 +69,7 @@ var PAGE_I18N = {
 ```
 Poi includi il file nella pagina (una riga prima di `script.js`) e, nei metadati del gioco (`data/games.js`), aggiungi il titolo/descrizione della lingua al capitolo (`en: { title, desc }`).
 
-Stato attuale: **interfaccia in 4 lingue** (it/en/es/fr); **contenuti editoriali IT** (sorgente inline) + **EN completo** su tutto il sito — home, pagina Sentinel, hub del gioco e tutti i 19 capitoli hanno il file `content/…js` con la chiave `en`. Le lingue `es`/`fr` sono già attive nell'interfaccia; per i contenuti si aggiungono progressivamente aggiungendo la chiave `es:`/`fr:` nei file `content/…js` (l'engine ripiega su EN→IT dove manca).
+Stato attuale: **interfaccia in 4 lingue** (it/en/es/fr); **contenuti editoriali IT** (sorgente inline) + **EN completo** + **ES completo** su tutto il sito — home, pagina Sentinel, hub del gioco e tutti i 19 capitoli hanno il file `content/…js` con le chiavi `en` ed `es`. La lingua `fr` è già attiva nell'interfaccia; per i contenuti si aggiunge progressivamente con la chiave `fr:` negli stessi file `content/…js` (l'engine ripiega su EN→IT dove manca).
 
 **Pagine tradotte via `content/`** (una riga di `<script src="content/…js">` prima di `script.js`):
 - `content/home.js` → home (`index.html`)

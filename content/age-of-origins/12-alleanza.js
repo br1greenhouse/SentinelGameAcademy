@@ -56,5 +56,62 @@ var PAGE_I18N = {
         <span class="box-title">Mistake to avoid</span>
         Being a "ghost": zero donations, zero helps, zero events. Serious alliances measure activity, and spots are limited.
       </div>
+`,
+  es: `
+      <h1>Alianza</h1>
+      <div class="hazard"></div>
+      <p class="lead">Age of Origins es un juego de alianzas: solo se sobrevive, juntos se gana. Así funciona la vida de alianza.</p>
+
+      <h2>Por qué unirse a una alianza</h2>
+      <ul>
+        <li><strong>Ayudas</strong>: los compañeros reducen los tiempos de construcción, investigación y cura.</li>
+        <li><strong>Protección</strong>: atacar a un miembro de una alianza fuerte tiene consecuencias.</li>
+        <li><strong>Tecnologías y tienda</strong> de alianza: bonos y objetos inalcanzables de otro modo.</li>
+        <li><strong>Eventos de grupo</strong> y rallies: la mayoría del contenido de alto nivel es en equipo.</li>
+      </ul>
+
+      <h2>Donaciones y ayudas</h2>
+      <ul>
+        <li>Dona cada día a las <strong>tecnologías de alianza</strong>: te da puntos (tienda) y bonos a todos.</li>
+        <li>Pulsa la <strong>manita de ayuda</strong> cada vez que abras el juego: cuesta dos segundos, vale horas ahorradas para el equipo.</li>
+      </ul>
+
+      <h2>Territorio, fortaleza y banderas</h2>
+      <ul>
+        <li>El <strong>territorio</strong> es el área controlada por la alianza: dentro se recolecta más rápido y más seguro.</li>
+        <li>La <strong>fortaleza</strong> es el corazón del territorio: construirla y defenderla es un objetivo colectivo.</li>
+        <li>Las <strong>banderas</strong> (flags) extienden el territorio: se colocan según el plan de los R4/R5, no al azar.</li>
+      </ul>
+
+      <h2>Roles R1–R5</h2>
+      <div class="table-wrap"><table>
+        <tr><th>Rol</th><th>Quién es</th><th>Qué hace</th></tr>
+        <tr><td>R5</td><td>Líder</td><td>Decisiones finales, diplomacia, guerras</td></tr>
+        <tr><td>R4</td><td>Oficiales de alianza</td><td>Gestión de miembros, eventos, rallies, territorio</td></tr>
+        <tr><td>R3</td><td>Miembros veteranos</td><td>Referencia para los nuevos, líderes de rally secundarios</td></tr>
+        <tr><td>R2</td><td>Miembros activos</td><td>Participación regular en eventos y donaciones</td></tr>
+        <tr><td>R1</td><td>Recién llegados</td><td>A prueba: actividad y comportamiento</td></tr>
+      </table></div>
+
+      <h2>Reglas internas y buen comportamiento</h2>
+      <ul>
+        <li><strong>Lee las reglas</strong> de la alianza (tablón/mensaje fijado) en cuanto entres.</li>
+        <li>No ataques a nadie sin autorización de los R4/R5: los pactos entre alianzas (NAP) existen y romperlos desata guerras.</li>
+        <li>Responde a los <strong>SOS</strong>: hoy refuerzas tú, mañana te refuerzan a ti.</li>
+        <li>Avisa si vas a ausentarte mucho tiempo: a nadie lo echan por la vida real, pero desaparecer sin avisar sí.</li>
+        <li>Chat: nada de insultos, nada de dramas. Los problemas se resuelven en privado con los R4.</li>
+      </ul>
+      <p class="sentinel-hint">Los <strong>SOS</strong> y los rallies de alianza llegan cuando menos te lo esperas — y solo cuentan si respondes a tiempo. <strong>Sentinel</strong> puede vigilar las notificaciones del juego y del chat de alianza — palabras como <code>rally</code>, <code>SOS</code> o <code>reinforce</code> — y despertarte cuando el equipo te necesita. <a href="../../sentinel.html">Cómo configurarlo</a></p>
+
+      <h2>Comunicación</h2>
+      <div class="box box-nrc">
+        <span class="box-title">Consejo NRC</span>
+        El chat del juego se pierde: las comunicaciones importantes (guerras, horarios de rally, reglas) pasan por el canal externo de la alianza (p. ej. Discord). Activa las notificaciones al menos para los anuncios.
+      </div>
+
+      <div class="box box-err">
+        <span class="box-title">Error que evitar</span>
+        Ser un "fantasma": cero donaciones, cero ayudas, cero eventos. Las alianzas serias miden la actividad, y las plazas son limitadas.
+      </div>
 `
 };
