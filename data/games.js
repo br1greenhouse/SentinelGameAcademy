@@ -38,7 +38,6 @@ var GAMES = [
   {
     id: "age-of-origins",
     name: "Age of Origins",
-    aka: "Age of Z Origins",
     publisher: "Camel Games",
     icon: "🧟",
     status: "published",           // "published" | "coming-soon"

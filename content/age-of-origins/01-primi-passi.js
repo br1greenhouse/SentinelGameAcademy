@@ -9,7 +9,7 @@ var PAGE_I18N = {
       <div class="hazard"></div>
 
       <h2>What Age of Origins is</h2>
-      <p><strong>Age of Origins</strong> (also known as Age of Z Origins) is a mobile strategy game set in a world overrun by zombies. You build a city, train troops, level up a commander and team up with an alliance to control territory and win events.</p>
+      <p><strong>Age of Origins</strong> is a mobile strategy game set in a world overrun by zombies. You build a city, train troops, level up a commander and team up with an alliance to control territory and win events.</p>
       <p>It's a <strong>slow, long-term game</strong>: you win with consistency, not by rushing.</p>
 
       <h2>The goal of the game</h2>
@@ -64,7 +64,7 @@ var PAGE_I18N = {
 
       <div class="box box-sentinel">
         <span class="box-title">// Why Sentinel here</span>
-        The most painful losses happen at night, while you sleep. Set up <strong>Sentinel</strong> to watch Age of Z Origins notifications for words like <code>attack</code>, <code>rally</code> or <code>your city</code>: it turns them into a real alarm that bypasses silent mode. See <a href="../../sentinel.html">how to set it up</a>.
+        The most painful losses happen at night, while you sleep. Set up <strong>Sentinel</strong> to watch Age of Origins notifications for words like <code>attack</code>, <code>rally</code> or <code>your city</code>: it turns them into a real alarm that bypasses silent mode. See <a href="../../sentinel.html">how to set it up</a>.
       </div>
 
       <div class="box box-nrc">
@@ -77,7 +77,7 @@ var PAGE_I18N = {
       <div class="hazard"></div>
 
       <h2>Qué es Age of Origins</h2>
-      <p><strong>Age of Origins</strong> (también conocido como Age of Z Origins) es un juego móvil de estrategia ambientado en un mundo invadido por zombis. Construyes una ciudad, entrenas tropas, subes de nivel a un comandante y te unes a una alianza para controlar territorio y ganar eventos.</p>
+      <p><strong>Age of Origins</strong> es un juego móvil de estrategia ambientado en un mundo invadido por zombis. Construyes una ciudad, entrenas tropas, subes de nivel a un comandante y te unes a una alianza para controlar territorio y ganar eventos.</p>
       <p>Es un <strong>juego lento y a largo plazo</strong>: se gana con constancia, no corriendo.</p>
 
       <h2>El objetivo del juego</h2>
@@ -132,7 +132,7 @@ var PAGE_I18N = {
 
       <div class="box box-sentinel">
         <span class="box-title">// Por qué Sentinel aquí</span>
-        Las pérdidas más dolorosas llegan de noche, mientras duermes. Configura <strong>Sentinel</strong> para que vigile las notificaciones de Age of Z Origins con palabras como <code>attack</code>, <code>rally</code> o <code>your city</code>: las convierte en una alarma real que salta el modo silencioso. Ver <a href="../../sentinel.html">cómo configurarlo</a>.
+        Las pérdidas más dolorosas llegan de noche, mientras duermes. Configura <strong>Sentinel</strong> para que vigile las notificaciones de Age of Origins con palabras como <code>attack</code>, <code>rally</code> o <code>your city</code>: las convierte en una alarma real que salta el modo silencioso. Ver <a href="../../sentinel.html">cómo configurarlo</a>.
       </div>
 
       <div class="box box-nrc">
@@ -145,7 +145,7 @@ var PAGE_I18N = {
       <div class="hazard"></div>
 
       <h2>Qu'est-ce qu'Age of Origins</h2>
-      <p><strong>Age of Origins</strong> (aussi connu sous le nom d'Age of Z Origins) est un jeu mobile de stratégie situé dans un monde envahi par les zombies. Tu construis une ville, entraînes des troupes, fais progresser un commandant et rejoins une alliance pour contrôler du territoire et gagner des événements.</p>
+      <p><strong>Age of Origins</strong> est un jeu mobile de stratégie situé dans un monde envahi par les zombies. Tu construis une ville, entraînes des troupes, fais progresser un commandant et rejoins une alliance pour contrôler du territoire et gagner des événements.</p>
       <p>C'est un <strong>jeu lent, sur le long terme</strong> : on gagne par la constance, pas en se précipitant.</p>
 
       <h2>L'objectif du jeu</h2>
@@ -200,7 +200,7 @@ var PAGE_I18N = {
 
       <div class="box box-sentinel">
         <span class="box-title">// Pourquoi Sentinel ici</span>
-        Les pertes les plus douloureuses arrivent la nuit, pendant que tu dors. Configure <strong>Sentinel</strong> pour surveiller les notifications d'Age of Z Origins avec des mots comme <code>attack</code>, <code>rally</code> ou <code>your city</code> : il les transforme en une vraie alarme qui contourne le mode silencieux. Voir <a href="../../sentinel.html">comment le configurer</a>.
+        Les pertes les plus douloureuses arrivent la nuit, pendant que tu dors. Configure <strong>Sentinel</strong> pour surveiller les notifications d'Age of Origins avec des mots comme <code>attack</code>, <code>rally</code> ou <code>your city</code> : il les transforme en une vraie alarme qui contourne le mode silencieux. Voir <a href="../../sentinel.html">comment le configurer</a>.
       </div>
 
       <div class="box box-nrc">

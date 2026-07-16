@@ -280,7 +280,7 @@
     if (published(g)) {
       INDEX.push({
         gnum: g.icon, title: t("searchGuidePrefix") + g.name, game: g.name, desc: gi(g, "tagline"),
-        hay: (g.name + " " + g.aka + " " + gi(g, "genre") + " " + gi(g, "tagline") + " " +
+        hay: (g.name + " " + (g.aka || "") + " " + gi(g, "genre") + " " + gi(g, "tagline") + " " +
               g.i18n.it.sentinelKeywords + " " + (g.i18n.en ? g.i18n.en.sentinelKeywords : "")).toLowerCase(),
         url: gameHub(g.id)
       });

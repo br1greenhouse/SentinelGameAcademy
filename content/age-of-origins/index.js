@@ -7,7 +7,7 @@ var PAGE_I18N = {
       <h1>Age of Origins</h1>
       <div class="hazard"></div>
 
-      <p class="lead">Everything you need to survive, grow and fight in <strong>Age of Origins</strong> (Age of Z Origins), in plain English. From your first Main Hall to alliance rallies.</p>
+      <p class="lead">Everything you need to survive, grow and fight in <strong>Age of Origins</strong>, in plain English. From your first Main Hall to alliance rallies.</p>
 
       <div class="box box-err">
         <span class="box-title">Disclaimer</span>
@@ -31,7 +31,7 @@ var PAGE_I18N = {
       <h1>Age of Origins</h1>
       <div class="hazard"></div>
 
-      <p class="lead">Todo lo que necesitas para sobrevivir, crecer y combatir en <strong>Age of Origins</strong> (Age of Z Origins), en español sencillo. Desde tu primer Main Hall hasta los rallies de alianza.</p>
+      <p class="lead">Todo lo que necesitas para sobrevivir, crecer y combatir en <strong>Age of Origins</strong>, en español sencillo. Desde tu primer Main Hall hasta los rallies de alianza.</p>
 
       <div class="box box-err">
         <span class="box-title">Aviso</span>
@@ -55,7 +55,7 @@ var PAGE_I18N = {
       <h1>Age of Origins</h1>
       <div class="hazard"></div>
 
-      <p class="lead">Tout ce qu'il faut pour survivre, grandir et combattre dans <strong>Age of Origins</strong> (Age of Z Origins), en français simple. Du premier Main Hall aux rallies d'alliance.</p>
+      <p class="lead">Tout ce qu'il faut pour survivre, grandir et combattre dans <strong>Age of Origins</strong>, en français simple. Du premier Main Hall aux rallies d'alliance.</p>
 
       <div class="box box-err">
         <span class="box-title">Avertissement</span>

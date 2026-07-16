@@ -30,7 +30,7 @@ var PAGE_I18N = {
       <h2>Example: a card for Age of Origins</h2>
       <div class="table-wrap"><table>
         <tr><th>Field</th><th>Value</th></tr>
-        <tr><td>App</td><td>Age of Z Origins</td></tr>
+        <tr><td>App</td><td>Age of Origins</td></tr>
         <tr><td>Words in the title</td><td><code>attack</code> · <code>war</code> · <code>rally</code> (OR operator)</td></tr>
         <tr><td>Words in the body</td><td><code>your city</code> · <code>under attack</code> (AND operator)</td></tr>
         <tr><td>Action</td><td>Ringtone + silent-mode bypass</td></tr>
@@ -78,7 +78,7 @@ var PAGE_I18N = {
       <h2>Ejemplo: una ficha para Age of Origins</h2>
       <div class="table-wrap"><table>
         <tr><th>Campo</th><th>Valor</th></tr>
-        <tr><td>App</td><td>Age of Z Origins</td></tr>
+        <tr><td>App</td><td>Age of Origins</td></tr>
         <tr><td>Palabras en el título</td><td><code>attack</code> · <code>war</code> · <code>rally</code> (operador OR)</td></tr>
         <tr><td>Palabras en el cuerpo</td><td><code>your city</code> · <code>under attack</code> (operador AND)</td></tr>
         <tr><td>Acción</td><td>Tono de llamada + salto del modo silencioso</td></tr>
@@ -126,7 +126,7 @@ var PAGE_I18N = {
       <h2>Exemple : une fiche pour Age of Origins</h2>
       <div class="table-wrap"><table>
         <tr><th>Champ</th><th>Valeur</th></tr>
-        <tr><td>Appli</td><td>Age of Z Origins</td></tr>
+        <tr><td>Appli</td><td>Age of Origins</td></tr>
         <tr><td>Mots dans le titre</td><td><code>attack</code> · <code>war</code> · <code>rally</code> (opérateur OU)</td></tr>
         <tr><td>Mots dans le corps</td><td><code>your city</code> · <code>under attack</code> (opérateur ET)</td></tr>
         <tr><td>Action</td><td>Sonnerie + contournement du mode silencieux</td></tr>
