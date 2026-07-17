@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it" data-game="clash-of-clans" data-root="../..">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gestione del clan e perk – Guida per Clash of Clans · Sentinel Game Academy</title>
+  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <div id="app-header"></div>
+  <div id="sidebar"></div>
+  <main class="content">
+    <nav class="breadcrumb" id="breadcrumb"></nav>
+    <article>
+      <h1>Gestione del clan e perk</h1>
+      <div class="hazard"></div>
+      <p class="lead">Un clan attivo e ben organizzato vale più di qualsiasi singolo upgrade: dà accesso a donazioni, guerre, Clan Games e Raid Weekend. Capire ruoli e perk aiuta a scegliere il clan giusto o a gestirne uno.</p>
+
+      <h2>Ruoli nel clan</h2>
+      <div class="table-wrap"><table>
+        <tr><th>Ruolo</th><th>Permessi</th></tr>
+        <tr><td>Leader</td><td>Controllo completo — avvia/dichiara guerre, cambia tutte le impostazioni del clan, promuove/degrada/espelle chiunque, trasferisce la leadership. Assegnato automaticamente a chi ha fondato il clan; può trasferirsi automaticamente a un Co-Leader dopo 60+ giorni di inattività.</td></tr>
+        <tr><td>Co-Leader</td><td>Quasi tutti i poteri del Leader tranne alcune impostazioni di massimo livello — può invitare/espellere membri, promuovere/degradare fino a Elder, avviare guerre e gestire i roster di guerra/CWL.</td></tr>
+        <tr><td>Elder</td><td>Può invitare nuovi membri ed espellere Membri normali (non altri Elder, Co-Leader o il Leader). Tipicamente un rango di fiducia guadagnato dai giocatori attivi e affidabili.</td></tr>
+        <tr><td>Membro</td><td>Partecipazione piena a guerre, CWL, Clan Games e donazioni, senza permessi amministrativi.</td></tr>
+      </table></div>
+
+      <div class="box box-nrc">
+        <span class="box-title">Consiglio Academy</span>
+        Tieni basso il numero di Co-Leader e riservalo a veterani davvero fidati e attivi: promuovere troppo rischia guerre o roster gestiti male. Usa Elder come rango premio per i regolari affidabili che non hanno bisogno di potere amministrativo.
+      </div>
+
+      <h2>Perk del clan (sbloccati con livello/XP del clan)</h2>
+      <p>L'XP del clan si accumula da vittorie in guerra, livelli dei Clan Games e Raid Weekend, aumentando il livello del clan e sbloccando:</p>
+      <ul>
+        <li><strong>Limite di donazione</strong> — aumenta quante truppe (ed eventualmente incantesimi/macchine d'assedio) si possono donare per richiesta oltre la base.</li>
+        <li><strong>Bonus bottino di guerra</strong> — migliora ai livelli clan 3, 5, 7 e 9, aggiungendo bottino di guerra bonus oltre al bonus base di vittoria.</li>
+        <li><strong>Upgrade donazione</strong> — potenzia automaticamente il livello di truppe/incantesimi donati a un compagno di clan; migliora ai livelli clan 5 e 10.</li>
+      </ul>
+
+      <h2>Clan Games</h2>
+      <p>Un evento mensile ricorrente con un set condiviso di obiettivi (attaccare, donare, potenziare, spendere risorse e simili) suddivisi tra compiti di Home Village e Builder Base. Completare i compiti guadagna punti che contano per il totale condiviso del clan; sei livelli di ricompensa si sbloccano man mano che il totale punti combinato del clan sale, ognuno con la scelta tra una di tre ricompense (risorse, Gemme o Oggetti Magici). Ogni giocatore può guadagnare fino a un ampio tetto personale di punti per evento, con una ricompensa bonus extra disponibile dopo aver raggiunto una soglia personale.</p>
+
+      <p class="sentinel-hint">Quando un compagno di clan chiede rinforzi o inizia un evento come i Clan Games, il gioco manda una notifica che si perde facilmente tra le altre. <strong>Sentinel</strong> può vigilare parole come <code>donation</code> o <code>clan games</code> e trasformarle in un allarme reale che non passa inosservato. <a href="../../sentinel.html">Come impostarlo</a></p>
+
+      <div class="box box-nrc">
+        <span class="box-title">Consiglio Academy</span>
+        Conserva i compiti "accumulabili" — donazioni di truppe, preparazione incantesimi, pulizia ostacoli — per i giorni appena prima dell'inizio dei Clan Games, così i punti si bruciano in fretta appena l'evento apre. Un roster più pieno e attivo supera prima le soglie condivise e lascia tutti giocare con calma invece di macinare da soli fino al proprio tetto personale.
+      </div>
+    </article>
+    <nav class="chapter-nav" id="chapter-nav"></nav>
+  </main>
+  <div id="app-footer"></div>
+  <script src="../../data/games.js"></script>
+  <script src="../../data/i18n.js"></script>
+  <script src="../../content/clash-of-clans/10-gestione-clan-perk.js"></script>
+  <script src="../../script.js"></script>
+</body>
+</html>
