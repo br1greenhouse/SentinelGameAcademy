@@ -96,6 +96,10 @@
   var headerHost = q("app-header");
   if (headerHost) {
     var isLight = document.documentElement.getAttribute("data-theme") === "light";
+    var flagBtns = LANGS.map(function (l) {
+      return '<button class="flag-btn' + (l === LANG ? " active" : "") + '" onclick="SGA_setLang(\'' + l + '\')" title="' + esc(LANG_NAMES[l]) + '" aria-label="' + esc(LANG_NAMES[l]) + '">' +
+             '<span class="flag-emoji" aria-hidden="true">' + LANG_FLAGS[l] + '</span><span class="flag-code">' + LANG_NAMES[l] + '</span></button>';
+    }).join("");
     headerHost.innerHTML =
       '<header class="site-header">' +
       '  <button class="icon-btn" id="menu-btn" aria-label="Menu">&#9776;</button>' +
@@ -104,22 +108,18 @@
       '  <button class="icon-btn" id="search-btn" aria-label="Search">&#128269;</button>' +
       '  <button class="icon-btn" id="theme-btn" aria-label="Theme">' + (isLight ? "☀" : "☾") + '</button>' +
       '</header>' +
+      '<div class="lang-topbar" role="group" aria-label="' + esc(t("langLabel")) + '">' + flagBtns + '</div>' +
       '<div class="search-panel" id="search-panel">' +
       '  <input type="search" id="search-input" placeholder="' + esc(t("searchPlaceholder")) + '" aria-label="Search">' +
       '  <div class="search-results" id="search-results"></div>' +
       '</div>';
   }
 
-  /* ---------- Sidebar / menu (con barra lingue) ---------- */
+  /* ---------- Sidebar / menu ---------- */
   var sidebarHost = q("sidebar");
   if (sidebarHost) {
-    var langBtns = LANGS.map(function (l) {
-      return '<button class="lang-btn' + (l === LANG ? " active" : "") + '" onclick="SGA_setLang(\'' + l + '\')">' + LANG_NAMES[l] + '</button>';
-    }).join("");
-
     var html = '<aside class="sidebar" id="sidebar-el">' +
       '<div class="close-row"><button class="icon-btn" id="close-menu" aria-label="Close">&#10005;</button></div>' +
-      '<div class="lang-block"><h2>' + esc(t("langLabel")) + '</h2><div class="lang-bar">' + langBtns + '</div></div>' +
       '<nav>';
 
     html += '<a href="' + rootUrl("index.html") + '"' + (IS_HOME ? ' class="active"' : "") +

@@ -28,6 +28,10 @@ var LANG_NAMES = {
   it: 'IT', en: 'EN', es: 'ES', fr: 'FR'
 };
 
+var LANG_FLAGS = {
+  it: '\u{1F1EE}\u{1F1F9}', en: '\u{1F1EC}\u{1F1E7}', es: '\u{1F1EA}\u{1F1F8}', fr: '\u{1F1EB}\u{1F1F7}'
+};
+
 var RTL_LANGS = [];
 var DEFAULT_LANG = 'en';
 
