@@ -78,30 +78,36 @@ var GAMES = [
     ]
   },
 
-  /* ---- Giochi in arrivo (nessun capitolo ancora) ---- */
   {
     id: "clash-of-clans",
     name: "Clash of Clans",
     aka: "",
     publisher: "Supercell",
     icon: "⚔️",
-    status: "coming-soon",
+    status: "published",
     i18n: {
       it: {
         genre: "Strategia · Base building",
-        tagline: "Villaggio, clan war e leghe: la guida arriva presto.",
+        tagline: "Municipio, clan war e leghe: costruisci, difendi e attacca dal primo giorno.",
         sentinel: "Non perdere più l'inizio della fase di attacco della Clan War: Sentinel ti sveglia quando parte la battle day, così pianifichi gli attacchi con calma invece di scoprirlo a war finita.",
-        sentinelKeywords: "clan war battle day attacco lega notifica sveglia"
+        sentinelKeywords: "clan war battle day attacco lega notifica sveglia raid weekend"
       },
       en: {
         genre: "Strategy · Base building",
-        tagline: "Village, clan war and leagues: guide coming soon.",
+        tagline: "Town Hall, clan wars and leagues: build, defend and attack from day one.",
         sentinel: "Never miss the start of the Clan War attack phase again: Sentinel wakes you when battle day begins, so you plan your attacks calmly instead of finding out after the war is over.",
-        sentinelKeywords: "clan war battle day attack league notification wake"
+        sentinelKeywords: "clan war battle day attack league notification wake raid weekend"
       }
     },
-    chapters: []
+    chapters: [
+      { num: "01", file: "01-primi-passi.html",                  title: "Primi passi",                                 desc: "Cos'è Clash of Clans, i quattro livelli di gioco, routine giornaliera ed errori dei primi giorni.", keywords: "inizio base tutorial principiante villaggio municipio routine start beginner clash of clans", en: { title: "First steps",                    desc: "What Clash of Clans is, the four layers of play, a daily routine and early mistakes." } },
+      { num: "02", file: "02-municipio-economia.html",            title: "Municipio ed economia",                       desc: "Progressione del Municipio, edifici risorse, Minerale e priorità di upgrade per era.",              keywords: "municipio town hall th economia risorse gold elixir dark elixir minerale ore laboratorio upgrade priorità economy resources", en: { title: "Town Hall & economy",           desc: "Town Hall progression, resource buildings, Ore and upgrade priorities by era." } },
+      { num: "03", file: "03-difese-trappole.html",               title: "Difese e trappole",                           desc: "Cannoni, torri, difese fuse, il Guardian di TH18 e le trappole.",                                   keywords: "difese defense cannone arciere mortaio wizard tower inferno eagle artillery scattershot monolith guardian trappole traps th18", en: { title: "Defenses & traps",              desc: "Cannons, towers, merged defenses, the TH18 Guardian and traps." } },
+      { num: "04", file: "04-edifici-truppe-incantesimi.html",    title: "Edifici militari, truppe e incantesimi",      desc: "Caserme, laboratorio, truppe elixir e dark elixir, incantesimi elixir e dark.",                    keywords: "truppe troops barbarian archer giant goblin dragon pekka incantesimi spells caserma laboratorio army", en: { title: "Army buildings, troops & spells", desc: "Barracks, Laboratory, Elixir and Dark Elixir troops, Elixir and Dark spells." } }
+    ]
   },
+
+  /* ---- Giochi in arrivo (nessun capitolo ancora) ---- */
   {
     id: "whiteout-survival",
     name: "Whiteout Survival",
