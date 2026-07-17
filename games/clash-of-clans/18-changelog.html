@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it" data-game="clash-of-clans" data-root="../..">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Changelog – Guida per Clash of Clans · Sentinel Game Academy</title>
+  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <div id="app-header"></div>
+  <div id="sidebar"></div>
+  <main class="content">
+    <nav class="breadcrumb" id="breadcrumb"></nav>
+    <article>
+      <h1>Changelog</h1>
+      <div class="hazard"></div>
+      <p class="lead">Registro degli aggiornamenti della guida. Aggiungi una riga in cima alla tabella per ogni modifica.</p>
+
+      <div class="table-wrap"><table>
+        <tr><th>Data</th><th>Sezione</th><th>Descrizione modifica</th></tr>
+        <tr><td>2026-07-17</td><td>Tutte</td><td>Prima pubblicazione della guida: 18 capitoli, ricerca interna, tema chiaro/scuro</td></tr>
+      </table></div>
+
+      <h2>Come registrare una modifica</h2>
+      <ol>
+        <li>Apri <code>games/clash-of-clans/18-changelog.html</code>.</li>
+        <li>Aggiungi una riga <code>&lt;tr&gt;</code> subito sotto la riga di intestazione, con data (AAAA-MM-GG), sezione e descrizione breve.</li>
+        <li>Fai commit e push: GitHub Pages si aggiorna da solo in pochi minuti.</li>
+      </ol>
+
+      <div class="box box-nrc">
+        <span class="box-title">Consiglio Academy</span>
+        Aggiornate il changelog anche per le modifiche piccole: chi consulta la guida deve potersi fidare che sia attuale, soprattutto in un gioco con bilanciamenti frequenti come Clash of Clans.
+      </div>
+    </article>
+    <nav class="chapter-nav" id="chapter-nav"></nav>
+  </main>
+  <div id="app-footer"></div>
+  <script src="../../data/games.js"></script>
+  <script src="../../data/i18n.js"></script>
+  <script src="../../content/clash-of-clans/18-changelog.js"></script>
+  <script src="../../script.js"></script>
+</body>
+</html>
