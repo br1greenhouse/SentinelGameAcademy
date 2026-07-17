@@ -3,7 +3,7 @@
    riempiti da script.js dopo la sostituzione. */
 var PAGE_I18N = {
   en: `
-      <p class="pill">Field manual · Italian community</p>
+      <p class="pill">Field manual</p>
       <h1>Age of Origins</h1>
       <div class="hazard"></div>
 
@@ -27,7 +27,7 @@ var PAGE_I18N = {
       <div id="sentinel-cta"></div>
 `,
   es: `
-      <p class="pill">Manual de campo · Comunidad hispana</p>
+      <p class="pill">Manual de campo</p>
       <h1>Age of Origins</h1>
       <div class="hazard"></div>
 
@@ -51,7 +51,7 @@ var PAGE_I18N = {
       <div id="sentinel-cta"></div>
 `,
   fr: `
-      <p class="pill">Manuel de terrain · Communauté francophone</p>
+      <p class="pill">Manuel de terrain</p>
       <h1>Age of Origins</h1>
       <div class="hazard"></div>
 
