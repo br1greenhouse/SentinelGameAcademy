@@ -9,13 +9,10 @@ var PAGE_I18N = {
       <h1 class="hero-h1">Sentinel <span class="accent">Game Academy</span></h1>
       <div class="hazard"></div>
 
-      <p class="lead">The field manual for strategic mobile games — the ones where you get attacked while you sleep, your shield expires at night and the alliance war kicks off at dawn. Clear guides, and the app that wakes you when it truly matters.</p>
+      <p class="lead">Complete guides for strategic mobile games where <strong>vigilance</strong> makes the difference: slow, long-term war games and survival games, where a single attack missed in your sleep can burn weeks of progress.</p>
 
-      <h2>What the Academy is</h2>
-      <p>The <strong>Sentinel Game Academy</strong> collects complete guides for the games where <strong>vigilance</strong> makes the difference: strategy, war games, survival. These are slow, long-term games where you win through consistency — but where a single attack missed in your sleep can burn weeks of progress.</p>
-
-      <h2 id="giochi">The games</h2>
-      <p>Pick your game. Each card also explains <em>why</em> Sentinel is useful right there.</p>
+      <h2 id="giochi">Available manuals</h2>
+      <p>Pick your game.</p>
       <div class="games-grid" id="games-grid"></div>
 
       <h2>How to use the site</h2>
@@ -31,13 +28,10 @@ var PAGE_I18N = {
       <h1 class="hero-h1">Sentinel <span class="accent">Game Academy</span></h1>
       <div class="hazard"></div>
 
-      <p class="lead">El manual de campo de los juegos móviles estratégicos — esos en los que te atacan mientras duermes, el escudo caduca de noche y la guerra de alianza empieza al amanecer. Guías claras, y la app que te despierta cuando de verdad importa.</p>
+      <p class="lead">Guías completas para juegos móviles estratégicos donde la <strong>vigilancia</strong> marca la diferencia: war games y survival lentos y a largo plazo, donde un solo ataque perdido mientras dormías puede quemar semanas de progreso.</p>
 
-      <h2>Qué es la Academy</h2>
-      <p>La <strong>Sentinel Game Academy</strong> reúne guías completas para los juegos donde la <strong>vigilancia</strong> marca la diferencia: estrategia, war games, survival. Son juegos lentos y a largo plazo, donde se gana con constancia — pero donde un solo ataque perdido mientras dormías puede quemar semanas de progreso.</p>
-
-      <h2 id="giochi">Los juegos</h2>
-      <p>Elige tu juego. Cada ficha explica también <em>por qué</em> Sentinel es útil justo ahí.</p>
+      <h2 id="giochi">Manuales disponibles</h2>
+      <p>Elige tu juego.</p>
       <div class="games-grid" id="games-grid"></div>
 
       <h2>Cómo usar el sitio</h2>
@@ -53,13 +47,10 @@ var PAGE_I18N = {
       <h1 class="hero-h1">Sentinel <span class="accent">Game Academy</span></h1>
       <div class="hazard"></div>
 
-      <p class="lead">Le manuel de terrain des jeux mobiles stratégiques — ceux où tu te fais attaquer pendant que tu dors, où le bouclier expire la nuit et où la guerre d'alliance démarre à l'aube. Des guides clairs, et l'appli qui te réveille quand ça compte vraiment.</p>
+      <p class="lead">Des guides complets pour les jeux mobiles stratégiques où la <strong>vigilance</strong> fait la différence : des war games et des jeux de survie lents et sur le long terme, où une seule attaque manquée pendant le sommeil peut brûler des semaines de progrès.</p>
 
-      <h2>Ce qu'est l'Academy</h2>
-      <p>La <strong>Sentinel Game Academy</strong> rassemble des guides complets pour les jeux où la <strong>vigilance</strong> fait la différence : stratégie, war games, survie. Ce sont des jeux lents, sur le long terme, où l'on gagne par la constance — mais où une seule attaque manquée pendant le sommeil peut brûler des semaines de progrès.</p>
-
-      <h2 id="giochi">Les jeux</h2>
-      <p>Choisis ton jeu. Chaque fiche explique aussi <em>pourquoi</em> Sentinel est utile justement là.</p>
+      <h2 id="giochi">Manuels disponibles</h2>
+      <p>Choisis ton jeu.</p>
       <div class="games-grid" id="games-grid"></div>
 
       <h2>Comment utiliser le site</h2>

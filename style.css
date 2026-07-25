@@ -552,23 +552,6 @@ tr:last-child td { border-bottom: none; }
   margin-bottom: .5rem;
 }
 .game-tagline { font-size: .92rem; margin: 0 0 .7rem; }
-.game-sentinel {
-  font-size: .84rem;
-  color: var(--muted);
-  background: var(--surface-2);
-  border-radius: 8px;
-  padding: .55rem .65rem;
-  border-left: 3px solid var(--sentinel);
-}
-.game-sentinel .gs-label {
-  display: block;
-  font-family: var(--font-mono);
-  font-size: .66rem;
-  letter-spacing: .05em;
-  color: var(--sentinel);
-  text-transform: uppercase;
-  margin-bottom: .2rem;
-}
 .game-cta {
   margin-top: auto;
   padding-top: .8rem;

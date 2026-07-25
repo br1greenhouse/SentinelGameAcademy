@@ -241,7 +241,6 @@
         '<h3 class="game-name">' + esc(g.name) + (g.aka ? ' <span class="game-aka">/ ' + esc(g.aka) + '</span>' : '') + '</h3>' +
         '<div class="game-genre">' + esc(gi(g, "genre")) + '</div>' +
         '<p class="game-tagline">' + esc(gi(g, "tagline")) + '</p>' +
-        '<div class="game-sentinel"><span class="gs-label">' + esc(t("whySentinelHere")) + '</span>' + esc(gi(g, "sentinel")) + '</div>' +
         (soon ? '<div class="game-cta soon">' + esc(t("guideInPrep")) + '</div>'
               : '<div class="game-cta">' + esc(t("openGuide")) + ' &#8594;</div>') +
       close;
