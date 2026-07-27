@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="it" data-game="state-of-survival" data-root="../..">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eventi – Guida per State of Survival · Sentinel Game Academy</title>
+  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <div id="app-header"></div>
+  <div id="sidebar"></div>
+  <main class="content">
+    <nav class="breadcrumb" id="breadcrumb"></nav>
+    <article>
+      <h1>Eventi</h1>
+      <div class="hazard"></div>
+      <p class="lead">Un riferimento rapido agli eventi ricorrenti, con note strategiche. Verifica gli eventi attualmente attivi sull'Event Billboard in gioco, dato che i contenuti ruotano stagionalmente.</p>
+
+      <h2>Survival of the Fittest (SotF)</h2>
+      <p>Mensile, focalizzato sugli eroi, 5-7 fasi su 1-2 giorni ciascuna. I compiti (costruzione, speedup, addestramento truppe, uccisioni, sviluppo eroi) guadagnano punti verso ricompense di frammenti eroe/capsule di completamento.</p>
+      <div class="box box-nrc">
+        <span class="box-title">Consiglio Academy</span>
+        Accumula azioni di addestramento truppe, azioni di sviluppo eroi e risorse a tempo limitato (Advanced/Epic Hero Search, speedup) per bruciarle specificamente durante le finestre di SotF, dato che si convertono direttamente in punti evento.
+      </div>
+
+      <h2>Capital Clash</h2>
+      <p>Bisettimanale, a livello di Stato, ~8 ore (o finisce prima se un'alleanza tiene la Capitale per 4 ore consecutive). Le alleanze combattono per il controllo della Capitale al centro mappa e delle 4 Torri circostanti. Il leader dell'alleanza vincitrice nomina un <strong>Governatore</strong> di Stato per le due settimane successive — trattalo come un evento politico/di leadership, non solo di combattimento.</p>
+
+      <h2>State vs State (SvS)</h2>
+      <p>Mensile, l'evento cross-server di punta del gioco (richiede che lo Stato abbia 14+ settimane di vita). Fasi: Matching → Preparazione (5 sotto-fasi su ~5,5 giorni) → Warfare (15 ore, i giocatori possono attraversare fisicamente nello Stato nemico) → finestre di Revival/Guarigione (rivivi fino al 90% delle truppe morte tramite kit di rivitalizzazione vincolati ai Biocaps).</p>
+
+      <h2>Kill Stage</h2>
+      <p>Bisettimanale, 47 ore. I punti si guadagnano con rally/attacchi solitari agli insediamenti, difendendo il proprio, colpendo tile di risorse, Fortress Fight e Capital Clash — un sistema di punteggio sovrapposto all'attività PvP normale.</p>
+      <div class="box box-err">
+        <span class="box-title">Errore da evitare</span>
+        Inviare truppe a raccogliere tile di risorse durante il Kill Stage o la State Warfare le espone come bersagli facili per i punti kill — usa invece guarnigione nelle torri o alleati più forti durante queste finestre.
+      </div>
+
+      <h2>Influencer Trap ("l'evento della Trappola")</h2>
+      <p>I membri di alleanza donano Energy Cells (guadagnate uccidendo Infetti) per caricare una struttura al 100%, poi si attiva un combattimento contro un boss in rally di 30 minuti (cooldown ~47 ore). Se il boss non viene ucciso in tempo, appare invece un'orda di zombie che può comunque essere farmata.</p>
+      <div class="box box-nrc">
+        <span class="box-title">Consiglio Academy</span>
+        Sposta la composizione delle truppe verso il danno (Hunter/Rider) invece dell'Infanteria difensiva per questo evento, e dai priorità alla partecipazione a molti rally piuttosto che perfezionarne uno — le ricompense sono condivise con chiunque abbia donato o inflitto danno.
+      </div>
+
+      <h2>Return of the Brave / Evento di richiamo</h2>
+      <p>Evento di 7 giorni per account inattivi. Entrare in un'alleanza garantisce forniture gratuite via mail; il login giornaliero sblocca livelli di buff; gli alleati ottengono ricompense bonus per il rally accanto a un giocatore di ritorno.</p>
+
+      <h2>Eventi stagionali a tempo limitato</h2>
+      <p>Rifatti tematicamente ogni stagione, tipicamente raggruppando diversi mini-giochi sotto un'unica valuta stagionale.</p>
+      <div class="box box-nrc">
+        <span class="box-title">Consiglio Academy</span>
+        Le valute esclusive degli eventi solitamente scadono o si convertono male alla fine dell'evento — spendile prima che l'evento chiuda, dando priorità a skin QG/marcia o materiali per l'equip del Capo/eroi rispetto ai puri cosmetici se costretto a scegliere.
+      </div>
+
+      <h2>Eventi di anniversario</h2>
+      <p>Storicamente portano un nuovo eroe Legendary gratuito più bonus di login e una serie di mini-eventi bonus.</p>
+
+      <p class="sentinel-hint">Molti di questi eventi hanno finestre strette e valute che scadono: imposta <strong>Sentinel</strong> su parole come <code>event</code> o il nome dell'evento per un allarme reale quando inizia, anche col telefono in silenzioso. <a href="../../sentinel.html">Come impostarlo</a></p>
+
+      <div class="box box-nrc">
+        <span class="box-title">Nota sulla terminologia</span>
+        "Sunset Speedway", "Roaming Trials" e una modalità "KvK" letterale non sono stati confermati come contenuto di State of Survival in questa ricerca — SvS (State vs State) è il vero sistema PvP cross-server su larga scala del gioco e va usato al posto della terminologia "KvK".
+      </div>
+
+      <h2>Consigli rapidi</h2>
+      <ul>
+        <li>Accumula azioni ed eventi a tempo limitato per bruciarli durante la finestra dell'evento corrispondente.</li>
+        <li>Non raccogliere risorse in campo aperto durante Kill Stage o State Warfare: sei un bersaglio facile.</li>
+        <li>Capital Clash non è solo combattimento: la nomina del Governatore ha conseguenze politiche per due settimane.</li>
+      </ul>
+    </article>
+    <nav class="chapter-nav" id="chapter-nav"></nav>
+  </main>
+  <div id="app-footer"></div>
+  <script src="../../data/games.js"></script>
+  <script src="../../data/i18n.js"></script>
+  <script src="../../content/state-of-survival/11-eventi.js"></script>
+  <script src="../../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="it" data-game="state-of-survival" data-root="../..">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PvP e territorio – Guida per State of Survival · Sentinel Game Academy</title>
+  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <div id="app-header"></div>
+  <div id="sidebar"></div>
+  <main class="content">
+    <nav class="breadcrumb" id="breadcrumb"></nav>
+    <article>
+      <h1>PvP e territorio</h1>
+      <div class="hazard"></div>
+
+      <h2>Attaccare</h2>
+      <p>Fai sempre <strong>recon prima di attaccare</strong> (costa risorse; richiede Lookout Tower livello ~22+ per il dettaglio completo) — rivela il conteggio truppe, truppe nascoste, risorse saccheggiabili, statistiche di tech/skill, e cosa fondamentale se il bersaglio ha rinforzi in arrivo. Composizione d'attacco raccomandata: <strong>60% Infanteria / 20% Rider / 20% Hunter</strong>. Imposta Talenti del Capo focalizzati sul combattimento prima di attaccare (difesa/salute Infanteria, letalità/attacco Hunter), e attiva skill come "Emergency Dressing", che converte il 30% delle morti di truppe che avverrebbero altrimenti in feriti.</p>
+      <p>Un attacco fallito costa circa <strong>35% morti / 10% gravemente feriti / 55% lievemente feriti</strong> della marcia (le proporzioni variano con la dimensione della marcia).</p>
+
+      <div class="box box-err">
+        <span class="box-title">Errore da evitare</span>
+        Attaccare senza fare prima scouting è l'errore PvP più citato — porta a marce distrutte da difensori nascosti o rinforzi che l'attaccante non ha rilevato.
+      </div>
+
+      <h2>Difendersi</h2>
+      <ul>
+        <li><strong>Peace Flare</strong> (scudo 2h/8h/24h) e <strong>Recon Jammer</strong> (blocca/degrada il recon nemico) — vedi capitolo 3 per i dettagli.</li>
+        <li><strong>Blast Shelter</strong> — nasconde una marcia di truppe per una durata scelta, usato per schivare un attacco schiacciante in arrivo.</li>
+        <li><strong>Lookout Tower</strong> — al livello massimo, dà un avviso anticipato più i dettagli della marcia in arrivo (conteggio truppe, eroi, equip, ETA), permettendo una decisione informata di rinforzo/evacuazione/preparazione.</li>
+        <li><strong>Barricade</strong> — la struttura difensiva centrale; una difesa persa brucia la barricata per un periodo di cooldown, peggio se colpita ripetutamente in rapida successione.</li>
+        <li>Gli eroi <strong>Patrol</strong> vanno assegnati manualmente al servizio di difesa piuttosto che affidarsi all'assegnazione automatica di default, dato che non ogni eroe scelto automaticamente ha skill rilevanti per la difesa.</li>
+        <li>Il <strong>rinforzo</strong> dagli alleati è uno degli strumenti difensivi più forti — le truppe di rinforzo combattono usando le statistiche di combattimento del rinforzatore, quindi un alleato forte che rinforza un giocatore debole aumenta massicciamente la difesa effettiva.</li>
+      </ul>
+
+      <div class="box box-prio">
+        <span class="box-title">Priorità</span>
+        Tieni Lookout Tower e Assembly Point potenziati fin da subito — avviso anticipato e capacità di rinforzo sono investimenti difensivi economici e ad alto valore rispetto al puro numero di truppe.
+      </div>
+
+      <p class="sentinel-hint">Uno scudo Peace Flare in scadenza o una marcia in arrivo rilevata dal Lookout Tower sono momenti in cui non puoi permetterti di scoprirlo in ritardo: imposta <strong>Sentinel</strong> su parole come <code>shield</code> o <code>incoming</code> per un allarme reale anche col telefono in silenzioso. <a href="../../sentinel.html">Come impostarlo</a></p>
+
+      <h2>Protezione per giocatori nuovi/di ritorno</h2>
+      <p>Gli account nuovi hanno un periodo di pace iniziale (circa 3 giorni) durante cui non possono essere attaccati — annullato immediatamente se il nuovo giocatore attacca o fa recon su qualcun altro. I giocatori di ritorno/inattivi ottengono i buff dell'evento Return of the Brave più regali di benvenuto dall'alleanza invece di uno scudo rigido.</p>
+
+      <h2>Migrazioni e fusioni di server</h2>
+      <ul>
+        <li><strong>State Merge:</strong> FunPlus fonde periodicamente Stati sottopopolati più vecchi in uno Stato principale designato (ogni Stato principale può assorbire da 1 a 4 sotto-stati); i giocatori coinvolti ricevono circa una settimana di preavviso, e viene distribuito un compenso generoso dopo la fusione.</li>
+        <li><strong>State Transfer:</strong> una funzionalità separata, avviata dal giocatore — gli account inattivi da 60+ giorni con QG livello 12+ diventano idonei per trasferirsi volontariamente in un altro Stato.</li>
+        <li><strong>Oggetti di ricollocazione:</strong> Random Relocator (posto casuale nello Stato attuale), Advanced Relocator (scegli la destinazione esatta), Alliance Relocator (posto aperto più vicino vicino a HQ/leader dell'alleanza — ricollocarsi nel Territorio di Alleanza concede bonus di raccolta e potenziamenti truppe mentre sei di guarnigione lì).</li>
+      </ul>
+
+      <h2>Consigli rapidi</h2>
+      <ul>
+        <li>Recon sempre prima di attaccare: senza scouting rischi rinforzi o difensori nascosti.</li>
+        <li>Peace Flare e Recon Jammer vanno gestiti attivamente attorno alle finestre PvP, non lasciati scadere per caso.</li>
+        <li>Un rinforzo alleato forte vale più di truppe extra tue: coordina la difesa con l'alleanza.</li>
+      </ul>
+    </article>
+    <nav class="chapter-nav" id="chapter-nav"></nav>
+  </main>
+  <div id="app-footer"></div>
+  <script src="../../data/games.js"></script>
+  <script src="../../data/i18n.js"></script>
+  <script src="../../content/state-of-survival/12-pvp-territorio.js"></script>
+  <script src="../../script.js"></script>
+</body>
+</html>

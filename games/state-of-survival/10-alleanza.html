@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="it" data-game="state-of-survival" data-root="../..">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alleanza – Guida per State of Survival · Sentinel Game Academy</title>
+  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <div id="app-header"></div>
+  <div id="sidebar"></div>
+  <main class="content">
+    <nav class="breadcrumb" id="breadcrumb"></nav>
+    <article>
+      <h1>Alleanza</h1>
+      <div class="hazard"></div>
+
+      <h2>Entrare e struttura</h2>
+      <p>Qualsiasi giocatore può fondare un'alleanza (costa 400 Biocaps se il QG è sotto il livello 8, gratis al livello 9+). I fondatori impostano nome, tag, motto, lingua e modalità di reclutamento (aperta o chiusa/su approvazione). I nuovi membri ricevono un <strong>Alliance Relocator</strong> gratuito — usalo subito per spostarti vicino al cluster dell'alleanza, dato che la vicinanza determina la velocità di rinforzo/rally.</p>
+
+      <h2>Ranghi e permessi</h2>
+      <p>Sei livelli, R0-R5:</p>
+      <ul>
+        <li><strong>R5 (Leader, 1 per alleanza):</strong> controllo completo — cambio di nome/tag/motto/lingua, trasferimento della leadership, scioglimento, costruzione di Alliance HQ/Torri, espulsione, modifica della bacheca messaggi, gestione reclutamento/inviti, spesa dei fondi di alleanza, avvio della tech di alleanza, promozione/retrocessione, mail a tutti, timer help, supporto risorse. Se il leader lascia senza trasferire la leadership, l'alleanza si scioglie.</li>
+        <li><strong>R4 (Co-leader):</strong> quasi tutto ciò che può fare R5 tranne cambio nome/tag, trasferimento leadership, scioglimento, o costruire l'Alliance HQ.</li>
+        <li><strong>R3:</strong> può promuovere/retrocedere ranghi inferiori, mandare mail a tutti i membri, dare timer help/supporto risorse.</li>
+        <li><strong>R2:</strong> può mandare mail a tutti i membri, timer help, supporto risorse.</li>
+        <li><strong>R1 (default all'approvazione):</strong> timer help, supporto risorse, visualizzazione membri, uscita.</li>
+        <li><strong>R0:</strong> candidati in attesa, nessun permesso.</li>
+        <li>Regola di promozione/retrocessione: un membro può essere promosso/retrocesso solo da qualcuno con due ranghi in più di lui.</li>
+        <li><strong>Alliance Takeover:</strong> se un R5 è inattivo per 7+ giorni, i membri possono attivare una sostituzione della leadership per 200 Biocaps tramite il pannello Alliance Manage.</li>
+        <li>Il livello dell'alleanza ha un tetto a 11; il numero massimo di membri parte da 50, espandibile a 100 tramite la tech di alleanza.</li>
+      </ul>
+
+      <h2>Tech di alleanza, aiuto e territorio</h2>
+      <ul>
+        <li><strong>Alliance Tech</strong> funziona come la ricerca personale ma va a beneficio di tutta l'alleanza; qualsiasi membro può donare risorse/oggetti per velocizzarla. Categorie: Development (tetto membri, numero/durata timer help, vari bonus di velocità), Territory e Battle.</li>
+        <li><strong>Timer Help</strong> riduce i timer di costruzione/ricerca/addestramento truppe per gli alleati e guadagna Alliance Honor (una valuta legata al tuo account attraverso i cambi di alleanza, spendibile nell'Alliance Store).</li>
+        <li><strong>Territorio di alleanza:</strong> le alleanze possono costruire un Alliance HQ (solo R5) e Alliance Towers (R4 può aiutare), e piantare bandiere di territorio per rivendicare zone di wilderness per il controllo di risorse/bonus.</li>
+      </ul>
+
+      <div class="box box-err">
+        <span class="box-title">Errore da evitare</span>
+        Espandere eccessivamente il territorio di alleanza (rivendicando più bandiere di quante l'alleanza possa realmente difendere) è un errore documentato per gli ufficiali di alleanza più nuovi — espandi il territorio di pari passo con le truppe disponibili per difenderlo.
+      </div>
+
+      <h2>Competizioni tra alleanze</h2>
+      <ul>
+        <li><strong>Fortress Fight</strong> (settimanale, venerdì): 16 fortezze totali; occupa una fortezza continuativamente per 30 minuti durante una finestra di sfida di 2 ore per prenderne il controllo.</li>
+        <li><strong>Alliance Showdown</strong> (settimanale, ~5 giorni): sei alleanze dello stesso tier raggruppate insieme; i giocatori impegnano la loro marcia più forte in una di tre corsie (le marce vengono "copiate", quindi nulla viene realmente rischiato); vinci 2 corsie su 3 per vincere il round.</li>
+        <li><strong>Alliance Throwdown</strong> (bisettimanale, 6 giorni): competizione a punti contro alleanze di tier simile (5 tier totali); i membri completano compiti per punti e ricompense a livello di alleanza.</li>
+        <li><strong>Reservoir Raid</strong> (bisettimanale, ~1 ora): due alleanze combattono per il controllo di tile/edifici di "acqua purificata"; le truppe vengono solo ferite qui, mai uccise permanentemente, abbassando la posta in gioco e incoraggiando un gioco aggressivo.</li>
+        <li><strong>Doomsday Open</strong>: una versione stagionale più grande del Reservoir Raid giocata attraverso "Battle Zone" fino a 256 alleanze in un girone di qualificazione; le migliori alleanze registrate (fino a 640) si qualificano per Raid Score.</li>
+      </ul>
+
+      <div class="box box-nrc">
+        <span class="box-title">Consiglio Academy</span>
+        Strategia per il Reservoir Raid: non inviare in marcia i tuoi eroi migliori — tienili a casa in difesa — e assegna i tuoi 4-6 giocatori più forti come leader di rally per gli assalti agli edifici chiave.
+      </div>
+
+      <h2>Consigli rapidi</h2>
+      <ul>
+        <li>Usa subito l'Alliance Relocator gratuito: la vicinanza al cluster determina la velocità di rinforzo.</li>
+        <li>Espandi il territorio solo in proporzione alle truppe che l'alleanza può schierare per difenderlo.</li>
+        <li>Il Reservoir Raid non uccide mai le truppe: ottimo per testare composizioni aggressive senza rischio.</li>
+      </ul>
+    </article>
+    <nav class="chapter-nav" id="chapter-nav"></nav>
+  </main>
+  <div id="app-footer"></div>
+  <script src="../../data/games.js"></script>
+  <script src="../../data/i18n.js"></script>
+  <script src="../../content/state-of-survival/10-alleanza.js"></script>
+  <script src="../../script.js"></script>
+</body>
+</html>

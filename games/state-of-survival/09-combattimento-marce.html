@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="it" data-game="state-of-survival" data-root="../..">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marce, rally e combattimento – Guida per State of Survival · Sentinel Game Academy</title>
+  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <div id="app-header"></div>
+  <div id="sidebar"></div>
+  <main class="content">
+    <nav class="breadcrumb" id="breadcrumb"></nav>
+    <article>
+      <h1>Marce, rally e combattimento</h1>
+      <div class="hazard"></div>
+
+      <h2>Slot marcia e formazione</h2>
+      <ul>
+        <li><strong>Slot marcia:</strong> base + ricerca + tetto VIP arriva a 6 totali. Ricerca: Leadership I-IV (+1 slot ciascuno). VIP: +1 slot al livello VIP 8.</li>
+        <li><strong>Dimensione/capacità di marcia:</strong> determinata principalmente dal livello QG, sommata a una linea di ricerca March Capacity, contributi da rank/livello eroe, oggetti consumabili e Equip/Amuleti del Capo.</li>
+        <li><strong>Formazione:</strong> fino a 3 eroi per marcia — 1 Captain (fissa i bonus primari) + fino a 2 eroi di supporto. La formazione delle truppe è automatica per tipo (Infanteria in prima linea, Rider in mezzo, Hunter in retroguardia), non posizionabile manualmente.</li>
+        <li><strong>Timer di lancio rally:</strong> i leader di rally impostano una finestra di lancio (5/15/30/60 minuti); gli alleati devono marciare fisicamente fino alla città del leader prima che scatti, altrimenti il rally fallisce il lancio.</li>
+        <li><strong>Tetto dimensione rally:</strong> tetto massimo comunemente documentato di 20 membri di alleanza per rally con casse di ricompensa.</li>
+        <li><strong>Rinforzo:</strong> l'Assembly Point gestisce i rinforzi inviati agli alleati; ogni membro di alleanza può inviare una marcia di rinforzo a una data città. Criticamente, <strong>vengono usate le statistiche di combattimento del giocatore che rinforza</strong>, non quelle del proprietario della base — il che significa che un alleato forte che rinforza un account debole può cambiare drasticamente la forza difensiva di quell'account.</li>
+      </ul>
+
+      <div class="box box-adv">
+        <span class="box-title">Per giocatori avanzati</span>
+        Tattica per rally leader: dato che l'allocazione dei punti ricerca può essere resettata liberamente, alcuni top rally leader massimizzano temporaneamente ogni nodo di ricerca rally/capacità di marcia, aprono il rally, lo lasciano riempire, poi tornano a una build focalizzata sulle statistiche (Letalità/Attacco/Difesa/Salute) una volta che il rally è bloccato — mantenendo la dimensione più grande beneficiando al contempo di statistiche di combattimento più forti per lo scontro vero e proprio.
+      </div>
+
+      <h2>Meccaniche di combattimento</h2>
+      <ul>
+        <li>Statistiche core: <strong>Attacco, Letalità, Difesa, Salute</strong>. Non c'è una statistica critica separata — la Letalità funziona come il moltiplicatore che governa sia il danno inflitto sia quante truppe nemiche muoiono direttamente contro quante restano solo ferite.</li>
+        <li>La dimensione dell'esercito attaccante oltre il totale del difensore ha rendimenti decrescenti — un esercito sovradimensionato non può impegnarsi del tutto; le truppe in eccesso oltre un rapporto approssimativo di 3:1 restano in gran parte inattive in un dato scontro.</li>
+        <li>Le truppe si affaticano leggermente a ogni round di combattimento, infliggendo danno marginalmente inferiore man mano che uno scontro si prolunga.</li>
+        <li>Ogni 20 round, i sotto-tipi Biker/Sniper ottengono un passaggio di bypass per colpire Hunter/Rider direttamente, saltando l'Infanteria.</li>
+      </ul>
+
+      <div class="box box-adv">
+        <span class="box-title">Per giocatori avanzati</span>
+        Il rapporto tra truppe ha un grande impatto sulle perdite negli scontri equilibrati. I test della community hanno rilevato che la suddivisione di default 33/33/33 non è ottimale: a parità di dimensione esercito in uno scenario di sconfitta risicata, le perdite variavano di circa 5 volte solo in base al rapporto. Consigliato: <strong>60/20/20 (Infanteria/Rider/Hunter)</strong> se lo scontro potrebbe essere perso; <strong>50/25/25</strong> per una vittoria quasi garantita; suddivisioni pressoché uguali solo quando la vittoria è già assicurata e l'obiettivo è massimizzare il conteggio uccisioni.
+      </div>
+
+      <h2>Explorer Trail (PvE)</h2>
+      <p>Ospitato nell'Hero Precinct: <strong>12 percorsi × 12 sfide ciascuno</strong>, vincolati da una risorsa separata chiamata <strong>Squad Stamina</strong> (si rigenera 6/ora, tetto a 100). I giocatori scelgono direttamente fino a 3 eroi e attivano le loro skill contro ondate di zombie — Brawler al centro davanti, Marksman a sinistra, Scout a destra — seguendo l'effetto Explorer di ogni eroe piuttosto che l'effetto Militare usato nel PvP.</p>
+
+      <div class="box box-nrc">
+        <span class="box-title">Nota sulla terminologia</span>
+        "Explorer Camp" non è il nome in-game corretto — la funzionalità reale è l'<strong>Explorer Trail</strong>.
+      </div>
+
+      <h2>Consigli rapidi</h2>
+      <ul>
+        <li>Un esercito sovradimensionato oltre un rapporto di 3:1 rispetto al difensore spreca truppe: non serve inviarne più del necessario.</li>
+        <li>Nei combattimenti al limite, il rapporto di truppa conta quanto la dimensione dell'esercito: prova 60/20/20 quando rischi di perdere.</li>
+        <li>Fai la Squad Stamina dell'Explorer Trail ogni giorno: si rigenera lentamente e ha un tetto basso.</li>
+      </ul>
+    </article>
+    <nav class="chapter-nav" id="chapter-nav"></nav>
+  </main>
+  <div id="app-footer"></div>
+  <script src="../../data/games.js"></script>
+  <script src="../../data/i18n.js"></script>
+  <script src="../../content/state-of-survival/09-combattimento-marce.js"></script>
+  <script src="../../script.js"></script>
+</body>
+</html>
