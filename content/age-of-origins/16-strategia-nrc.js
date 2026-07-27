@@ -69,7 +69,7 @@ var PAGE_I18N = {
 
       <div class="box box-nrc">
         <span class="box-title">NRC tip</span>
-        Update this page at every rule change (and record it in the <a href="19-changelog.html">Changelog</a>): an unwritten rule is a rule that doesn't exist.
+        Update this page at every rule change: an unwritten rule is a rule that doesn't exist.
       </div>
 `,
   es: `
@@ -141,7 +141,7 @@ var PAGE_I18N = {
 
       <div class="box box-nrc">
         <span class="box-title">Consejo NRC</span>
-        Actualiza esta página con cada cambio de reglas (y regístralo en el <a href="19-changelog.html">Changelog</a>): una regla no escrita es una regla que no existe.
+        Actualiza esta página con cada cambio de reglas: una regla no escrita es una regla que no existe.
       </div>
 `,
   fr: `
@@ -213,7 +213,7 @@ var PAGE_I18N = {
 
       <div class="box box-nrc">
         <span class="box-title">Conseil NRC</span>
-        Mets à jour cette page à chaque changement de règle (et enregistre-le dans le <a href="19-changelog.html">Changelog</a>) : une règle non écrite est une règle qui n'existe pas.
+        Mets à jour cette page à chaque changement de règle : une règle non écrite est une règle qui n'existe pas.
       </div>
 `
 };

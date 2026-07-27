@@ -15,7 +15,7 @@ var PAGE_I18N = {
       </div>
 
       <h2>All chapters</h2>
-      <p>17 chapters, from first steps to State vs State wars. Follow the order if you're new, or jump to the chapter you need.</p>
+      <p>16 chapters, from first steps to State vs State wars. Follow the order if you're new, or jump to the chapter you need.</p>
       <div class="card-grid" id="game-chapters"></div>
 `,
   es: `
@@ -31,7 +31,7 @@ var PAGE_I18N = {
       </div>
 
       <h2>Todos los capítulos</h2>
-      <p>17 capítulos, desde los primeros pasos hasta las guerras entre Estados. Sigue el orden si eres nuevo, o salta al capítulo que necesites.</p>
+      <p>16 capítulos, desde los primeros pasos hasta las guerras entre Estados. Sigue el orden si eres nuevo, o salta al capítulo que necesites.</p>
       <div class="card-grid" id="game-chapters"></div>
 `,
   fr: `
@@ -47,7 +47,7 @@ var PAGE_I18N = {
       </div>
 
       <h2>Tous les chapitres</h2>
-      <p>17 chapitres, des premiers pas aux guerres entre États. Suis l'ordre si tu es nouveau, ou saute au chapitre dont tu as besoin.</p>
+      <p>16 chapitres, des premiers pas aux guerres entre États. Suis l'ordre si tu es nouveau, ou saute au chapitre dont tu as besoin.</p>
       <div class="card-grid" id="game-chapters"></div>
 `
 };

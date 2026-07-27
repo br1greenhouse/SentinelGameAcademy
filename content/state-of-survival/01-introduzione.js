@@ -22,7 +22,7 @@ var PAGE_I18N = {
       </ul>
 
       <h2>How to use this guide</h2>
-      <p>Chapters follow the order you'll likely encounter these systems: base and economy first, then research and Chief progression, then heroes and troops, and finally alliance, events and PvP. The last chapters are quick-reference: F2P strategy, a mistakes checklist, glossary, FAQ and changelog.</p>
+      <p>Chapters follow the order you'll likely encounter these systems: base and economy first, then research and Chief progression, then heroes and troops, and finally alliance, events and PvP. The last chapters are quick-reference: F2P strategy, a mistakes checklist, glossary and FAQ.</p>
 
       <div class="box box-nrc">
         <span class="box-title">Academy Tip</span>
@@ -55,7 +55,7 @@ var PAGE_I18N = {
       </ul>
 
       <h2>Cómo usar esta guía</h2>
-      <p>Los capítulos siguen el orden en que probablemente encontrarás estos sistemas: primero base y economía, luego investigación y progresión del Jefe, después héroes y tropas, y finalmente alianza, eventos y PvP. Los últimos capítulos son de referencia rápida: estrategia F2P, checklist de errores, glosario, FAQ y changelog.</p>
+      <p>Los capítulos siguen el orden en que probablemente encontrarás estos sistemas: primero base y economía, luego investigación y progresión del Jefe, después héroes y tropas, y finalmente alianza, eventos y PvP. Los últimos capítulos son de referencia rápida: estrategia F2P, checklist de errores, glosario y FAQ.</p>
 
       <div class="box box-nrc">
         <span class="box-title">Consejo Academy</span>
@@ -88,7 +88,7 @@ var PAGE_I18N = {
       </ul>
 
       <h2>Comment utiliser ce guide</h2>
-      <p>Les chapitres suivent l'ordre dans lequel tu rencontreras probablement ces systèmes : d'abord base et économie, puis recherche et progression du Chef, puis héros et troupes, enfin alliance, événements et PvP. Les derniers chapitres sont des références rapides : stratégie F2P, checklist des erreurs, glossaire, FAQ et changelog.</p>
+      <p>Les chapitres suivent l'ordre dans lequel tu rencontreras probablement ces systèmes : d'abord base et économie, puis recherche et progression du Chef, puis héros et troupes, enfin alliance, événements et PvP. Les derniers chapitres sont des références rapides : stratégie F2P, checklist des erreurs, glossaire et FAQ.</p>
 
       <div class="box box-nrc">
         <span class="box-title">Conseil Academy</span>

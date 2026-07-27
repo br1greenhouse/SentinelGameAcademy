@@ -42,8 +42,7 @@ Tutti i riferimenti sono centralizzati in `data/games.js` (oggetto `SENTINEL`) e
 │   └── age-of-origins/              # Un gioco = una cartella
 │       ├── index.html               # Hub del gioco (intro + griglia capitoli)
 │       ├── 01-primi-passi.html
-│       ├── ...                       # 19 capitoli
-│       └── 19-changelog.html
+│       └── ...                       # 18 capitoli
 └── templates/
     └── template-capitolo.html        # Modello per i nuovi capitoli
 ```
@@ -69,13 +68,13 @@ var PAGE_I18N = {
 ```
 Poi includi il file nella pagina (una riga prima di `script.js`) e, nei metadati del gioco (`data/games.js`), aggiungi il titolo/descrizione della lingua al capitolo (`en: { title, desc }`).
 
-Stato attuale: **interfaccia in 4 lingue** (it/en/es/fr) e **contenuti editoriali completi in tutte e 4** — home, pagina Sentinel, hub del gioco e tutti i 19 capitoli hanno il file `content/…js` con le chiavi `en`, `es` ed `fr` (oltre all'italiano, sorgente inline nell'HTML). Aggiungere una quinta lingua = aggiungere la chiave corrispondente negli stessi 22 file (l'engine ripiega su EN→IT dove manca una traduzione).
+Stato attuale: **interfaccia in 4 lingue** (it/en/es/fr) e **contenuti editoriali completi in tutte e 4** — home, pagina Sentinel, hub del gioco e tutti i 18 capitoli hanno il file `content/…js` con le chiavi `en`, `es` ed `fr` (oltre all'italiano, sorgente inline nell'HTML). Aggiungere una quinta lingua = aggiungere la chiave corrispondente negli stessi 21 file (l'engine ripiega su EN→IT dove manca una traduzione).
 
 **Pagine tradotte via `content/`** (una riga di `<script src="content/…js">` prima di `script.js`):
 - `content/home.js` → home (`index.html`)
 - `content/sentinel.js` → pagina *Perché Sentinel* (`sentinel.html`)
 - `content/age-of-origins/index.js` → hub del gioco
-- `content/age-of-origins/NN-*.js` → i 19 capitoli
+- `content/age-of-origins/NN-*.js` → i 18 capitoli
 
 Le pagine con blocchi dinamici (home, hub, Sentinel) mantengono nel loro HTML tradotto i `<div>` segnaposto (`sentinel-cta`, `games-grid`, `game-chapters`, `privacy-link`, `wall-link`), che `script.js` riempie dopo la sostituzione.
 
