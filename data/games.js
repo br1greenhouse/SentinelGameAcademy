@@ -121,30 +121,49 @@ var GAMES = [
     ]
   },
 
-  /* ---- Giochi in arrivo (nessun capitolo ancora) ---- */
   {
     id: "whiteout-survival",
     name: "Whiteout Survival",
     aka: "",
     publisher: "Century Games",
     icon: "❄️",
-    status: "coming-soon",
+    status: "published",
     i18n: {
       it: {
         genre: "Strategia MMO · Survival",
-        tagline: "Sopravvivenza nel gelo e guerre di stato: guida in lavorazione.",
-        sentinel: "Ti avvisa quando la tua città viene attaccata o quando parte un evento di stato mentre sei offline, così esci dallo scudo solo quando serve e non ti trovi rasato al risveglio.",
+        tagline: "Fornace, eroi, alleanza e guerre di Stato: la guida completa per crescere nel gelo.",
+        sentinel: "Ti avvisa quando la tua città viene attaccata o quando parte un evento di Stato mentre sei offline, così esci dallo scudo solo quando serve e non ti trovi rasato al risveglio.",
         sentinelKeywords: "attacco stato evento scudo shield guerra sveglia offline"
       },
       en: {
         genre: "Strategy MMO · Survival",
-        tagline: "Survival in the frost and state wars: guide in the works.",
+        tagline: "Furnace, heroes, alliance and State wars: the complete guide to growing in the frost.",
         sentinel: "Alerts you when your city is attacked or a state event starts while you're offline, so you drop your shield only when needed and don't wake up wiped out.",
         sentinelKeywords: "attack state event shield war wake offline"
       }
     },
-    chapters: []
+    chapters: [
+      { num: "01", file: "01-introduzione.html",                title: "Introduzione al gioco",              desc: "Cos'è Whiteout Survival, i quattro livelli di gioco e cosa aspettarsi dai primi giorni.",           keywords: "inizio base tutorial principiante furnace fornace chief capo alleanza state stato start beginner overview", en: { title: "Introduction & game overview",     desc: "What Whiteout Survival is, the four layers of play, and what to expect in the first days." } },
+      { num: "02", file: "02-fornace-edifici-risorse.html",      title: "Fornace, edifici e risorse",         desc: "Livelli Fornace, Era dei Cristalli di Fuoco, edifici chiave e le quattro risorse base.",            keywords: "furnace fornace fire crystal cristallo di fuoco fc storehouse embassy command center edifici risorse meat wood coal iron buildings resources", en: { title: "Furnace, buildings & resources",   desc: "Furnace levels, the Fire Crystal Age, key buildings and the four base resources." } },
+      { num: "03", file: "03-capo-vip-progressione.html",        title: "Capo, VIP e progressione",           desc: "Livello Capo, sistema VIP e la filosofia \"rush poi consolida\" per crescere bene.",                 keywords: "chief capo vip livello xp progressione rush consolida embassy command center philosophy", en: { title: "Chief, VIP & progression",         desc: "Chief level, the VIP system and the \"rush then consolidate\" philosophy for healthy growth." } },
+      { num: "04", file: "04-eroi-roster-acquisizione.html",     title: "Eroi: roster e reclutamento",        desc: "Rarità, classi, generazioni di eroi e tutti i modi per reclutarli.",                                keywords: "eroi heroes rarità rare epic legendary mythic classe infantry lancer marksman hero hall reclutamento shards recruitment", en: { title: "Heroes: roster & recruitment",     desc: "Rarity, class, hero generations and every way to recruit them." } },
+      { num: "05", file: "05-abilita-equip-squadre.html",        title: "Abilità, equip e squadre",           desc: "Abilità Esplorazione vs Spedizione, Equip Eroe e come comporre le squadre.",                       keywords: "exploration expedition skill esplorazione spedizione hero gear equip widget squadre rally captain formazione", en: { title: "Skills, gear & squads",            desc: "Exploration vs Expedition skills, Hero Gear, and how to build squads." } },
+      { num: "06", file: "06-truppe-combattimento.html",         title: "Truppe e combattimento",             desc: "Fanteria, Lance, Tiratori, tier delle truppe, marce, rally e guarnigione.",                         keywords: "infantry lancer marksman fanteria lance tiratori tier t9 t10 t11 t12 march rally garrison marcia guarnigione combat", en: { title: "Troops & combat",                  desc: "Infantry, Lancers, Marksmen, troop tiers, marches, rallies and garrison." } },
+      { num: "07", file: "07-albero-ricerca.html",               title: "Albero della ricerca",               desc: "Centro Ricerche vs Accademia di Guerra: rami Crescita, Economia, Battaglia.",                       keywords: "research center war academy centro ricerche accademia di guerra growth economy battle crescita economia battaglia research tree", en: { title: "Research tree",                    desc: "Research Center vs War Academy: the Growth, Economy and Battle branches." } },
+      { num: "08", file: "08-equip-capo-amuleti.html",           title: "Equip del Capo e Amuleti",           desc: "I sei slot di equip del Capo e i 18 slot di Amuleti: materiali e priorità.",                        keywords: "chief gear chief charms equip capo amuleti mastery forging essence stones materiali priorità", en: { title: "Chief Gear & Chief Charms",        desc: "The six Chief Gear slots and 18 Charm slots: materials and priorities." } },
+      { num: "09", file: "09-pet.html",                          title: "Sistema dei Pet",                    desc: "Come si sbloccano, allevano e specializzano i Pet da supporto e da combattimento.",                 keywords: "pet beast cage sistema pet allevamento sviluppo combattimento advancement marks", en: { title: "Pet system",                       desc: "How Pets are unlocked, raised and specialized for support or combat." } },
+      { num: "10", file: "10-alleanza-tech.html",                title: "Alleanza e Tecnologia di alleanza",  desc: "Ruoli R0-R5, Tecnologia di alleanza e territorio.",                                                 keywords: "alliance alleanza r0 r1 r2 r3 r4 r5 ruoli alliance tech territorio territory fortress stronghold", en: { title: "Alliance & Alliance Tech",         desc: "R0-R5 roles, Alliance Tech and territory." } },
+      { num: "11", file: "11-eventi-pve-alleanza.html",          title: "Eventi PvE di alleanza",             desc: "Bear Hunt, Crazy Joe e Frostdragon Tyrant: gli eventi cooperativi contro l'IA.",                    keywords: "bear hunt bear trap crazy joe frostdragon tyrant eventi pve alleanza essence stones", en: { title: "Alliance PvE events",              desc: "Bear Hunt, Crazy Joe and Frostdragon Tyrant: the cooperative PvE events." } },
+      { num: "12", file: "12-eventi-competitivi-alleanza.html",  title: "Eventi competitivi di alleanza",     desc: "Alliance Championship, Mobilitazione, Fortress Battles, Foundry Battle e Alliance Showdown.",       keywords: "alliance championship mobilization mobilitazione fortress battles foundry battle alliance showdown wild brawl", en: { title: "Alliance competitive events",      desc: "Alliance Championship, Mobilization, Fortress Battles, Foundry Battle and Alliance Showdown." } },
+      { num: "13", file: "13-svs-koi.html",                      title: "SvS e King of Icefield",             desc: "La guerra tra Stati e l'evento King of Icefield: fasi, ministeri e premi.",                         keywords: "state vs state svs king of icefield koi sunfire castle ministry ministero frostfire mine", en: { title: "SvS & King of Icefield",           desc: "The State vs State war and King of Icefield: phases, ministries and rewards." } },
+      { num: "14", file: "14-economia-eventi.html",              title: "Economia ed eventi",                 desc: "Gemme, priorità di spesa e il calendario ricorrente degli eventi.",                                 keywords: "gemme gems economia vip monthly card calendario eventi spending", en: { title: "Economy & events calendar",        desc: "Gems, spending priorities and the recurring events calendar." } },
+      { num: "15", file: "15-glossario.html",                    title: "Glossario e riferimento rapido",     desc: "Tutti i termini del gioco e le tabelle di riferimento rapido.",                                     keywords: "glossario termini fc rfc furnace chief hero gear promotion rally garrison svs vip glossary", en: { title: "Glossary & quick reference",       desc: "Every in-game term plus quick-reference tables." } },
+      { num: "16", file: "16-faq.html",                          title: "FAQ",                                desc: "Domande frequenti su Fornace, eroi, truppe, alleanza e SvS.",                                       keywords: "faq domande risposte aiuto dubbi questions", en: { title: "FAQ",                              desc: "Frequently asked questions on Furnace, heroes, troops, alliance and SvS." } },
+      { num: "17", file: "17-changelog.html",                    title: "Changelog",                          desc: "Registro degli aggiornamenti della guida.",                                                         keywords: "changelog aggiornamenti versioni modifiche registro updates", en: { title: "Changelog",                        desc: "Log of updates to the guide." } }
+    ]
   },
+
+  /* ---- Giochi in arrivo (nessun capitolo ancora) ---- */
   {
     id: "last-war-survival",
     name: "Last War: Survival",
