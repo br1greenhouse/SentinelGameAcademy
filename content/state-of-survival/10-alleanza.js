@@ -24,6 +24,8 @@ var PAGE_I18N = {
         <li>Alliance level caps at 11; max members starts at 50, expandable to 100 via alliance tech.</li>
       </ul>
 
+      <p class="sentinel-hint">A rally about to launch or an urgent reinforcement request are moments where seconds matter: set up <strong>Sentinel</strong> on words like <code>rally</code> or <code>reinforce</code> for a real alarm even with your phone on silent. <a href="../../sentinel.html">How to set it up</a></p>
+
       <h2>Alliance tech, help & territory</h2>
       <ul>
         <li><strong>Alliance Tech</strong> works like personal research but benefits the whole alliance; any member can donate resources/items to speed it. Categories: Development (member cap, timer-help count/duration, various speed bonuses), Territory, and Battle.</li>
@@ -78,6 +80,8 @@ var PAGE_I18N = {
         <li>El nivel de alianza tiene un tope de 11; el número máximo de miembros comienza en 50, ampliable a 100 mediante la tech de alianza.</li>
       </ul>
 
+      <p class="sentinel-hint">Un rally a punto de lanzarse o una solicitud urgente de refuerzo son momentos en los que los segundos importan: configura <strong>Sentinel</strong> con palabras como <code>rally</code> o <code>reinforce</code> para una alarma real incluso con el teléfono en silencio. <a href="../../sentinel.html">Cómo configurarlo</a></p>
+
       <h2>Tech de alianza, ayuda y territorio</h2>
       <ul>
         <li><strong>Alliance Tech</strong> funciona como la investigación personal pero beneficia a toda la alianza; cualquier miembro puede donar recursos/objetos para acelerarla. Categorías: Development (tope de miembros, cantidad/duración de timer help, varios bonos de velocidad), Territory y Battle.</li>
@@ -131,6 +135,8 @@ var PAGE_I18N = {
         <li><strong>Alliance Takeover :</strong> si un R5 est inactif 7+ jours, les membres peuvent déclencher un remplacement de leadership pour 200 Biocaps via le panneau Alliance Manage.</li>
         <li>Le niveau d'alliance plafonne à 11 ; le nombre maximum de membres commence à 50, extensible à 100 via la tech d'alliance.</li>
       </ul>
+
+      <p class="sentinel-hint">Un rally sur le point d'être lancé ou une demande de renfort urgente sont des moments où chaque seconde compte : configure <strong>Sentinel</strong> sur des mots comme <code>rally</code> ou <code>reinforce</code> pour une vraie alarme même téléphone en silencieux. <a href="../../sentinel.html">Comment le configurer</a></p>
 
       <h2>Tech d'alliance, aide et territoire</h2>
       <ul>

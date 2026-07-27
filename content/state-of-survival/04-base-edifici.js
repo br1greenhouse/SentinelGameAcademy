@@ -66,8 +66,6 @@ var PAGE_I18N = {
         Never leave a build queue empty, even overnight — this is the single biggest avoidable efficiency loss for F2P/low-spend accounts.
       </div>
 
-      <p class="sentinel-hint">A build queue that finishes while you're not looking at the screen is wasted time: set up <strong>Sentinel</strong> on words like <code>construction</code> or <code>upgrade complete</code> for a real alarm even with your phone on silent. <a href="../../sentinel.html">How to set it up</a></p>
-
       <div class="box box-f2p">
         <span class="box-title">F2P Focus</span>
         Rushing HQ to level 6 in the first 8 hours to unlock the second free build queue is one of the best-value early goals in the entire game.
@@ -143,8 +141,6 @@ var PAGE_I18N = {
         Nunca dejes una cola de construcción vacía, ni siquiera de noche — esta es la mayor pérdida de eficiencia evitable para cuentas F2P/de bajo gasto.
       </div>
 
-      <p class="sentinel-hint">Una cola de construcción que termina mientras no miras la pantalla es tiempo perdido: configura <strong>Sentinel</strong> con palabras como <code>construction</code> o <code>upgrade complete</code> para una alarma real incluso con el teléfono en silencio. <a href="../../sentinel.html">Cómo configurarlo</a></p>
-
       <div class="box box-f2p">
         <span class="box-title">Para jugadores F2P</span>
         Llevar el HQ al nivel 6 en las primeras 8 horas para desbloquear la segunda cola de construcción gratuita es uno de los objetivos con mejor relación calidad-precio de todo el juego.
@@ -219,8 +215,6 @@ var PAGE_I18N = {
         <span class="box-title">Priorité</span>
         Ne laisse jamais une file de construction vide, même la nuit — c'est la plus grande perte d'efficacité évitable pour les comptes F2P/petit budget.
       </div>
-
-      <p class="sentinel-hint">Une file de construction qui se termine pendant que tu ne regardes pas l'écran, c'est du temps perdu : configure <strong>Sentinel</strong> sur des mots comme <code>construction</code> ou <code>upgrade complete</code> pour une vraie alarme même téléphone en silencieux. <a href="../../sentinel.html">Comment le configurer</a></p>
 
       <div class="box box-f2p">
         <span class="box-title">Focus F2P</span>
