@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="it" data-game="state-of-survival" data-root="../..">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Truppe – Guida per State of Survival · Sentinel Game Academy</title>
+  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <div id="app-header"></div>
+  <div id="sidebar"></div>
+  <main class="content">
+    <nav class="breadcrumb" id="breadcrumb"></nav>
+    <article>
+      <h1>Truppe</h1>
+      <div class="hazard"></div>
+
+      <h2>Classi di truppa</h2>
+      <p>Tre tipi, ognuno addestrato in un edificio dedicato, ognuno con due sotto-tipi che regolano i contro:</p>
+      <ul>
+        <li><strong>Infanteria</strong> (Barracks) — HP/Difesa molto alti, Attacco molto basso. Assorbe il danno in arrivo per prima. Sotto-tipi: <strong>Shields</strong> (bonus Difesa contro gli Hunter), <strong>Shotguns</strong> (bonus Difesa contro i Rider).</li>
+        <li><strong>Rider</strong> (Garage) — HP/Difesa medi, Attacco più alto. Sotto-tipi: <strong>ATV</strong> (bonus danno contro l'Infanteria), <strong>Bikers</strong> (bonus danno contro gli Hunter, e possono bypassare l'Infanteria per colpire gli Hunter direttamente in passaggi speciali).</li>
+        <li><strong>Hunter</strong> (Range) — miglior Attacco/Letalità, più fragili, posizionati in retroguardia. Sotto-tipi: <strong>Bows</strong> (bonus danno contro l'Infanteria), <strong>Snipers</strong> (bonus danno contro i Rider, possono bypassare l'Infanteria per colpire i Rider direttamente).</li>
+      </ul>
+      <p><strong>L'ordine di risoluzione della battaglia è fisso</strong>: Infanteria → Rider → Hunter, dalla prima linea alla retroguardia. Tutto il danno colpisce prima l'Infanteria; solo una volta che l'Infanteria è morta, il danno raggiunge i Rider, poi gli Hunter.</p>
+
+      <div class="box box-err">
+        <span class="box-title">Errore da evitare</span>
+        Schierare un esercito mono-tipo senza capire questo ordine di risoluzione è esplicitamente sconsigliato dagli stessi sviluppatori, che raccomandano un rapporto base 1:1:1 come punto di partenza "sicuro".
+      </div>
+
+      <h2>Tier delle truppe (T1-T12 tetto attuale)</h2>
+      <p>I tier regolari T1-T10 si sbloccano tramite il livello di Barracks/Range/Garage. Alcuni nomi di tier come esempio:</p>
+      <div class="table-wrap"><table>
+        <tr><th>Tier</th><th>Infanteria</th><th>Hunter</th><th>Rider</th></tr>
+        <tr><td>T1</td><td>Grunts</td><td>Archers</td><td>Rovers</td></tr>
+        <tr><td>T5</td><td>Slashers</td><td>Crossbows</td><td>Hogs</td></tr>
+        <tr><td>T9</td><td>Maulers</td><td>Nightstalkers</td><td>Demon Raiders</td></tr>
+        <tr><td>T10</td><td>Executioners</td><td>Bullseyes</td><td>Death Cruisers</td></tr>
+        <tr><td>T11</td><td>Pulse Elites</td><td>Pulse Assassins</td><td>Pulse Predators</td></tr>
+        <tr><td>T12</td><td>Crystal Vanguards</td><td>Crystal Arbalists</td><td>Crystal Riders</td></tr>
+      </table></div>
+      <ul>
+        <li><strong>T9</strong> si sblocca al livello 26 dell'edificio, <strong>T10</strong> al livello 30 (stesso vincolo su tutti e tre gli edifici di addestramento truppe).</li>
+        <li><strong>T11</strong> richiede la costruzione dell'<strong>Institute of Plasma</strong>, ricercando un ramo Plasma Development fino al livello 5.</li>
+        <li><strong>T12</strong> richiede il <strong>Crystal Energy Institute</strong> (disponibile una volta che un server/Stato ha 86+ settimane di vita) più il T11 già completamente sbloccato, e gira su una risorsa separata, la <strong>Crystal Essence</strong>.</li>
+        <li>Nessun T13 confermato al momento di questa ricerca — il T12 è il tetto attuale per i tier nominati. Un sistema parallelo di "Livello Plasma" aggiunge anche bonus statistici continui agli edifici di addestramento oltre il livello 30, cumulandosi sopra i tier nominati.</li>
+      </ul>
+
+      <h2>Addestramento e promozione</h2>
+      <p>Il tempo base di addestramento scala drammaticamente da tier a tier (circa un aumento di 12x da T1 a T10). La velocità di addestramento è potenziata dagli edifici Training Camp, dalla linea di ricerca "Training Routines", dai progetti dei Talenti del Capo e dai buff temporanei acquistati.</p>
+      <p>Non esiste un sistema "fondi 3 in 1" — al contrario, le truppe vengono direttamente <strong>promosse</strong>: seleziona uno stock esistente di tier inferiore nella scheda Train e converti in parte o del tutto al tier successivo. Promuovere è generalmente più efficiente in risorse rispetto ad addestrare truppe fresche allo stesso guadagno di potenza.</p>
+
+      <div class="box box-err">
+        <span class="box-title">Errore da evitare</span>
+        Promuovere tutte le truppe di un sotto-tipo (es. tutti gli Snipers) a un tier più alto può far perdere la specializzazione di quel sotto-tipo se non lo tieni sotto controllo — verifica sempre se il tier promosso mantiene il ruolo di contro di cui hai bisogno.
+      </div>
+
+      <div class="box box-prio">
+        <span class="box-title">Priorità</span>
+        Quando si sblocca un nuovo tier, promuovi prima lo stock accumulato di tier inferiore, poi addestra truppe fresche al nuovo tier una volta esaurito il pool da promuovere — ma mantieni un po' di profondità nei tier inferiori come assicurazione contro un wipe, invece di andare al 100% top-tier.
+      </div>
+
+      <p class="sentinel-hint">Un addestramento di truppe che finisce mentre sei lontano dal telefono è tempo sprecato in coda vuota: imposta <strong>Sentinel</strong> su parole come <code>training</code> o <code>troops ready</code> per un allarme reale anche col telefono in silenzioso. <a href="../../sentinel.html">Come impostarlo</a></p>
+
+      <h2>Linee guida di composizione</h2>
+      <ul>
+        <li>Base generalista: <strong>Infanteria 40% / Hunter 30% / Rider 30%</strong>, spostandosi verso <strong>Infanteria 30% / Hunter 40% / Rider 30%</strong> ai tier più alti/in PvP.</li>
+        <li>Specifica per attacco all'insediamento: <strong>Infanteria 60% / Rider 20% / Hunter 20%</strong>.</li>
+        <li>Le <strong>composizioni mono</strong> si usano specificamente per rally guidati da un eroe specializzato per tipo di truppa (i bonus specifici di tipo sono sprecati su truppe non abbinate — inviare il tipo di truppa sbagliato in un rally mono è considerato scarsa etichetta di rally e può farti espellere dal rally).</li>
+        <li><strong>Il mono è sconsigliato per guarnigione/difesa</strong> — le composizioni miste sono fortemente favorite lì, dato che l'Infanteria da sola non può infliggere abbastanza danno mentre Rider/Hunter sono troppo vulnerabili senza una prima linea.</li>
+      </ul>
+
+      <h2>Consigli rapidi</h2>
+      <ul>
+        <li>Promuovi, non addestrare da zero, quando il tier successivo diventa disponibile: costa una frazione del tempo per un risultato quasi identico.</li>
+        <li>Rispetta l'ordine di risoluzione Infanteria → Rider → Hunter: un esercito mono senza front line collassa in fretta.</li>
+        <li>Mono comps vanno bene per rally guidati da un eroe specializzato; guarnigione e difesa vogliono sempre composizioni miste.</li>
+      </ul>
+    </article>
+    <nav class="chapter-nav" id="chapter-nav"></nav>
+  </main>
+  <div id="app-footer"></div>
+  <script src="../../data/games.js"></script>
+  <script src="../../data/i18n.js"></script>
+  <script src="../../content/state-of-survival/08-truppe.js"></script>
+  <script src="../../script.js"></script>
+</body>
+</html>

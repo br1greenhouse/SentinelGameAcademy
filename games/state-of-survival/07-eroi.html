@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="it" data-game="state-of-survival" data-root="../..">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Eroi – Guida per State of Survival · Sentinel Game Academy</title>
+  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <div id="app-header"></div>
+  <div id="sidebar"></div>
+  <main class="content">
+    <nav class="breadcrumb" id="breadcrumb"></nav>
+    <article>
+      <h1>Eroi</h1>
+      <div class="hazard"></div>
+
+      <h2>Tier di rarità</h2>
+      <p>State of Survival non usa la nomenclatura "SR/SSR". La scala reale è:</p>
+      <ul>
+        <li><strong>Rare/Elite</strong> (blu) — tier più basso; solo due eroi restano qui in modo permanente (Rusty, Ghost).</li>
+        <li><strong>Epic</strong> (viola) — tier medio, ottenuto tramite Hero Search (a pagamento con Biocaps) e missioni Intel; orientato verso specialisti "anti-infetti" (Sarge, Eva, Mike, Jane, Travis, Nanami).</li>
+        <li><strong>Legendary</strong> (giallo/arancione) — tier standard più alto, ottenuto tramite eventi speciali, sblocchi di trama e bundle a pagamento; quasi tutti gli eroi "di Generazione" vivono qui (Nikola, Maddie & Frank, Jeb, Trish, Wolfe, Miho, Zoe, Ash, ecc.).</li>
+        <li><strong>Eroi Risonanti</strong> — una categoria speciale, non gerarchizzata per potenza (Wacko, Daryl, Joker, e il crossover Resident Evil Leon S. Kennedy). Non hanno statistiche indipendenti — rispecchiano livello, rank, livello skill ed equip di un altro eroe dello <strong>stesso tipo di truppa</strong> che designi tu, agendo come una "seconda copia" gratuita di un investimento che hai già fatto. Alto valore se risuonati col tuo eroe migliore di quel tipo, comunemente sprecati altrimenti.</li>
+      </ul>
+
+      <div class="box box-nrc">
+        <span class="box-title">Nota sulla terminologia</span>
+        Non esiste un tier di rarità confermato sopra Legendary. Il livello di potenza di punta arriva invece da <strong>Hero Completion / Awakening</strong> (un sistema di progressione, non una nuova rarità — vedi sotto).
+      </div>
+
+      <h2>Ruoli eroe</h2>
+      <p>Tre ruoli, ciascuno legato 1:1 a un tipo di truppa e a una posizione di combattimento fissa nell'Explorer Trail:</p>
+      <ul>
+        <li><strong>Brawler</strong> guida la <strong>Infanteria</strong> — HP più alti dei tre, raggio più corto, bersagliato per primo. Investimento prioritario per i leader di rally, dato che una prima linea morta fa collassare l'intera marcia.</li>
+        <li><strong>Marksman</strong> guida le truppe <strong>Hunter</strong> — Attacco più alto, HP più bassi, raggio più lungo; il principale danno grezzo; bersagliato per secondo.</li>
+        <li><strong>Scout</strong> guida le truppe <strong>Rider</strong> — mobilità, utilità, guarigione e controllo folla piuttosto che danno puro; bersagliato per ultimo.</li>
+      </ul>
+      <p>Oltre al ruolo, ogni eroe ha anche una classificazione di <strong>Beneficio</strong> (fino a due per eroe): Development, Gathering, Infected-killing, Patrol (guarnigione/difesa), Rally o Siege (attacco a basi nemiche/PvP). Ecco perché lo stesso eroe può essere descritto in modo diverso tra le guide.</p>
+
+      <h2>Eroi notevoli</h2>
+      <p><em>(illustrativo — verifica i nomi attuali in-game prima di pubblicare, dato che il roster si espande regolarmente)</em></p>
+      <ul>
+        <li><strong>PvP / rally leader:</strong> Buzz (miglior rally lead Infanteria), Cardini (Hunter, debuff veleno/fuoco + bonus PV di rally), Lucky (Rider, mobilità + salute truppe in rally), Jeb (Hunter, penetrazione armatura + bonus attacco truppe), Tina (Hunter, lifesteal + bonus attacco/PV di rally), Maddie & Frank (Rider, tuttofare valido da F2P), Ray & Rolex (specialista guarnigione/siege PvP), Nikola (Infanteria, ampiamente considerato il miglior eroe da guarnigione/difesa torre).</li>
+        <li><strong>PvE / Explorer Trail:</strong> Trish (supporto Rider — rigenerazione HP, CC da congelamento, rallentamento), Wolfe (Infanteria — debuff difesa + auto-cura, forte scelta PvE), Eva (top pick per l'Explorer, si abbina a Wolfe), Travis (riduce il costo di Stamina nella caccia agli infetti — pick iniziale quasi obbligatorio), Ghost (Rare, raccolta gas + danno anti-infetti per le prime pulizie in wilderness).</li>
+        <li><strong>Specialisti di raccolta risorse:</strong> Mike = food, Rusty = metal, Chef = wood, Ghost = gas.</li>
+      </ul>
+
+      <div class="box box-err">
+        <span class="box-title">Errore da evitare</span>
+        Investire troppo negli eroi iniziali (Ghost, Rusty, Sarge) è un errore quasi universale dei principianti — usali solo per utilità/raccolta economica iniziale, e conserva frammenti/manuali per gli eroi Legendary.
+      </div>
+
+      <h2>Skill, livellamento e Awakening</h2>
+      <ul>
+        <li>Ogni eroe ha <strong>3 skill base</strong> (attive e/o passive). Le skill attive possono essere disabilitate da effetti Silence nemici; le passive sono immuni al Silence.</li>
+        <li>Le skill hanno due binari di effetto separati: un <strong>effetto Explorer</strong> (usato quando controlli direttamente l'eroe nell'Explorer Trail) e un <strong>effetto Militare/truppa</strong> (un bonus passivo applicato a tutto l'esercito in marcia in contesti PvP/rally/wilderness).</li>
+        <li>Gli eroi più vecchi salgono di livello le skill tramite Skill Book specifici per rarità; dagli eroi Legendary di 4ª generazione in poi, i livelli skill si auto-potenziano col Rank dell'eroe.</li>
+        <li><strong>Awakening/Hero Completion</strong> è il vero livello di potenza sopra Legendary: concede 3 skill uniche aggiuntive (oltre alle 3 base) tramite Limitless Capsule e Completion Potion, ciascuna che sale fino al livello 10, con il livello 10 vincolato a una Limitless Syringe più i Limitless Talents completamente ricercati. Il Completion assegna anche a ogni eroe una <strong>Build</strong> — Control, Offense o Defense — in un ciclo di contro Control > Offense > Defense > Control, che aggiunge profondità di composizione di squadra.</li>
+      </ul>
+
+      <h2>Rank e Livello (SoS non usa la nomenclatura "star-up")</h2>
+      <p>Due binari paralleli:</p>
+      <ul>
+        <li><strong>Livello:</strong> tetto 1–80, alzato con i Combat Manual (tier I–V), guadagnati dalle uccisioni nell'Explorer Trail/wilderness/eventi.</li>
+        <li><strong>Rank:</strong> il vero gate di tier, pagato in Frammenti Eroe + Distintivi Eroe, con tetto massimo a <strong>General</strong>. Frammenti totali approssimativi per raggiungere il rank Colonel: <strong>~1.200</strong> — le guide notano che questo può richiedere mesi per eroe, rafforzando il consiglio "concentrati su 3-4 eroi" qui sotto.</li>
+      </ul>
+
+      <div class="box box-err">
+        <span class="box-title">Errore da evitare</span>
+        Spargere i Frammenti Eroe su troppi eroi invece di concentrarsi su 3-4 è definito l'errore relativo agli eroi più ripetuto nella community.
+      </div>
+
+      <h2>Equip eroe</h2>
+      <p>Si sblocca automaticamente al Workshop/QG livello 16. Ogni ruolo eroe ha il proprio set da 3 pezzi (Testa, Corpo/Petto, Piedi/Gamba), attraverso 5 tier (Common → Uncommon → Rare → Epic → Legendary). Materiali: Hero Gear Parts (farmabili giornalmente, notevolmente dall'evento Influencer Trap) e Hero Gear Design.</p>
+
+      <div class="box box-prio">
+        <span class="box-title">Priorità</span>
+        Per i leader di rally, massimizza per prima la corazza Infanteria (Salute — mantiene viva la prima linea). Per i non-leader, dai priorità alla corazza Hunter (output di danno). L'equip Rider è generalmente la priorità più bassa.
+      </div>
+
+      <h2>Frammenti Eroe</h2>
+      <p>Chiamati Fragments, non "shard". Quattro categorie — Legendary, Epic, Rare/Elite, Resonating — ognuna scambiabile in General Hero Fragments, che si convertono 1:1 in frammenti per qualsiasi eroe posseduto (con alcune eccezioni nominate che non possono essere ottenute così). Le fonti di farming per i frammenti Legendary includono VIP 7+ (1 gratis/giorno), Alliance Throwdown (bisettimanale), il Reservoir Store, le ricompense di State vs State e i bundle a pagamento.</p>
+
+      <h2>Consigli rapidi</h2>
+      <ul>
+        <li>Concentra sempre su 3-4 eroi (uno per tipo di truppa più copertura dei ruoli): il rank costa molto più del livello.</li>
+        <li>Non sprecare frammenti su eroi iniziali: sono utili solo per utilità/raccolta economica.</li>
+        <li>Gli Eroi Risonanti valgono solo se risuonati con il tuo eroe migliore dello stesso tipo di truppa.</li>
+      </ul>
+    </article>
+    <nav class="chapter-nav" id="chapter-nav"></nav>
+  </main>
+  <div id="app-footer"></div>
+  <script src="../../data/games.js"></script>
+  <script src="../../data/i18n.js"></script>
+  <script src="../../content/state-of-survival/07-eroi.js"></script>
+  <script src="../../script.js"></script>
+</body>
+</html>
