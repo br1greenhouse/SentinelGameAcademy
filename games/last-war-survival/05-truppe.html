@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="it" data-game="last-war-survival" data-root="../..">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Truppe – Guida per Last War: Survival · Sentinel Game Academy</title>
+  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <div id="app-header"></div>
+  <div id="sidebar"></div>
+  <main class="content">
+    <nav class="breadcrumb" id="breadcrumb"></nav>
+    <article>
+      <h1>Truppe</h1>
+      <div class="hazard"></div>
+
+      <h2>Le tre classi di truppa</h2>
+      <p>Last War: Survival usa un pulito triangolo carta-forbice-sasso su tre classi di truppa basate su veicoli (non la nomenclatura "fanteria/cavalleria/arcieri" usata in altri giochi di base building):</p>
+      <ul>
+        <li><strong>Tank</strong> — classe resistente in prima linea. Subisce <strong>-20% danni dai Veicoli Missilistici</strong>, rendendola forte contro gli attaccanti a lungo raggio.</li>
+        <li><strong>Veicolo Missilistico</strong> — infligge <strong>+20% danni agli Aerei</strong> e subisce danni ridotti da loro; forte contro di essi a distanza.</li>
+        <li><strong>Aereo</strong> — veloce e agile; infligge <strong>+20% danni ai Tank</strong>, eccelle nel fiancheggiamento e nello sfruttare le debolezze di posizionamento.</li>
+      </ul>
+      <p>Catena di contro: <strong>Aereo batte Tank → Tank batte Veicolo Missilistico → Veicolo Missilistico batte Aereo.</strong></p>
+
+      <h2>Tier delle truppe (T1-T11)</h2>
+      <ul>
+        <li>Le truppe si addestrano in tier crescenti, da T1 fino a <strong>T11</strong> (il T10 è spesso commercializzato in gioco come "<strong>Unit X</strong>").</li>
+        <li><strong>Gioco iniziale:</strong> più truppe battono truppe di tier più alto — un esercito più numeroso assorbe le perdite e completa i compiti più in fretta, anche a tier più basso. Non rincorrere i tier a scapito della dimensione totale dell'esercito nelle prime fasi.</li>
+        <li><strong>T9</strong> rappresenta il primo grande salto di potenza di metà gioco — un balzo sostanziale in attacco, difesa e sopravvivenza rispetto a T8, e lo sblocco più importante prima che T10 diventi raggiungibile.</li>
+        <li><strong>T10 (Unit X)</strong> è il singolo salto di potenza più grande prima dei contenuti di pre-stagione/endgame — drammaticamente più forte di T9 in ogni statistica. L'addestramento richiede la Caserma relativa al <strong>livello 30</strong>.</li>
+        <li><strong>T11</strong> si sblocca più avanti tramite il sistema dell'Istituto degli Armamenti (contenuto di endgame).</li>
+        <li>La <strong>capacità di carico</strong> (quante risorse/truppe può trasportare una marcia) scala fortemente col tier delle truppe — i tier più alti trasportano molto di più, rendendo la progressione dei tier il principale rimedio ai colli di bottiglia di capacità, insieme ai bonus di eroi ed edifici.</li>
+      </ul>
+
+      <h2>Efficienza dell'addestramento</h2>
+      <ul>
+        <li>Invece di addestrare truppe T10 da zero, è molto più efficiente in risorse/tempo <strong>promuovere le truppe T9 esistenti a T10</strong> — richiede una frazione del tempo di addestramento per un costo in risorse simile.</li>
+        <li>Bilancia il rapporto tra classi di truppa in base alle esigenze della tua alleanza e alla classe del tuo roster di eroi (le squadre di classe unica sono molto più forti — vedi capitolo 7), ma un rapporto generalista sicuro all'inizio è circa paritario tra le tre classi finché non ti impegni su un archetipo di squadra preciso.</li>
+        <li>La dimensione della marcia / capacità massima di truppe aumenta con: livelli eroe, livelli/perk VIP, ricerca e alcuni eroi specifici sbloccabili (es. un eroe di supporto sbloccato a VIP 8 fornisce un aumento passivo della dimensione di marcia ed è una delle leve non-eroe più impattanti per questo valore).</li>
+      </ul>
+
+      <div class="box box-nrc">
+        <span class="box-title">Consiglio Academy</span>
+        Non addestrare truppe T10 da zero se hai già truppe T9: la promozione costa una frazione del tempo per un risultato quasi identico.
+      </div>
+
+      <p class="sentinel-hint">Un addestramento di truppe che finisce mentre sei lontano dal telefono è tempo sprecato in coda vuota: imposta <strong>Sentinel</strong> su parole come <code>training</code> o <code>troops ready</code> per un allarme reale anche col telefono in silenzioso. <a href="../../sentinel.html">Come impostarlo</a></p>
+
+      <h2>Consigli rapidi</h2>
+      <ul>
+        <li>Nelle prime fasi, più truppe battono truppe di tier più alto: non rincorrere i tier a scapito del numero.</li>
+        <li>T9 è il traguardo di metà gioco da rincorrere prima di consolidare.</li>
+        <li>Promuovi, non addestrare da zero, quando il tier successivo diventa disponibile.</li>
+      </ul>
+    </article>
+    <nav class="chapter-nav" id="chapter-nav"></nav>
+  </main>
+  <div id="app-footer"></div>
+  <script src="../../data/games.js"></script>
+  <script src="../../data/i18n.js"></script>
+  <script src="../../content/last-war-survival/05-truppe.js"></script>
+  <script src="../../script.js"></script>
+</body>
+</html>
