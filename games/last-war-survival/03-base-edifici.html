@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="it" data-game="last-war-survival" data-root="../..">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Base ed edifici – Guida per Last War: Survival · Sentinel Game Academy</title>
+  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <div id="app-header"></div>
+  <div id="sidebar"></div>
+  <main class="content">
+    <nav class="breadcrumb" id="breadcrumb"></nav>
+    <article>
+      <h1>Base ed edifici</h1>
+      <div class="hazard"></div>
+
+      <p class="lead">La base ("Città") è costruita da edifici distinti, ciascuno vincolato al livello del Quartier Generale. Capire cosa fa ognuno evita di sprecare risorse su upgrade nel momento sbagliato.</p>
+
+      <h2>Edifici principali</h2>
+      <div class="table-wrap"><table>
+        <tr><th>Edificio</th><th>Ruolo</th></tr>
+        <tr><td>Quartier Generale (QG)</td><td>L'edificio centrale; quasi ogni altro sistema (livello massimo eroi, nodi di ricerca, tier delle truppe, sblocco edifici, qualità delle casse risorse) dipende dal suo livello. Alzarlo è sempre la priorità strategica numero uno.</td></tr>
+        <tr><td>Caserme (una per classe di truppa)</td><td>Addestrano le truppe. Il loro livello determina il tier massimo addestrabile (es. Caserma livello 30 richiesta per il Tier 10).</td></tr>
+        <tr><td>Fattoria / Terreno agricolo</td><td>Produce Cibo.</td></tr>
+        <tr><td>Miniera di Ferro / Segheria</td><td>Producono risorse di tipo Ferro/Acciaio.</td></tr>
+        <tr><td>Deposito Monete</td><td>Genera passivamente Oro/Monete, la risorsa economica portante usata per upgrade, addestramento truppe e progressione generale.</td></tr>
+        <tr><td>Laboratorio di Ricerca / Centro Tecnologico</td><td>Sblocca l'albero della ricerca in cinque categorie: veicoli, eroi, unità, edifici, economia — bonus che vanno dalla riduzione del tempo di costruzione ai potenziamenti di attacco/difesa.</td></tr>
+        <tr><td>Fabbrica di Equip</td><td>Sbloccata al livello 9 del QG; usata per craftare, potenziare e fondere l'equip degli eroi (vedi capitolo 8).</td></tr>
+        <tr><td>Magazzini (Cibo/Ferro/Oro)</td><td>Proteggono una parte delle risorse immagazzinate dal saccheggio; potenziare la capacità del magazzino concede anche XP eroe.</td></tr>
+        <tr><td>Radar (veicolo/edificio)</td><td>Sblocca le Missioni Radar e la mappa di esplorazione una volta disponibile.</td></tr>
+        <tr><td>Terreni di addestramento / Armerie</td><td>Supportano l'addestramento truppe e la logistica dell'equipaggiamento.</td></tr>
+      </table></div>
+
+      <h2>Strategia di costruzione</h2>
+      <ul>
+        <li>Mantieni i livelli di risorse sotto i limiti di protezione del magazzino, specialmente prima o durante i raid nemici.</li>
+        <li>Puoi ruotare i tuoi migliori sopravvissuti/eroi tra edifici diversi per applicare più volte i loro bonus di produzione — es. tieni un eroe di punta nell'Edificio di Ricerca #1 per avviare una ricerca, poi spostalo nell'Edificio di Ricerca #2 prima di avviare la ricerca successiva, catturando il bonus due volte.</li>
+      </ul>
+
+      <div class="box box-nrc">
+        <span class="box-title">Consiglio Academy</span>
+        Non rincorrere solo il livello del QG lasciando indietro le Caserme: un Quartier Generale alto con caserme deboli produce una città che sembra forte sulla carta ma non riesce a schierare un esercito realmente efficace.
+      </div>
+
+      <p class="sentinel-hint">Un upgrade di edificio o una ricerca che finiscono lontano dal telefono sono un momento facile da perdere: imposta <strong>Sentinel</strong> su parole come <code>construction</code> o <code>upgrade complete</code> per trasformare quella notifica in un allarme reale. <a href="../../sentinel.html">Come impostarlo</a></p>
+
+      <h2>Consigli rapidi</h2>
+      <ul>
+        <li>Il Quartier Generale è sempre la priorità: quasi tutto il resto dipende dal suo livello.</li>
+        <li>Ruota gli eroi tra edifici di ricerca gemelli per raddoppiare l'effetto del loro bonus.</li>
+        <li>Tieni sotto controllo il limite del magazzino, soprattutto se sei un bersaglio frequente di raid.</li>
+      </ul>
+    </article>
+    <nav class="chapter-nav" id="chapter-nav"></nav>
+  </main>
+  <div id="app-footer"></div>
+  <script src="../../data/games.js"></script>
+  <script src="../../data/i18n.js"></script>
+  <script src="../../content/last-war-survival/03-base-edifici.js"></script>
+  <script src="../../script.js"></script>
+</body>
+</html>

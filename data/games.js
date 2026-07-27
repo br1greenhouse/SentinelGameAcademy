@@ -163,28 +163,48 @@ var GAMES = [
     ]
   },
 
-  /* ---- Giochi in arrivo (nessun capitolo ancora) ---- */
   {
     id: "last-war-survival",
     name: "Last War: Survival",
     aka: "",
     publisher: "Fun Games For Free",
     icon: "🪖",
-    status: "coming-soon",
+    status: "published",
     i18n: {
       it: {
         genre: "Strategia MMO · War",
-        tagline: "Basi, eroi e guerre di alleanza: presto la guida completa.",
+        tagline: "Base, eroi, truppe e guerre di alleanza: la guida completa per sopravvivere alla Legione.",
         sentinel: "Rally in arrivo, base sotto attacco, scudo in scadenza: Sentinel trasforma la notifica del gioco in un allarme reale che non puoi ignorare, anche di notte.",
         sentinelKeywords: "rally attacco base scudo alleanza guerra allarme notte"
       },
       en: {
         genre: "Strategy MMO · War",
-        tagline: "Bases, heroes and alliance wars: full guide coming soon.",
+        tagline: "Base, heroes, troops and alliance wars: the complete guide to surviving the Legion.",
         sentinel: "Incoming rally, base under attack, shield about to expire: Sentinel turns the game's notification into a real alarm you can't ignore, even at night.",
         sentinelKeywords: "rally attack base shield alliance war alarm night"
       }
     },
-    chapters: []
+    chapters: [
+      { num: "01", file: "01-introduzione.html",              title: "Introduzione al gioco",                desc: "Cos'è Last War: Survival, la trama, le stagioni e i pilastri del gioco.",                          keywords: "inizio base tutorial principiante quartier generale comandante alleanza stagioni start beginner overview", en: { title: "Introduction & game overview",       desc: "What Last War: Survival is, the story, seasons and core gameplay pillars." } },
+      { num: "02", file: "02-primi-30-giorni.html",           title: "Primi 30 giorni",                      desc: "Roadmap settimana per settimana dal giorno 1 al giorno 30, con priorità di ricerca ed errori da evitare.", keywords: "primi passi roadmap settimana 1 giorni 30 priorità ricerca errori beginner first days", en: { title: "First 30 days",                     desc: "A week-by-week roadmap from day 1 to day 30, with research priorities and mistakes to avoid." } },
+      { num: "03", file: "03-base-edifici.html",              title: "Base ed edifici",                      desc: "Quartier Generale, Caserme, Fabbrica di Equip e tutti gli edifici chiave della città.",             keywords: "quartier generale hq caserme barracks fattoria miniera deposito monete fabbrica equip magazzini radar edifici city buildings", en: { title: "Base & buildings",                  desc: "Headquarters, Barracks, Gear Factory and every key building in your city." } },
+      { num: "04", file: "04-risorse-economia.html",          title: "Risorse ed economia",                  desc: "Cibo, Ferro, Oro e Gemme: come si producono, si proteggono e si spendono.",                        keywords: "cibo food ferro iron oro gold monete coins gemme gems diamanti magazzino protezione resources economy", en: { title: "Resources & economy",              desc: "Food, Iron, Gold and Gems: how to produce, protect and spend them." } },
+      { num: "05", file: "05-truppe.html",                    title: "Truppe",                               desc: "Le tre classi di contro, i tier T1-T11 e come addestrare ed espandere l'esercito.",                 keywords: "truppe tank missile vehicle aircraft tier t9 t10 unit x t11 addestramento promozione march capacità troops", en: { title: "Troops",                            desc: "The three counter classes, T1-T11 tiers and how to train and grow your army." } },
+      { num: "06", file: "06-eroi-comandanti.html",           title: "Eroi e comandanti",                    desc: "Rarità, shard, Risveglio degli eroi e la meta degli eroi di punta.",                                keywords: "eroi heroes commanders rarità ur shard hero awakening risveglio kimberly murphy marshall mason williams tier list", en: { title: "Heroes & commanders",              desc: "Rarity, shards, Hero Awakening and the current top-tier hero meta." } },
+      { num: "07", file: "07-formazioni-squadra.html",        title: "Formazioni di squadra",                desc: "Prima fila e retroguardia, ruoli degli eroi e il vantaggio della purezza di classe.",               keywords: "squadra formazione front row back row difensori attaccanti classe purezza formation squad", en: { title: "Squad formations",                  desc: "Front row and back row, hero roles and the class-purity advantage." } },
+      { num: "08", file: "08-equipaggiamento.html",           title: "Equipaggiamento",                      desc: "Fabbrica di Equip, i quattro slot di gear, rarità e priorità di potenziamento.",                    keywords: "equip gear factory cannone railgun chip armor radar rarità crafting materiali equipment", en: { title: "Gear & equipment",                 desc: "The Gear Factory, the four gear slots, rarity and upgrade priorities." } },
+      { num: "09", file: "09-albero-ricerca.html",            title: "Albero della ricerca",                 desc: "Le cinque categorie del Centro Tecnologico e la priorità economia prima del combattimento.",       keywords: "ricerca research lab tech center veicoli eroi unità edifici economia research tree", en: { title: "Research tree",                     desc: "The Tech Center's five categories and why economy comes before combat research." } },
+      { num: "10", file: "10-vip.html",                       title: "Sistema VIP",                          desc: "Livello VIP vs Stato VIP e i traguardi chiave dal VIP 3 al VIP 18.",                                keywords: "vip livello stato attivazione perk milestone vip level status", en: { title: "VIP system",                        desc: "VIP Level vs VIP Status and the key milestones from VIP 3 to VIP 18." } },
+      { num: "11", file: "11-alleanza.html",                  title: "Alleanza",                             desc: "Ruoli R5-R1, territorio, rally, gathering spot e i Patti di Stagione 6.",                          keywords: "alleanza alliance r5 r4 ruoli territorio rally gathering spot pact patti", en: { title: "Alliance",                          desc: "R5-R1 roles, territory, rallies, gathering spots and Season 6 Pacts." } },
+      { num: "12", file: "12-arms-race.html",                 title: "Arms Race",                            desc: "Le sei fasi giornaliere, il matchmaking e come accumulare punti senza sprecare risorse.",           keywords: "arms race fasi 4 ore matchmaking punti evento giornaliero daily event", en: { title: "Arms Race",                        desc: "The six daily phases, matchmaking and how to bank points without wasting resources." } },
+      { num: "13", file: "13-eventi-server-alleanza.html",    title: "Eventi di server e di alleanza",       desc: "Capitol, Rampage Boss, Doomsday, Bear Hunt, Fishing e Wanted/Big Boss.",                           keywords: "capitol rampage boss doomsday doom walker bear hunt fishing wanted big boss eventi events", en: { title: "Server & alliance events",         desc: "Capitol, Rampage Boss, Doomsday, Bear Hunt, Fishing and Wanted/Big Boss." } },
+      { num: "14", file: "14-radar-esplorazione.html",        title: "Missioni radar ed esplorazione",       desc: "Missioni Radar giornaliere, stamina e la campagna PvE permanente.",                                keywords: "radar missioni esplorazione stamina campagna exploration campaign pve", en: { title: "Radar missions & exploration",     desc: "Daily Radar Missions, stamina and the permanent PvE campaign." } },
+      { num: "15", file: "15-stagioni-professioni.html",      title: "Stagioni e professioni",               desc: "Come funzionano le stagioni a tempo e il sistema Ingegnere vs Comandante di Guerra.",              keywords: "stagioni seasons profession sistema professioni engineer war leader wild west season 5", en: { title: "Seasons & professions",             desc: "How timed seasons work and the Engineer vs War Leader profession system." } },
+      { num: "16", file: "16-checklist-f2p.html",             title: "Checklist giornaliera e strategia F2P", desc: "La lista dei compiti quotidiani e le priorità per crescere senza spendere.",                       keywords: "checklist giornaliera daily f2p free to play priorità risparmio dailies", en: { title: "Daily checklist & F2P strategy",   desc: "The daily task checklist and priorities for growing without spending." } },
+      { num: "17", file: "17-codici.html",                    title: "Codici da riscattare",                 desc: "Dove trovare i codici regalo, come riscattarli e perché scadono in fretta.",                      keywords: "codici redeem codes regalo gift uid mailbox riscatto", en: { title: "Redeem codes",                      desc: "Where to find gift codes, how to redeem them and why they expire fast." } },
+      { num: "18", file: "18-glossario.html",                 title: "Glossario e riferimento rapido",       desc: "HQ, VIP, tier, R5, rally e tutti i termini del gioco.",                                            keywords: "glossario termini hq vip tier ur r5 r4 rally arms race doomsday capitol awakening pact glossary", en: { title: "Glossary & quick reference",       desc: "HQ, VIP, tiers, R5, rally and every in-game term explained." } },
+      { num: "19", file: "19-faq.html",                       title: "FAQ",                                  desc: "Domande frequenti su base, eroi, truppe, alleanza ed eventi.",                                     keywords: "faq domande risposte aiuto dubbi questions", en: { title: "FAQ",                              desc: "Frequently asked questions on base, heroes, troops, alliance and events." } },
+      { num: "20", file: "20-changelog.html",                 title: "Changelog",                            desc: "Registro degli aggiornamenti della guida.",                                                        keywords: "changelog aggiornamenti versioni modifiche registro updates", en: { title: "Changelog",                        desc: "Log of updates to the guide." } }
+    ]
   }
 ];
