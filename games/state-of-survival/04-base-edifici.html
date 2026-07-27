@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="it" data-game="state-of-survival" data-root="../..">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Base ed edifici – Guida per State of Survival · Sentinel Game Academy</title>
+  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <div id="app-header"></div>
+  <div id="sidebar"></div>
+  <main class="content">
+    <nav class="breadcrumb" id="breadcrumb"></nav>
+    <article>
+      <h1>Base ed edifici</h1>
+      <div class="hazard"></div>
+
+      <h2>Quartier Generale (HQ)</h2>
+      <p>Il QG è l'edificio centrale; il suo livello vincola rigidamente il livello di ogni altro edificio. Man mano che cresce, la sua interfaccia sblocca schede per Skin, Set di Collezione, Bonus dell'Insediamento, Assegnazione Eroi, Livello Plasma e Sistema di Difesa.</p>
+
+      <div class="table-wrap"><table>
+        <tr><th>Livello QG</th><th>Note</th><th>Capacità di marcia</th></tr>
+        <tr><td>1</td><td>Livello di partenza</td><td>350</td></tr>
+        <tr><td>10</td><td>Richiede Hero Precinct 9 + Garage 9</td><td>7.720</td></tr>
+        <tr><td>20</td><td>Richiede Hero Precinct 19 + Range 19</td><td>38.000</td></tr>
+        <tr><td>30</td><td>Richiede Hero Precinct 29 + Barracks 29; ~39,5 giorni di build base pre-speedup</td><td>67.000</td></tr>
+        <tr><td>31+</td><td>Diventa "Livello Plasma" (HQ P1, P2...), richiede l'Institute of Plasma e una nuova risorsa, i Plasma Core</td><td>—</td></tr>
+      </table></div>
+
+      <p>Il costo totale dal livello 1 al 30 è di circa 1,26 miliardi di Food, 1,26 miliardi di Wood, 343 milioni di Metal e 93 milioni di Gas — un buon contesto per spiegare perché il gioco è un investimento a lunghissimo termine.</p>
+
+      <div class="box box-nrc">
+        <span class="box-title">Nota sulla terminologia</span>
+        I livelli oltre il 30 si chiamano "Livelli Plasma", non un tier di QG rinominato — il Livello Plasma 1 sblocca una Capacità di Marcia estesa, il Livello Plasma 4 sblocca la Capacità di Rally, e il Livello Plasma 5 sblocca le truppe "Special Forces" (T11).
+      </div>
+
+      <h2>Edifici chiave (roster confermato di State of Survival)</h2>
+      <ul>
+        <li><strong>Headquarters (HQ)</strong> — edificio centrale, sblocca strutture di livello più alto, aumenta la capacità di marcia.</li>
+        <li><strong>Hero Precinct</strong> — potenzia gli eroi, ospita Hero Explore/Search, concede bonus di attacco alle truppe. (Funzionalmente simile a un'"accademia eroi": non va confuso con la Barracks qui sotto.)</li>
+        <li><strong>Barricade</strong> — la struttura di muro/difesa; rallenta il tempo di sfondamento nemico e ospita gli eroi difensori assegnati.</li>
+        <li><strong>Warehouse</strong> — protegge le risorse dal saccheggio; aumenta anche la capacità di listing al Trading Post.</li>
+        <li><strong>Event Billboard</strong> — raccoglie le ricompense degli eventi, le ricompense giornaliere e le carte drop giornaliere.</li>
+        <li><strong>Lookout Tower</strong> — allarme anticipato per le marce in arrivo; mostra dimensione della marcia, ETA, e se è un rally o un attacco solitario (livello massimo ~22 per il dettaglio completo).</li>
+        <li><strong>Trading Post</strong> — spendi Biocaps in oggetti, o barattare risorse tramite un Market Stall.</li>
+        <li><strong>Workshop</strong> — potenzia l'equip del Capo e l'equip degli eroi.</li>
+        <li><strong>Assembly Point</strong> — regola i rinforzi ricevuti e il "Timer Help" dagli alleati; i potenziamenti aumentano la capacità di rinforzo e la durata/limiti del timer help.</li>
+        <li><strong>Hospital</strong> — cura le truppe ferite; la capacità scala col livello (vedi capitolo 3).</li>
+        <li><strong>Enlistment Office</strong> — la rete di sicurezza per l'eccedenza di truppe che altrimenti morirebbero quando l'Hospital è pieno (vedi capitolo 3).</li>
+        <li><strong>Research Lab</strong> — ospita la ricerca Development, Battle ed Economic; può anche incubare Biocaps.</li>
+        <li><strong>Command Station</strong> — necessaria per lanciare i rally; i potenziamenti aumentano la capacità di rally.</li>
+        <li><strong>Blast Shelter</strong> — nasconde una marcia di truppe per 15 min / 1h / 4h / 8h; le truppe al riparo non possono essere attaccate né perse.</li>
+        <li><strong>Range</strong> (addestra gli Hunter), <strong>Garage</strong> (addestra i Rider), <strong>Barracks</strong> (addestra la Fanteria).</li>
+        <li><strong>Training Camps</strong> — potenziano capacità e velocità di addestramento in tutti e tre gli edifici di addestramento truppe.</li>
+        <li><strong>Institute of Plasma</strong> — sblocca tecnologia/truppe avanzate al livello QG 31+.</li>
+        <li><strong>M.I.G.O. Center</strong> — hub degli eventi, classifiche e informazioni correlate.</li>
+      </ul>
+
+      <div class="box box-nrc">
+        <span class="box-title">Nota sulla terminologia</span>
+        Non esiste alcuna Embassy, Bank, "Furnace", Infirmary o "Chief Charm" in State of Survival sotto questi nomi — appartengono ad altri giochi del genere (Whiteout Survival, Last Shelter: Survival). Ometti questi termini o rimappali chiaramente sull'equivalente reale di SoS (Warehouse ≈ protezione risorse, Hospital ≈ infermeria).
+      </div>
+
+      <h2>Ordine di priorità consigliato per la costruzione</h2>
+      <ol>
+        <li><strong>QG per primo, sempre</strong> — vincola tutto il resto.</li>
+        <li><strong>Hero Precinct al secondo posto</strong> — gli eroi contribuiscono più valore in combattimento delle statistiche grezze delle truppe, e il suo livello vincola il tetto massimo di livello degli eroi.</li>
+        <li>Bilancia <strong>Barracks / Range / Garage insieme</strong> invece di massarne uno solo; molte guide raccomandano di portare tutti e tre al livello 16 relativamente presto per sbloccare le truppe di Tier 6.</li>
+        <li>Tieni <strong>Warehouse</strong> e <strong>Research Lab</strong> potenziati in parallelo così che protezione delle risorse e bonus di ricerca passivi non restino indietro.</li>
+      </ol>
+
+      <div class="box box-prio">
+        <span class="box-title">Priorità</span>
+        Non lasciare mai una coda di costruzione vuota, nemmeno di notte — questa è la singola perdita di efficienza più evitabile per account F2P/basso spesa.
+      </div>
+
+      <p class="sentinel-hint">Una coda di costruzione che finisce mentre non guardi lo schermo è tempo perso: imposta <strong>Sentinel</strong> su parole come <code>construction</code> o <code>upgrade complete</code> per un allarme reale anche col telefono in silenzioso. <a href="../../sentinel.html">Come impostarlo</a></p>
+
+      <div class="box box-f2p">
+        <span class="box-title">Per giocatori F2P</span>
+        Portare il QG al livello 6 nelle prime 8 ore per sbloccare la seconda coda di costruzione gratuita è uno degli obiettivi con il miglior rapporto qualità/prezzo di tutto il gioco.
+      </div>
+
+      <h2>Consigli rapidi</h2>
+      <ul>
+        <li>QG prima di tutto, poi Hero Precinct, poi le tre strutture di addestramento truppe in equilibrio.</li>
+        <li>Non correre dietro solo a un tipo di truppa: portare tutte e tre le strutture al livello 16 sblocca il Tier 6 per tutte.</li>
+        <li>Warehouse e Research Lab crescono in parallelo con il resto, non dopo.</li>
+      </ul>
+    </article>
+    <nav class="chapter-nav" id="chapter-nav"></nav>
+  </main>
+  <div id="app-footer"></div>
+  <script src="../../data/games.js"></script>
+  <script src="../../data/i18n.js"></script>
+  <script src="../../content/state-of-survival/04-base-edifici.js"></script>
+  <script src="../../script.js"></script>
+</body>
+</html>
