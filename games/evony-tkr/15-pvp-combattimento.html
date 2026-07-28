@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it" data-game="evony-tkr" data-root="../..">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PvP e meccaniche di combattimento – Guida per Evony: The King's Return · Sentinel Game Academy</title>
+  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <div id="app-header"></div>
+  <div id="sidebar"></div>
+  <main class="content">
+    <nav class="breadcrumb" id="breadcrumb"></nav>
+    <article>
+      <h1>PvP e meccaniche di combattimento</h1>
+      <div class="hazard"></div>
+      <p class="lead">Come funziona davvero una battaglia dietro le quinte: contromosse, range e calcolo del danno.</p>
+
+      <h2>Il sistema di contromosse</h2>
+      <p>A parità circa di tier/buff: <strong>Cavalleria &gt; Fanteria &gt; A distanza &gt; Cavalleria</strong>, con l'Assedio che generalmente supera in range e contromuove le truppe a distanza, e la Fanteria capace di difendersi dalle truppe a distanza. Pensala come un sasso-carta-forbici, poi lascia che range e buff determinino l'esito reale.</p>
+
+      <h2>Il range decide chi colpisce per primo</h2>
+      <p>Il combattimento si svolge dietro le quinte a round basati sul range — la battaglia inizia circa due lunghezze di tile oltre l'unità con il range più lungo coinvolta (es. ~352 contro truppe a distanza con range 350, ~502 contro Assedio con range 500), quindi le truppe con range più alto (Assedio, poi a distanza) agiscono prima delle truppe più lente/a corto raggio che devono avvicinarsi.</p>
+
+      <h2>Il concetto centrale di danno</h2>
+      <p>Il danno totale inflitto scala con (statistica di Attacco dell'attaccante × numero di truppe attaccanti) meno (statistica di Difesa del difensore × numero di truppe difensori) — i buff (da ricerca, equipaggiamento, Generali, Draghi) si moltiplicano direttamente in questi numeri, quindi accumulare i buff giusti conta quanto il numero grezzo di truppe.</p>
+
+      <h2>Le cinque statistiche di combattimento</h2>
+      <p>Attacco, Difesa, HP, Velocità e Range.</p>
+
+      <h2>Layering</h2>
+      <p>Usare più tier/tipi di truppa insieme (in una marcia d'attacco o, soprattutto, nella difesa della città) costringe il nemico a bruciare round di combattimento contro ogni strato a turno — una difesa ben stratificata supera nettamente uno stack di un solo tier con lo stesso numero totale di truppe.</p>
+
+      <div class="box box-adv">
+        <span class="box-title">Per giocatori avanzati</span>
+        Prima di ogni grande evento PvP, verifica che i tuoi buff attivi (ricerca, Generali, Draghi, Talenti del Monarca) siano coerenti con il ruolo della marcia che stai per inviare: un layering perfetto con i buff sbagliati rende comunque poco.
+      </div>
+
+      <h2>Consigli rapidi</h2>
+      <ul>
+        <li>Non affidarti solo al numero di truppe: i buff moltiplicano il danno reale più di quanto pensi.</li>
+        <li>Pianifica il layering prima dell'evento, non durante la battaglia.</li>
+        <li>Studia il range delle tue truppe rispetto a quelle avversarie prima di ingaggiare.</li>
+      </ul>
+    </article>
+    <nav class="chapter-nav" id="chapter-nav"></nav>
+  </main>
+  <div id="app-footer"></div>
+  <script src="../../data/games.js"></script>
+  <script src="../../data/i18n.js"></script>
+  <script src="../../content/evony-tkr/15-pvp-combattimento.js"></script>
+  <script src="../../script.js"></script>
+</body>
+</html>
