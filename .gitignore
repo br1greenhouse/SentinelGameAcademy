@@ -7,3 +7,7 @@ Thumbs.db
 *.swp
 .vscode/
 .idea/
+
+# Python (tools/seo_sync.py)
+__pycache__/
+*.pyc
