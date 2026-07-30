@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://br1greenhouse.github.io/SentinelGameAcademy/sitemap.xml

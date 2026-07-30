@@ -40,9 +40,10 @@
     if (vars) Object.keys(vars).forEach(function (k) { s = s.split("{" + k + "}").join(vars[k]); });
     return s;
   }
-  function gi(g, field) {
-    return (g.i18n[LANG] && g.i18n[LANG][field]) || (g.i18n.en && g.i18n.en[field]) || g.i18n.it[field];
+  function pick(map, field) {
+    return (map[LANG] && map[LANG][field]) || (map.en && map.en[field]) || map.it[field];
   }
+  function gi(g, field) { return pick(g.i18n, field); }
   function chField(c, f) {
     if (LANG !== "it" && c[LANG] && c[LANG][f]) return c[LANG][f];
     if (LANG !== "it" && c.en && c.en[f]) return c.en[f];
@@ -65,6 +66,27 @@
   var IS_HOME = !GAME_ID;
   var IS_HUB = !!GAME_ID && FILE === "index.html";
   var IS_CHAPTER = !!GAME_ID && FILE !== "index.html";
+
+  /* ---------- Titolo scheda (document.title) per lingua ----------
+     Il sorgente statico dell'HTML (<title>, meta, og:*) è in inglese
+     di default: qui correggiamo solo il titolo della scheda del
+     browser quando il visitatore ha scelto esplicitamente un'altra
+     lingua. Non tocchiamo meta/og via JS: gli scraper social non
+     eseguono JavaScript, quindi non ne trarrebbero beneficio. */
+  if (typeof SEO !== "undefined") {
+    var newTitle = null;
+    if (IS_CHAPTER && GAME) {
+      var chap = (GAME.chapters || []).find(function (c) { return c.file === FILE; });
+      if (chap) newTitle = t("chapterTitleTemplate", { chapter: chField(chap, "title"), game: GAME.name });
+    } else if (IS_HUB && GAME && SEO.games && SEO.games[GAME.id]) {
+      newTitle = pick(SEO.games[GAME.id], "title");
+    } else if (IS_HOME && FILE === "index.html" && SEO.home) {
+      newTitle = pick(SEO.home, "title");
+    } else if (FILE === "sentinel.html" && SEO.sentinel) {
+      newTitle = pick(SEO.sentinel, "title");
+    }
+    if (newTitle) document.title = newTitle;
+  }
 
   function q(id) { return document.getElementById(id); }
   function esc(s) { var d = document.createElement("div"); d.textContent = s == null ? "" : s; return d.innerHTML; }

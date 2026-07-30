@@ -67,7 +67,8 @@ var UI = {
     navNext: "Successivo",
     navBackTo: "Torna a",
     tocTitle: "In questa pagina",
-    fallbackNotice: "Questo contenuto non è ancora disponibile nella tua lingua."
+    fallbackNotice: "Questo contenuto non è ancora disponibile nella tua lingua.",
+    chapterTitleTemplate: "{chapter} – Guida per {game} · Sentinel Game Academy"
   },
 
   /* ---------------- ENGLISH (fallback) ---------------- */
@@ -101,7 +102,8 @@ var UI = {
     navNext: "Next",
     navBackTo: "Back to",
     tocTitle: "On this page",
-    fallbackNotice: "This content isn't available in your language yet."
+    fallbackNotice: "This content isn't available in your language yet.",
+    chapterTitleTemplate: "{chapter} – Guide for {game} · Sentinel Game Academy"
   },
 
   /* ---------------- ESPAÑOL ---------------- */
@@ -135,7 +137,8 @@ var UI = {
     navNext: "Siguiente",
     navBackTo: "Volver a",
     tocTitle: "En esta página",
-    fallbackNotice: "Este contenido aún no está disponible en tu idioma."
+    fallbackNotice: "Este contenido aún no está disponible en tu idioma.",
+    chapterTitleTemplate: "{chapter} – Guía de {game} · Sentinel Game Academy"
   },
 
   /* ---------------- FRANÇAIS ---------------- */
@@ -169,6 +172,7 @@ var UI = {
     navNext: "Suivant",
     navBackTo: "Retour à",
     tocTitle: "Sur cette page",
-    fallbackNotice: "Ce contenu n'est pas encore disponible dans ta langue."
+    fallbackNotice: "Ce contenu n'est pas encore disponible dans ta langue.",
+    chapterTitleTemplate: "{chapter} – Guide pour {game} · Sentinel Game Academy"
   }
 };
